@@ -60,16 +60,18 @@ export default class App extends React.Component {
   }
 
   initialView() {
-    return (<View style={styles.buttonContainer}>
+    return (<View style={styles.container}>
+      <View style={styles.buttonContainer}>
       <Button onPress={() => {
         this.setState({
           showCam: true
         }) 
       }} title="Hello" color="#FFFFFF" accessibilityLabel="Tap on Me" />
+      </View>
     </View>);
-  }
-
-
+    }
+  
+  
   render() {
     let currentView;
     if (this.state.showCam) {
@@ -80,9 +82,7 @@ export default class App extends React.Component {
     }
 
       return (
-        <View style={{ flex: 1 }}>
-          {currentView}
-        </View>
+        <View style={{flex: 1}}>{currentView}</View>
       );
 
     }
@@ -91,8 +91,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
- 
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   buttonContainer: {
     backgroundColor: '#2E9298',
