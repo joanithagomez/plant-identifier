@@ -1,8 +1,6 @@
 import React from "react";
-import { CameraRoll, StyleSheet, Text, View, Image,TouchableOpacity, Vibration } from "react-native";
-import { Constants, Camera, FileSystem, Permissions } from 'expo';
-import { Button } from 'react-native';
-import GalleryScreen from './GalleryScreen';
+import { CameraRoll, StyleSheet, Text, View, Image,TouchableOpacity, Button, Vibration } from "react-native";
+import { Constants, Camera, FileSystem, Permissions,ImagePicker } from 'expo';
 
 export default class App extends React.Component {
 
@@ -12,6 +10,7 @@ export default class App extends React.Component {
     showCam: false,
     photoId: 1,
     showGallery: false,
+    image: null,
   }
 
   componentDidMount() {
@@ -41,6 +40,18 @@ export default class App extends React.Component {
     }
   };
  
+  _pickImage = async () => {
+    let result = await ImagePicker.launchImageLibraryAsync({
+      allowsEditing: true,
+      aspect: [4, 3],
+    });
+
+    console.log(result);
+
+    if (!result.cancelled) {
+      this.setState({ image: result.uri });
+    }
+  };
   openCam() {
       const { hasCameraPermission } = this.state;
       if (hasCameraPermission == null) {
@@ -61,35 +72,39 @@ export default class App extends React.Component {
                   flex: 1,
                   backgroundColor: 'transparent',
                   flexDirection: 'row',
-                }}>
-                <TouchableOpacity
-                  style={{
-                  flex: 0.3,                
-                    alignSelf: 'flex-end',
-                    alignItems: 'center',
-                  }}
-                  onPress={() => {
-                    this.setState({
-                      type: this.state.type === Camera.Constants.Type.back
-                        ? Camera.Constants.Type.front
-                        : Camera.Constants.Type.back,
-                    });
-                  }}>
+              }}>
+              <TouchableOpacity style={styles.backButton} onPress={this.toggleView.bind(this)}>
+                <Text>Back</Text>
+              </TouchableOpacity>
+                    <TouchableOpacity
+                      style={{
+                      flex: 0.3,                
+                        alignSelf: 'flex-end',
+                        alignItems: 'center',
+                      }}
+                      onPress={() => {
+                        this.setState({
+                          type: this.state.type === Camera.Constants.Type.back
+                            ? Camera.Constants.Type.front
+                            : Camera.Constants.Type.back,
+                        });
+                      }}>
+                      <Text
+                        style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
+                        {' '}Flip{' '}
+                      </Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                style={[styles.flipButton, styles.picButton, { flex: 0.3, alignSelf: 'flex-end' }]}
+                onPress={this.takePicture.bind(this)}>
+                <Text style={styles.flipText}> SNAP </Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity style={[styles.flipButton,{ flex: 0.25, alignSelf: 'flex-end' }]} onPress={this._pickImage}>
                   <Text
-                    style={{ fontSize: 18, marginBottom: 10, color: 'white' }}>
-                    {' '}Flip{' '}
+                  style={styles.flipText}>
+                  Gallery
                   </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-            style={[styles.flipButton, styles.picButton, { flex: 0.3, alignSelf: 'flex-end' }]}
-            onPress={this.takePicture.bind(this)}>
-            <Text style={styles.flipText}> SNAP </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, styles.galleryButton, { flex: 0.25, alignSelf: 'flex-end' }]}
-                onPress={this.toggleView.bind(this)}>
-            <Text style={styles.flipText}> Gallery </Text>
-          </TouchableOpacity>    
+                </TouchableOpacity> 
               </View>
           </Camera>
         );
@@ -106,38 +121,44 @@ export default class App extends React.Component {
           })
         }}  
         >
-        <Text
-        style={styles.flipText}>
-        {' '}Take Photo{' '}
-      </Text>
-        </TouchableOpacity>  
+            <Text
+            style={styles.flipText}>
+            {' '}Take Photo{' '}
+          </Text>
+        </TouchableOpacity> 
+        
+        <TouchableOpacity style={styles.button} onPress={this._pickImage}>
+            <Text
+            style={styles.flipText}>
+            Open Gallery
+          </Text>
+        </TouchableOpacity>
+        
       </View>  
     );
-    }
+  }
+  
     toggleView() {
       this.setState({
         showGallery: !this.state.showGallery,
       });
     }
-    renderGallery() {
-      return <GalleryScreen onPress={this.toggleView.bind(this)} />;
-    }
-  
-  
+ 
   render() {
-    let cameraScreenContent;
     let currentView;
-    cameraScreenContent = (this.state.showCam) ? this.openCam() : this.initialView();
-    
-    currentView = (this.state.showGallery) ? this.renderGallery() : cameraScreenContent;
-    
+    currentView = (this.state.showCam) ? this.openCam() : this.initialView();
+    let { image } = this.state;
+
     return (
-      <View style={{ flex: 1 }}>{currentView}</View>
+      <View style={{ flex: 1 }}>{currentView}  
+      {image &&
+          <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />}  
+      </View>
       );
 
     }
-  
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -168,6 +189,10 @@ const styles = StyleSheet.create({
   },
   picButton: {
     backgroundColor: 'darkseagreen',
+  },
+  backButton: {
+    padding: 20,
+    backgroundColor: 'indianred',
   },
 });
 
