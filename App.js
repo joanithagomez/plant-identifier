@@ -13,17 +13,18 @@ export default class App extends React.Component {
     image: null,
   }
 
+  async componentWillMount() {
+    const { status } = await Permissions.askAsync(Permissions.CAMERA);
+    this.setState({ hasCameraPermission: status === 'granted' });
+  }
+
   componentDidMount() {
     FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + 'photos').catch(e => {
       console.log(e, 'Directory exists');
     });
   }
 
-  async componentWillMount() {
-    const { status } = await Permissions.askAsync(Permissions.CAMERA);
-    this.setState({ hasCameraPermission: status === 'granted' });
-  }
-  
+
   takePicture = async function() {
     if (this.camera) {
       this.camera.takePictureAsync().then(data => {
@@ -42,7 +43,7 @@ export default class App extends React.Component {
  
   _pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
-      allowsEditing: true,
+      // allowsEditing: true,
       aspect: [4, 3],
     });
 
@@ -73,9 +74,7 @@ export default class App extends React.Component {
                   backgroundColor: 'transparent',
                   flexDirection: 'row',
               }}>
-              <TouchableOpacity style={styles.backButton} onPress={this.toggleView.bind(this)}>
-                <Text>Back</Text>
-              </TouchableOpacity>
+              
                     <TouchableOpacity
                       style={{
                       flex: 0.3,                
@@ -138,11 +137,6 @@ export default class App extends React.Component {
     );
   }
   
-    toggleView() {
-      this.setState({
-        showGallery: !this.state.showGallery,
-      });
-    }
  
   render() {
     let currentView;
