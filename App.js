@@ -2,7 +2,12 @@ import React from "react";
 import Home from "./Home";
 import CapturedImage from "./CapturedImage";
 
-import { createRouter, NavigationProvider, StackNavigation } from "@expo/ex-navigation";
+import {
+  createRouter,
+  NavigationProvider,
+  StackNavigation,
+  AndroidBackButtonBehavior
+} from "@expo/ex-navigation";
 
 const Router = createRouter(() => ({
   home: () => Home,

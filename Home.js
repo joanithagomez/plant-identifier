@@ -24,7 +24,6 @@ export default class Home extends React.Component {
     showCam: false,
     photoId: 1,
     showGallery: false,
-    image: null,
     showImage: false
   };
 
@@ -55,26 +54,11 @@ export default class Home extends React.Component {
     }
   };
 
-  _pickImage = async () => {
-    let result = await ImagePicker.launchImageLibraryAsync({
-      // allowsEditing: true,
-      aspect: [4, 3]
-    });
-
-    // console.log(result);
-    if (!result.cancelled) {
-      this.setState({
-        image: result.uri,
-        showImage: true
-      });
-    }
-  };
-
   openCam() {
     const { hasCameraPermission } = this.state;
     if (hasCameraPermission == null) {
       return (
-        <View style={{ flex: 1 }}>
+        <View>
           <Text>Permission:null</Text>
         </View>
       );
@@ -82,58 +66,64 @@ export default class Home extends React.Component {
       return <Text>No access</Text>;
     } else {
       return (
-        <Camera
-          style={{ flex: 1 }}
-          ref={ref => {
-            this.camera = ref;
+        <View
+          style={{
+            flex: 1
           }}
-          type={this.state.type}
         >
-          <View
-            style={{
-              flex: 1,
-              backgroundColor: "transparent",
-              flexDirection: "row"
+          <Camera
+            style={{ flex: 1 }}
+            ref={ref => {
+              this.camera = ref;
             }}
+            type={this.state.type}
           >
-            <TouchableOpacity
+            <View
               style={{
-                flex: 0.3,
-                alignSelf: "flex-end",
-                alignItems: "center"
-              }}
-              onPress={() => {
-                this.setState({
-                  type:
-                    this.state.type === Camera.Constants.Type.back
-                      ? Camera.Constants.Type.front
-                      : Camera.Constants.Type.back
-                });
+                flex: 1,
+                backgroundColor: "transparent",
+                flexDirection: "row"
               }}
             >
-              <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
-                {" "}
-                Flip{" "}
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[
-                styles.flipButton,
-                styles.picButton,
-                { flex: 0.3, alignSelf: "flex-end" }
-              ]}
-              onPress={this.takePicture.bind(this)}
-            >
-              <Text style={styles.flipText}> SNAP </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.flipButton, { flex: 0.25, alignSelf: "flex-end" }]}
-              onPress={this._pickImage}
-            >
-              <Text style={styles.flipText}>Gallery</Text>
-            </TouchableOpacity>
-          </View>
-        </Camera>
+              <TouchableOpacity
+                style={{
+                  flex: 1,
+                  alignSelf: "flex-end",
+                  alignItems: "center"
+                }}
+                onPress={() => {
+                  this.setState({
+                    type:
+                      this.state.type === Camera.Constants.Type.back
+                        ? Camera.Constants.Type.front
+                        : Camera.Constants.Type.back
+                  });
+                }}
+              >
+                <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
+                  {" "}
+                  Flip{" "}
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[
+                  styles.flipButton,
+                  styles.picButton,
+                  { flex: 0.3, alignSelf: "flex-end" }
+                ]}
+                onPress={this.takePicture.bind(this)}
+              >
+                <Text style={styles.flipText}> SNAP </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.flipButton, { flex: 0.25, alignSelf: "flex-end" }]}
+                onPress={this._goToImageScreen}
+              >
+                <Text style={styles.flipText}>Gallery</Text>
+              </TouchableOpacity>
+            </View>
+          </Camera>
+        </View>
       );
     }
   }
@@ -141,10 +131,6 @@ export default class Home extends React.Component {
   initialView() {
     return (
       <View style={styles.container}>
-        <Text style={styles.flipText} onPress={this._goToImageScreen}>
-          Push about route
-        </Text>
-
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
@@ -156,7 +142,7 @@ export default class Home extends React.Component {
           <Text style={styles.flipText}> Take Photo </Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.button} onPress={this._pickImage}>
+        <TouchableOpacity style={styles.button} onPress={this._goToImageScreen}>
           <Text style={styles.flipText}>Open Gallery</Text>
         </TouchableOpacity>
       </View>
@@ -164,25 +150,21 @@ export default class Home extends React.Component {
   }
 
   _goToImageScreen = () => {
-    this.props.navigator.push("image", { image: this.state.image });
+    this.props.navigator.push("image");
   };
 
   render() {
     let currentView;
-    // currentView = this.state.showCam ? this.openCam() : this.initialView();
-    currentView = this.state.showImage ? this._goToImageScreen() : this.initialView();
+    currentView = this.state.showCam ? this.openCam() : this.initialView();
+    // currentView = this.state.showImage ? this._goToImageScreen() : this.initialView();
 
-    let { image } = this.state;
-
-    return <View style={styles.container}>{currentView}</View>;
+    return <View style={{ flex: 1 }}>{currentView}</View>;
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
     backgroundColor: "#002800"
   },
   button: {
