@@ -19,7 +19,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo/ex-navigation": "^4.2.0",
     "auth0-js": "^9.3.2",
+    "babel-preset-react-native-stage-0": "^1.0.1",
     "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
