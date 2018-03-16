@@ -14,9 +14,7 @@ export default class CapturedImage extends React.Component {
   };
 
   componentDidMount() {
-    {
       this._pickImage();
-    }
   }
   _pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
@@ -24,7 +22,6 @@ export default class CapturedImage extends React.Component {
       aspect: [4, 3]
     });
 
-    // console.log(result);
     if (!result.cancelled) {
       this.setState({
         image: result.uri,

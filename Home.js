@@ -33,14 +33,23 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos").catch(e => {
-      console.log(e, "Directory exists");
+    FileSystem.getInfoAsync(FileSystem.documentDirectory + "photos").then(res => {
+      if (!res.exists) {
+        FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos").catch(e => {
+          console.log(e, "Directory exists");
+        });
+      }
     });
+    
   }
 
   takePicture = async function() {
     if (this.camera) {
       this.camera.takePictureAsync().then(data => {
+        let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
+        console.log("uri:" + data.uri);
+        console.log("saveResult: " + saveResult);
+
         FileSystem.moveAsync({
           from: data.uri,
           to: `${FileSystem.documentDirectory}photos/Photo_${this.state.photoId}.jpg`
