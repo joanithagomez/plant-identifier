@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="host.exp:reactandroid-abi19-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/jars/libs/infer-annotations-4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
