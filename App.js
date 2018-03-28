@@ -16,7 +16,7 @@
 
 // export default class App extends React.Component {
 //   render() {
-//     return (      
+//     return (
 //       <NavigationProvider router={Router}>
 //         <StackNavigation initialRoute={Router.getRoute("home")} />
 //       </NavigationProvider>
@@ -50,17 +50,18 @@ export default class App extends Component {
 
     try {
       const tfImageRecognition = new TfImageRecognition({
-        model:require('./assets/tensorflow_inception_graph.pb'),
-        labels: require('./assets/labels.txt')
+        model:require('./assets/optimized_graph.pb'),
+        labels: require('./assets/retrained_labels.txt'),
+
       })
 
       const results = await tfImageRecognition.recognize({
-        image: this.image
+        image: this.image,
+        outputName:"final_result"
       })
-      
       const resultText = `Name: ${results[0].name} - Confidence: ${results[0].confidence}`
       this.setState({result: resultText})
-  
+
       await tfImageRecognition.close()
     } catch(err) {
       alert(err)
@@ -71,7 +72,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome !
+          Welcome!
         </Text>
         <Image source={this.image} style={styles.image} />
         <Text style={styles.results}>
