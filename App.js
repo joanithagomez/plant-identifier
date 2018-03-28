@@ -38,7 +38,7 @@ export default class App extends Component {
 
   constructor() {
     super()
-    this.image = require('./assets/daisy.jpg');
+    this.image = require('./assets/flower_photos/sunflowers/164668737_aeab0cb55e_n.jpg');
     this.state = {result: ""}
   }
 
@@ -52,7 +52,8 @@ export default class App extends Component {
       const tfImageRecognition = new TfImageRecognition({
         model:require('./assets/optimized_graph.pb'),
         labels: require('./assets/retrained_labels.txt'),
-
+        imageMean: 128,
+        imageStd: 128,
       })
 
       const results = await tfImageRecognition.recognize({
@@ -72,7 +73,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome!
+          Sunflowers!
         </Text>
         <Image source={this.image} style={styles.image} />
         <Text style={styles.results}>
