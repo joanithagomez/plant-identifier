@@ -1,0 +1,7 @@
+#Tue Mar 27 23:19:48 PDT 2018
+base.0=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_29c5e06a092a8c9a9cc4b67e8a40cc0eb81c7cae
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_2131f73fac4185299f2109fd40abd31aed58cb89/classes.dex
+base.1=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_2131f73fac4185299f2109fd40abd31aed58cb89
+file.0=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_29c5e06a092a8c9a9cc4b67e8a40cc0eb81c7cae/classes.dex

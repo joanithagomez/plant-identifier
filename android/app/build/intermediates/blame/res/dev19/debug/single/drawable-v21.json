@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jo/.android/build-cache/4f4385053427123b82e13e5d791f53161a7db850/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

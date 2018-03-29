@@ -1,0 +1,968 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:2:1-261:12
+	package
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:3:3-30
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:5:3-49
+	xmlns:android
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:4:3-61
+	android:versionCode
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+permission#com.example.plant_identifier.permission.C2D_MESSAGE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:7:3-9:42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:9:5-40
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:8:5-71
+uses-permission#com.example.plant_identifier.permission.C2D_MESSAGE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:12:3-89
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:12:20-86
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:13:3-80
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/jo/.android/build-cache/b103fb9fd76c2adf6b34b0ae7a400dad163ab477/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/jo/.android/build-cache/9843f0322d756d72bfe1331c2b2a4200b3236a53/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:13:20-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:14:3-77
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:25:5-79
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/jo/.android/build-cache/1ce69820b57646f1db9929c1750d35ac2569734c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b3e4854ac55d9c294a103e06c6759d95224db8d4/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/jo/.android/build-cache/34f6672a250911a7b28fdca74f35609103e9307d/output/AndroidManifest.xml:19:5-78
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:14:20-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:15:3-65
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:19:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/jo/.android/build-cache/c2e87a8d817ae5d74a05c79df3caec2a937bd761/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/jo/.android/build-cache/635eb2cf511216ad45619cd23b648b61d346e74b/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/jo/.android/build-cache/78c0c0047e3b2e337eab6a7ffebe35145aed4276/output/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/jo/.android/build-cache/b92a7ea13b3ba45024feb2b4d7afef77d7ee34cc/output/AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/jo/.android/build-cache/336d26e1c3f6ce681abc3c421e3c0fc6497143fa/output/AndroidManifest.xml:9:5-67
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/jo/.android/build-cache/b103fb9fd76c2adf6b34b0ae7a400dad163ab477/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/jo/.android/build-cache/9843f0322d756d72bfe1331c2b2a4200b3236a53/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/jo/.android/build-cache/1ce69820b57646f1db9929c1750d35ac2569734c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b3e4854ac55d9c294a103e06c6759d95224db8d4/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/jo/.android/build-cache/34f6672a250911a7b28fdca74f35609103e9307d/output/AndroidManifest.xml:20:5-66
+MERGED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:15:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:16:3-76
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:21:5-78
+MERGED from [com.facebook.react:react-native:25.0.0] /Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /Users/jo/.android/build-cache/41f2ffd689cb8940ffbc577c5bd85ab1b271818c/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /Users/jo/.android/build-cache/14a15c1c1bdf0f33fa2beac90f2085f2d48b980a/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /Users/jo/.android/build-cache/a6ab8ec6a57abf125dcaf38d787ed3d97cd65ef8/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /Users/jo/.android/build-cache/492f6f52fc3b4fe55bfc553bc68f09f414a2c0ed/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi20:1.0.0] /Users/jo/.android/build-cache/b7639c92827610164bca2f96cc271c1e03e37af8/output/AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi19:1.0.0] /Users/jo/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:16:20-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:17:3-66
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:22:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/jo/.android/build-cache/1ce69820b57646f1db9929c1750d35ac2569734c/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b3e4854ac55d9c294a103e06c6759d95224db8d4/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:17:20-63
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:21:3-73
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:21:20-70
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:22:3-78
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:22:20-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:23:3-73
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:23:20-70
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:24:3-72
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:24:20-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:25:3-64
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:25:20-61
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:26:3-86
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:20:5-88
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:26:20-83
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:29:3-79
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:36:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:29:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:30:3-77
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:37:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:30:20-74
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:31:3-63
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:35:5-65
+MERGED from [com.google.android:cameraview:1.0.0] /Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:31:20-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:32:3-70
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:32:20-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:33:3-78
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:33:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:34:3-69
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:34:20-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:35:3-79
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:35:20-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:36:3-71
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:36:20-68
+uses-feature#0x00020000
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:41:3-77
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/jo/.android/build-cache/34f6672a250911a7b28fdca74f35609103e9307d/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:41:17-49
+	android:required
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:41:50-74
+application
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:43:3-259:17
+MERGED from [org.tensorflow:tensorflow-android:1.3.0] /Users/jo/.android/build-cache/f01d2a9382c37f098df1c88f81ee1c19564f0d99/output/AndroidManifest.xml:5:5-6:19
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:67:5-83:19
+MERGED from [com.facebook.react:react-native:25.0.0] /Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /Users/jo/.android/build-cache/41f2ffd689cb8940ffbc577c5bd85ab1b271818c/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /Users/jo/.android/build-cache/14a15c1c1bdf0f33fa2beac90f2085f2d48b980a/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /Users/jo/.android/build-cache/a6ab8ec6a57abf125dcaf38d787ed3d97cd65ef8/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /Users/jo/.android/build-cache/492f6f52fc3b4fe55bfc553bc68f09f414a2c0ed/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi20:1.0.0] /Users/jo/.android/build-cache/b7639c92827610164bca2f96cc271c1e03e37af8/output/AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi19:1.0.0] /Users/jo/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/jo/.android/build-cache/3304dce7aba858a32eba4d214aa91743fa0109de/output/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/jo/.android/build-cache/923dcca16d65121f007e18bca0bb307ca2fd0019/output/AndroidManifest.xml:2:3-17
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/jo/.android/build-cache/c2e87a8d817ae5d74a05c79df3caec2a937bd761/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/jo/.android/build-cache/635eb2cf511216ad45619cd23b648b61d346e74b/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/jo/.android/build-cache/78c0c0047e3b2e337eab6a7ffebe35145aed4276/output/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/jo/.android/build-cache/b92a7ea13b3ba45024feb2b4d7afef77d7ee34cc/output/AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/jo/.android/build-cache/336d26e1c3f6ce681abc3c421e3c0fc6497143fa/output/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/jo/.android/build-cache/b42594b667d3381b6bf11c05614853c7f9a64b01/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/jo/.android/build-cache/d285389df6d89ebee670d8e9f289ca6956a24697/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/jo/.android/build-cache/6f41dea6ff7a0d989ed2804ba24eeea414bae141/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:cardview-v7:26.0.1] /Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/jo/.android/build-cache/a220511c4998c23ccde59b228482f683f2e3d008/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/jo/.android/build-cache/238d0b1ec61e6a807df9ed5abd56234923977d47/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/jo/.android/build-cache/1ef6020c0a3c3c4bd0659558488d5296a7f03acd/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/jo/.android/build-cache/b103fb9fd76c2adf6b34b0ae7a400dad163ab477/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/jo/.android/build-cache/9843f0322d756d72bfe1331c2b2a4200b3236a53/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/jo/.android/build-cache/1ce69820b57646f1db9929c1750d35ac2569734c/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b3e4854ac55d9c294a103e06c6759d95224db8d4/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/jo/.android/build-cache/2f74de1e22e5834f9178d555f1547823e0c9f9c8/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/jo/.android/build-cache/3351c7d05f44d4929645c70b457f1d6554c4af9b/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/jo/.android/build-cache/7ce9eabcd9167c3525cd386c559ca7705157fdde/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/jo/.android/build-cache/be54eca21028cebde479d082f44a0414a1ca12f5/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/jo/.android/build-cache/f9a767c9edb7e579e8c3c26545e581501ad277f2/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/jo/.android/build-cache/e5498d1f22148a5d0f0f7715c2c96e6aee292e9c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/jo/.android/build-cache/34f6672a250911a7b28fdca74f35609103e9307d/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] /Users/jo/.android/build-cache/435e6308887deb78661cbbeaff20fe4f861ed9b9/output/AndroidManifest.xml:11:5-20
+MERGED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:26:5-44:19
+MERGED from [com.android.support:customtabs:26.0.1] /Users/jo/.android/build-cache/8746427e21250533fc9a012b31313c325ebaef37/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.airbnb.android:lottie:2.2.0] /Users/jo/.android/build-cache/e882debba1aacde274f93bdf2784f882614cf067/output/AndroidManifest.xml:10:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/jo/.android/build-cache/8cf9fdaa90ecf53e21e437a4f574bf475c3da920/output/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:18:5-28:19
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/jo/.android/build-cache/b26375b0b870a32e9bef6488754490619745f33f/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android:cameraview:1.0.0] /Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/AndroidManifest.xml:32:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/jo/.android/build-cache/d2a54e9f161b0f1612798ea25171693bcee6c5f9/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/jo/.android/build-cache/fe1d0f6ed0bb60e75d663da3d57446ae4a4c71f1/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:9.8.0] /Users/jo/.android/build-cache/56cfc5b37d4bd74e2dfd4eb57f0bf685d109ad28/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/jo/.android/build-cache/82ca4450f64e0aa06e1026dea605c3eaf6da2922/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.1] /Users/jo/.android/build-cache/88f6d4842c99e4ff37eeaba08561cad794520c8b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] /Users/jo/.android/build-cache/84534bd2da2ae7645435d72ffcdd1ceec747e145/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] /Users/jo/.android/build-cache/966409a452ab9c1bc280780ec0db109574ec11db/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] /Users/jo/.android/build-cache/33ef625759fd1e01ab29373d490537db72a1639b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] /Users/jo/.android/build-cache/0d10b26f15e7faecac7d882ae3c6d35e32220188/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] /Users/jo/.android/build-cache/4f4385053427123b82e13e5d791f53161a7db850/output/AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:47:5-37
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/jo/.android/build-cache/b42594b667d3381b6bf11c05614853c7f9a64b01/output/AndroidManifest.xml:28:18-44
+	android:allowBackup
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:45:5-31
+	android:icon
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:46:5-39
+	android:largeHeap
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:48:5-29
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:44:5-36
+activity#host.exp.exponent.LauncherActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:50:5-64:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:54:7-43
+	android:launchMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:53:7-38
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:52:7-30
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:55:7-66
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:51:7-39
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:56:7-63:23
+data
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:57:9-69
+	android:scheme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:57:15-67
+action#android.intent.action.VIEW
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:59:9-60
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:59:17-58
+category#android.intent.category.DEFAULT
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:61:9-67
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:61:19-65
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:62:9-69
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:62:19-67
+activity#host.exp.exponent.experience.ExperienceActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:66:5-71:16
+	android:windowSoftInputMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:70:7-49
+	android:configChanges
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:68:7-77
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:69:7-50
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:67:7-52
+activity#host.exp.exponent.MainActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:73:5-83:16
+	android:windowSoftInputMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:77:7-49
+	android:configChanges
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:75:7-77
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:76:7-51
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:74:7-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:78:7-82:23
+action#android.intent.action.MAIN
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:79:9-60
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:79:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:81:9-68
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:81:19-66
+activity#host.exp.exponent.experience.ShellAppActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:85:5-91:16
+	android:windowSoftInputMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:89:7-49
+	android:configChanges
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:87:7-77
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:88:7-51
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:86:7-50
+activity#host.exp.exponent.experience.HomeActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:93:5-99:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:97:7-43
+	android:label
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:95:7-39
+	android:launchMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:96:7-38
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:98:7-50
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:94:7-46
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:101:5-81
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:101:15-79
+activity#abi25_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:103:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:103:15-89
+activity#abi24_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:104:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:104:15-89
+activity#abi23_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:105:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:105:15-89
+activity#abi22_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:106:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:106:15-89
+activity#abi21_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:107:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:107:15-89
+activity#abi20_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:108:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:108:15-89
+activity#abi19_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:109:5-91
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:109:15-89
+activity#host.exp.exponent.ExponentDevActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:111:5-118:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:115:7-43
+	android:label
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:114:7-48
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:113:7-30
+	android:windowSoftInputMode
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:117:7-46
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:116:7-49
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:112:7-42
+activity#host.exp.exponent.oauth.OAuthWebViewActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:120:5-124:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:122:7-43
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:123:7-50
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:121:7-49
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:126:5-135:16
+REJECTED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:32:9-43:20
+	tools:node
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:128:9-29
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:127:9-70
+activity#host.exp.exponent.oauth.OAuthResultActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:137:5-139:16
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:138:7-48
+activity#host.exp.exponent.chrometabs.ChromeTabsManagerActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:141:5-143:16
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:142:7-59
+activity#host.exp.exponent.experience.ErrorActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:145:5-149:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:148:7-43
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:147:7-49
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:146:7-47
+activity#host.exp.exponent.experience.InfoActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:151:5-155:16
+	android:screenOrientation
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:153:7-43
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:154:7-50
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:152:7-46
+activity#com.facebook.FacebookActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:157:5-162:39
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:160:7-39
+	android:configChanges
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:159:7-90
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:161:7-66
+		REJECTED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:32:13-63
+	tools:replace
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:162:7-36
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:158:7-51
+activity#com.facebook.ads.InterstitialAdActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:164:5-168:69
+	android:label
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:167:7-39
+	android:configChanges
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:166:7-90
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:168:7-66
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:165:7-61
+service#host.exp.exponent.ExponentIntentService
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:170:5-172:34
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:172:7-31
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:171:7-44
+receiver#host.exp.exponent.referrer.InstallReferrerReceiver
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:175:5-181:16
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:177:7-30
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:176:7-72
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:178:7-180:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:179:9-71
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:179:17-68
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:191:5-196:16
+	android:enabled
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:192:15-37
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:191:15-80
+intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:193:7-195:23
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:194:9-86
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:194:17-83
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:198:5-200:40
+	android:enabled
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:199:14-36
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:200:14-38
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:198:14-78
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:203:5-213:16
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:205:7-30
+	android:permission
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:206:7-67
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:204:7-60
+intent-filter#com.example.plant_identifier+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:207:7-212:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:208:9-72
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:208:17-70
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:209:9-77
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:209:17-75
+category#com.example.plant_identifier
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:211:9-64
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:211:19-62
+service#host.exp.exponent.gcm.ExponentGcmListenerService
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:215:5-221:15
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:217:7-31
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:216:7-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:218:7-220:23
+service#host.exp.exponent.gcm.ExponentInstanceIDListenerService
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:222:5-228:15
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:224:7-31
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:223:7-60
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:225:7-227:23
+action#com.google.android.gms.iid.InstanceID
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:226:9-71
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:226:17-69
+service#host.exp.exponent.gcm.RegistrationIntentService
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:229:5-232:15
+	android:exported
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:231:7-31
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:230:7-52
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:235:5-238:16
+	android:theme
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:237:7-50
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:236:7-70
+meta-data#io.fabric.ApiKey
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:243:5-245:65
+	android:value
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:245:7-63
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:244:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:250:5-252:64
+	android:value
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:252:7-62
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:251:7-52
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:258:5-83
+	android:value
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:258:62-81
+	android:name
+		ADDED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml:258:16-61
+uses-sdk
+INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [android:react-native-tensorflow:unspecified] /Users/jo/portfolio/plant_identifier/node_modules/react-native-tensorflow/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/jo/.android/build-cache/03926d3636b27e58d6d74b52ae4f5514c138d11d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.facebook.react:react-native:25.0.0] /Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] /Users/jo/.android/build-cache/dc83510a6079d8b996a3a36d66fd0a64d7cbcdf6/output/AndroidManifest.xml:5:5-7:41
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] /Users/jo/.android/build-cache/41f2ffd689cb8940ffbc577c5bd85ab1b271818c/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] /Users/jo/.android/build-cache/14a15c1c1bdf0f33fa2beac90f2085f2d48b980a/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi23:1.0.0] /Users/jo/.android/build-cache/a6ab8ec6a57abf125dcaf38d787ed3d97cd65ef8/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi22:1.0.0] /Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi21:1.0.0] /Users/jo/.android/build-cache/492f6f52fc3b4fe55bfc553bc68f09f414a2c0ed/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi20:1.0.0] /Users/jo/.android/build-cache/b7639c92827610164bca2f96cc271c1e03e37af8/output/AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi19:1.0.0] /Users/jo/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/jo/.android/build-cache/14ed24180bbe86369c104b7a250e370d321be1d0/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] /Users/jo/.android/build-cache/aa4a0c5321dd74e4b72c6bd48f76250aa22df0ba/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] /Users/jo/.android/build-cache/4973787bcca0acc42e4e26c6886d0eae9c0b267c/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.0.1] /Users/jo/.android/build-cache/c79932497eb34446964a2bfb0527baa841ff5951/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:1.0.1] /Users/jo/.android/build-cache/de68e78a205c63c540dd006a02cd6aad483b3261/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.0.1] /Users/jo/.android/build-cache/4151f3012f93eace32d2f894e9a0d430b71ea554/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] /Users/jo/.android/build-cache/241f540a3ae2bcf4028f50a7b8f16991dea1f007/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:1.0.1] /Users/jo/.android/build-cache/cec4f6147123562e584228dcc3f1faf917bda219/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] /Users/jo/.android/build-cache/b6bc15b15debcd04f75571f3a622c332f290d36d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] /Users/jo/.android/build-cache/a8b4c1c3932de0970b49a61232d1f34878613467/output/AndroidManifest.xml:5:5-7:41
+MERGED from [expolib_v1.com.facebook.fresco:expolib_v1-imagepipeline-okhttp3:1.0.1] /Users/jo/.android/build-cache/832fd4aa565fe0099096b3449dd8f6b5f80d0967/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/jo/.android/build-cache/3304dce7aba858a32eba4d214aa91743fa0109de/output/AndroidManifest.xml:2:3-70
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/jo/.android/build-cache/c2e87a8d817ae5d74a05c79df3caec2a937bd761/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/jo/.android/build-cache/635eb2cf511216ad45619cd23b648b61d346e74b/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/jo/.android/build-cache/78c0c0047e3b2e337eab6a7ffebe35145aed4276/output/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/jo/.android/build-cache/b92a7ea13b3ba45024feb2b4d7afef77d7ee34cc/output/AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/jo/.android/build-cache/336d26e1c3f6ce681abc3c421e3c0fc6497143fa/output/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/jo/.android/build-cache/b42594b667d3381b6bf11c05614853c7f9a64b01/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/jo/.android/build-cache/d285389df6d89ebee670d8e9f289ca6956a24697/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/jo/.android/build-cache/6f41dea6ff7a0d989ed2804ba24eeea414bae141/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:26.0.1] /Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/jo/.android/build-cache/a220511c4998c23ccde59b228482f683f2e3d008/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/jo/.android/build-cache/238d0b1ec61e6a807df9ed5abd56234923977d47/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/jo/.android/build-cache/1ef6020c0a3c3c4bd0659558488d5296a7f03acd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:r2.0.3] /Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] /Users/jo/.android/build-cache/b103fb9fd76c2adf6b34b0ae7a400dad163ab477/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] /Users/jo/.android/build-cache/9843f0322d756d72bfe1331c2b2a4200b3236a53/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] /Users/jo/.android/build-cache/1ce69820b57646f1db9929c1750d35ac2569734c/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b3e4854ac55d9c294a103e06c6759d95224db8d4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] /Users/jo/.android/build-cache/5fe351a0ca022a5160c351d470bfe3c105b43f31/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /Users/jo/.android/build-cache/2f74de1e22e5834f9178d555f1547823e0c9f9c8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /Users/jo/.android/build-cache/3351c7d05f44d4929645c70b457f1d6554c4af9b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] /Users/jo/.android/build-cache/7ce9eabcd9167c3525cd386c559ca7705157fdde/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] /Users/jo/.android/build-cache/be54eca21028cebde479d082f44a0414a1ca12f5/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] /Users/jo/.android/build-cache/f9a767c9edb7e579e8c3c26545e581501ad277f2/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] /Users/jo/.android/build-cache/daff09bbab3286f345754c751453b0eb8c3c4303/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] /Users/jo/.android/build-cache/e5498d1f22148a5d0f0f7715c2c96e6aee292e9c/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] /Users/jo/.android/build-cache/34f6672a250911a7b28fdca74f35609103e9307d/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.stripe:stripe-android:2.1.0] /Users/jo/.android/build-cache/37e79f2347c2bf380f4dc79084d40a0129a9088f/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.thefuntasty:CreditCardEntry:1.4.8.4] /Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] /Users/jo/.android/build-cache/435e6308887deb78661cbbeaff20fe4f861ed9b9/output/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /Users/jo/.android/build-cache/a0d0737971f4149172ef6b0bbc788c4610a938f4/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.1] /Users/jo/.android/build-cache/cea37099222e8def4afb80f1422bfea884451e9e/output/AndroidManifest.xml:8:5-10:41
+MERGED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:customtabs:26.0.1] /Users/jo/.android/build-cache/8746427e21250533fc9a012b31313c325ebaef37/output/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.2.0] /Users/jo/.android/build-cache/e882debba1aacde274f93bdf2784f882614cf067/output/AndroidManifest.xml:6:5-8:41
+MERGED from [io.branch.sdk.android:library:2.6.1] /Users/jo/.android/build-cache/5fc0c1fed5a221c8da84bdb273ce0cda21bf750f/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] /Users/jo/.android/build-cache/8cf9fdaa90ecf53e21e437a4f574bf475c3da920/output/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/jo/.android/build-cache/b26375b0b870a32e9bef6488754490619745f33f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android:cameraview:1.0.0] /Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/jo/.android/build-cache/d2a54e9f161b0f1612798ea25171693bcee6c5f9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/jo/.android/build-cache/fe1d0f6ed0bb60e75d663da3d57446ae4a4c71f1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:9.8.0] /Users/jo/.android/build-cache/56cfc5b37d4bd74e2dfd4eb57f0bf685d109ad28/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /Users/jo/.android/build-cache/82ca4450f64e0aa06e1026dea605c3eaf6da2922/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:26.0.1] /Users/jo/.android/build-cache/88f6d4842c99e4ff37eeaba08561cad794520c8b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] /Users/jo/.android/build-cache/84534bd2da2ae7645435d72ffcdd1ceec747e145/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] /Users/jo/.android/build-cache/966409a452ab9c1bc280780ec0db109574ec11db/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] /Users/jo/.android/build-cache/33ef625759fd1e01ab29373d490537db72a1639b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.1] /Users/jo/.android/build-cache/0d10b26f15e7faecac7d882ae3c6d35e32220188/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] /Users/jo/.android/build-cache/4f4385053427123b82e13e5d791f53161a7db850/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1] /Users/jo/.android/build-cache/bd02a9f19ede47f990dae97b44ff10cd31d06c58/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.1] /Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jo/portfolio/plant_identifier/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:11:5-17:24
+	android:largeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:15:9-36
+	android:normalScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:16:9-37
+	android:anyDensity
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:12:9-34
+uses-permission#host.exp.exponent.permission.C2D_MESSAGE
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:31:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:32:5-73
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:32:22-70
+uses-feature#android.hardware.camera
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:39:5-41:36
+MERGED from [com.google.android:cameraview:1.0.0] /Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:40:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:42:5-44:36
+MERGED from [com.google.android:cameraview:1.0.0] /Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:43:9-57
+uses-feature#android.hardware.location
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:45:5-47:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:47:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:46:9-49
+uses-feature#android.hardware.location.gps
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:48:5-50:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:50:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:49:9-53
+uses-feature#android.hardware.location.network
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:51:5-53:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:53:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:52:9-57
+uses-feature#android.hardware.wifi
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:54:5-56:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:56:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:55:9-45
+uses-feature#android.hardware.microphone
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:57:5-59:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:59:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:58:9-51
+uses-feature#android.hardware.telephony
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:60:5-62:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:62:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:61:9-50
+uses-feature#android.hardware.bluetooth
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:63:5-65:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:65:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:64:9-50
+receiver#host.exp.exponent.notifications.ScheduledNotificationReceiver
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:70:9-72:40
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:71:13-89
+provider#android.support.v4.content.FileProvider
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:74:9-82:20
+	android:authorities
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:76:13-60
+	android:grantUriPermissions
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:78:13-47
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:75:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:79:13-81:58
+	android:resource
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:81:17-55
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] /Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/AndroidManifest.xml:80:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.1] /Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] /Users/jo/.android/build-cache/1ef6020c0a3c3c4bd0659558488d5296a7f03acd/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.0.1] /Users/jo/.android/build-cache/8746427e21250533fc9a012b31313c325ebaef37/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:exifinterface:26.0.1] /Users/jo/.android/build-cache/b26375b0b870a32e9bef6488754490619745f33f/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] /Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] /Users/jo/.android/build-cache/d2a54e9f161b0f1612798ea25171693bcee6c5f9/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] /Users/jo/.android/build-cache/fe1d0f6ed0bb60e75d663da3d57446ae4a4c71f1/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] /Users/jo/.android/build-cache/88f6d4842c99e4ff37eeaba08561cad794520c8b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] /Users/jo/.android/build-cache/84534bd2da2ae7645435d72ffcdd1ceec747e145/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] /Users/jo/.android/build-cache/966409a452ab9c1bc280780ec0db109574ec11db/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] /Users/jo/.android/build-cache/33ef625759fd1e01ab29373d490537db72a1639b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] /Users/jo/.android/build-cache/0d10b26f15e7faecac7d882ae3c6d35e32220188/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] /Users/jo/.android/build-cache/4f4385053427123b82e13e5d791f53161a7db850/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.1] /Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.1] /Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/AndroidManifest.xml:24:13-51
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/jo/.android/build-cache/f1f7152acca2c2faf06ec47dce890303bd2f8a0a/output/AndroidManifest.xml:40:13-70
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:15:9-17:77
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] /Users/jo/.android/build-cache/f4607bda347a3e1c60978abe104a3bd60ddaf54b/output/AndroidManifest.xml:16:13-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] /Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /Users/jo/.android/build-cache/bfffdd11dbe287d96d5436df18e40698aae8929f/output/AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/AndroidManifest.xml:19:19-85
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:27:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:30:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:33:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/AndroidManifest.xml:33:22-80
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.4.1] /Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/AndroidManifest.xml:28:13-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/jo/.android/build-cache/965bb5e9770b732c080cc827f62ad906b7ec7099/output/AndroidManifest.xml:26:13-120
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] /Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] /Users/jo/.android/build-cache/720d369605bd0443299b13ec930634ea0880d8af/output/AndroidManifest.xml:32:16-87
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:31:13-35:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] /Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] /Users/jo/.android/build-cache/03db9121eb18d58061a09372d14e352a52e952c8/output/AndroidManifest.xml:6:79-124
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/AndroidManifest.xml:20:20-65
