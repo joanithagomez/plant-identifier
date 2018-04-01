@@ -1,102 +1,202 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f41dea6ff7a0d989ed2804ba24eeea414bae141\\output\\res\\color\\com_facebook_send_button_text_color.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/com_facebook_button_text_color.xml",
-        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/color/com_facebook_button_text_color.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_search_url_text.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_search_url_text.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_spinner.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6371fbed2c0731946b4592467a34d8872c8db270\\output\\res\\color\\com_facebook_button_text_color.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/Users/jo/.android/build-cache/daff09bbab3286f345754c751453b0eb8c3c4303/output/res/color/wallet_secondary_text_holo_dark.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_edittext.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_tint_default.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_tint_default.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/jo/.android/build-cache/daff09bbab3286f345754c751453b0eb8c3c4303/output/res/color/wallet_primary_text_holo_light.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c45aec0785a6d4ba52726305cb57fb8be9b75031\\output\\res\\color\\wallet_primary_text_holo_light.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/com_facebook_send_button_text_color.xml",
-        "source": "/Users/jo/.android/build-cache/6f41dea6ff7a0d989ed2804ba24eeea414bae141/output/res/color/com_facebook_send_button_text_color.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\com_facebook_send_button_text_color.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\d72781c3c40eeb34734a4a05b2b20ccb02ec4f53\\output\\res\\color\\com_facebook_send_button_text_color.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/color/switch_thumb_material_light.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\daff09bbab3286f345754c751453b0eb8c3c4303\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c45aec0785a6d4ba52726305cb57fb8be9b75031\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\daff09bbab3286f345754c751453b0eb8c3c4303\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\e3df244c7084a6c8d54c1e261f58b80eea5981ca\\output\\res\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     }
 ]

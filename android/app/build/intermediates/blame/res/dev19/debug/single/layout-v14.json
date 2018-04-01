@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/layout-v14/texture_view.xml",
-        "source": "/Users/jo/.android/build-cache/8065919dba217d8fb6d11c7badc01b1331d05d81/output/res/layout-v14/texture_view.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v14\\texture_view.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\5994eb89678cfacfbaba9168522a708b297277b4\\output\\res\\layout-v14\\texture_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v14\\texture_view.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\8065919dba217d8fb6d11c7badc01b1331d05d81\\output\\res\\layout-v14\\texture_view.xml"
     }
 ]

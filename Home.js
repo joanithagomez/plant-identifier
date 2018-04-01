@@ -58,8 +58,14 @@ export default class Home extends React.Component {
             photoId: this.state.photoId + 1
           });
           Vibration.vibrate();
-        });
-      });
+        })
+			.catch((e) => {
+				console.log(e, 'ERROR');
+			});
+      })
+		.catch((e) => {
+			console.log(e, 'takePicture ERROR');
+		});
     }
   };
 

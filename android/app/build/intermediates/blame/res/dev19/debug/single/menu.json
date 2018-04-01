@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/menu/crop_image_menu.xml",
-        "source": "/Users/jo/.android/build-cache/a0d0737971f4149172ef6b0bbc788c4610a938f4/output/res/menu/crop_image_menu.xml"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\menu\\crop_image_menu.xml",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a0d0737971f4149172ef6b0bbc788c4610a938f4\\output\\res\\menu\\crop_image_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\menu\\crop_image_menu.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\aed029a506922012368c7b145830c68befaa5d17\\output\\res\\menu\\crop_image_menu.xml"
     }
 ]

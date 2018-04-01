@@ -35,6 +35,7 @@ android {
     ]
   }
   dexOptions {
+    keepRuntimeAnnotatedClasses false
     javaMaxHeapSize System.getenv("DISABLE_DEX_MAX_HEAP") ? null : "8g"
   }
   productFlavors {

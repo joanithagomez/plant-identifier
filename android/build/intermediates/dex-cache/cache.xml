@@ -3,444 +3,1146 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/14ed24180bbe86369c104b7a250e370d321be1d0/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\49d07fef86d121cee5a86284dcf5cf7c6336d3af\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b4dc8da89c9b78c0761ce31581d983198b14f59e/classes.dex" />
+        sha1="7a30a80d40b875fec941cafdceaf514b74ca6d76">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_d9d3f55d0dc57557d982fda55743e97df8feda11\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/728050ac07f4dead46888b397c22c45e2a16f44a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ec2779139eea597d2d9919c6d626d29fafb2ea1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/8746427e21250533fc9a012b31313c325ebaef37/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="906fdd57c143ec9adc27a76a697fed1c0cfd6348">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1d57da5ff6c5840d4c5d4624c41bd96fcebd8213/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/78c0c0047e3b2e337eab6a7ffebe35145aed4276/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_fb70dd42e02926c1d3d4cdb07036b6538b832593/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="765f07d2233e2e7f1f77fbae57361781a5a9c406">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5586ef77cf3f77cd21ab6f45110f8edf04785fbc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental-runtime-classes/dev19/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run_29c5e06a092a8c9a9cc4b67e8a40cc0eb81c7cae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/2f74de1e22e5834f9178d555f1547823e0c9f9c8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8a786d95c90605d2762f7ba36662047633e9a3c7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.53.0.0/72c4892e05c7563fbab0c4ada0187cd879113389/prov-1.53.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/prov-1.53.0.0_8a475c453e0c68471c33f26c595d6cf81481978b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/4973787bcca0acc42e4e26c6886d0eae9c0b267c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_8a6fa3c8d8a391addbfe906e9801772692302e7e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.segment.analytics.android/analytics/4.3.0/88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e/analytics-4.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/analytics-4.3.0_a095c80504256668f12bce008215e723ef149ee1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/4f4385053427123b82e13e5d791f53161a7db850/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="22c673e65215e0764add61e3102946de895439e4">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_10065085f8f45f9c0573dece0c1bec22f170c4eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/fe1d0f6ed0bb60e75d663da3d57446ae4a4c71f1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c1ea3803ac58a715bdc23369f836f3aba20d79db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/de68e78a205c63c540dd006a02cd6aad483b3261/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="adfb92acadeeff1086115fff6b318e95df8b2b29">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_ca7bff89a446e51c3f0eb067c96ac9c9fb88b611/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental-classes/dev19/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="02cbe1fa978643076e326507e53210d7c7f542f4">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10000/instant-run-bootstrap_2131f73fac4185299f2109fd40abd31aed58cb89/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/9843f0322d756d72bfe1331c2b2a4200b3236a53/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_67d8a3efac005902ec4716295c007d68b9edb900/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/c456c11c637ecbb0346a935e69fb7b7758b4342a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b9208a09aa8bead8648b596e8cce9d9a6f785ad8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/88f6d4842c99e4ff37eeaba08561cad794520c8b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_96011fe7b5023a59cd873ced2bd85436a36e819b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.5/442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375/universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/universal-image-loader-1.9.5_1d95de0494afe201a687ef96b47c2aee8eda2369/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/1ef6020c0a3c3c4bd0659558488d5296a7f03acd/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_7a9c6ede6953479c4831b129824d36c8dbf966c7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/966409a452ab9c1bc280780ec0db109574ec11db/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c05339c42c0ab78ef66053c82868b4fd7365e6b1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/186a9d364c70b8e145a493740f99a2a88f35bfd5/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a10a2d019f5415fe7936860e64ccd10a6dcc1893/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_39601365d50835d51bdaae6040348ba4e95db19e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/d2a54e9f161b0f1612798ea25171693bcee6c5f9/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_e414f6859821978109ac4020838d1e9b8d9b2655/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/f880b73b654dde0c6749f22140731358d5e2f8a2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_f83d9836184d8812fa71a39eb707b28eb7575f07/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/f9a767c9edb7e579e8c3c26545e581501ad277f2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_86b47c20d11d2d9d489a2ca353cb1a21589772db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/d34edfe53b2e377646de7ebc0dbec5d485d46633/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47803d3db7213b155bf0a1876ba920d29000abaa">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c442ccb4e8514d93ebb7fcd99959fab1399411f0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/f01d2a9382c37f098df1c88f81ee1c19564f0d99/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="911e32ad69cea4fa5fa2db60df88d541ef18b153">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_6c199fa48886ef2eeb50b43e876feede9325e2a5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/dfbe309b6ff66d7566b39e228234f365f1615611/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_2b0ed692f42bd6db0102bc8d07d333a9cf34283f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/b42594b667d3381b6bf11c05614853c7f9a64b01/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_b096e50fdb343813c67e86549abc2fd1b79de6c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/bd02a9f19ede47f990dae97b44ff10cd31d06c58/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="42a37372fca7123a593202ba76a7f98fbd691f05">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_5bdb2f3b105ea3cd338810908a935b5477b87967/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/41f2ffd689cb8940ffbc577c5bd85ab1b271818c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a1b072c560d8dd415da92ea3f43c9d84d657cf49/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_c67d55e00ef84cc1176dd93d724471fcf15b1d06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/3351c7d05f44d4929645c70b457f1d6554c4af9b/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\31fd3443d6d4f8e4893d01359af066f1212201ea\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_abd37d3ac9114f3ce177cde4cfb093725291e0d6/classes.dex" />
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b4d750e91386ac53251e4743977b485f242c7e24\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/b2858dd764eae9a46db8e2089fc8e11ec1696318/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\9a0a7220ff478e819b924598f8da03e46cb08bfa\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="190a642ba16d1421296a4d794606279b80039c59">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_3da64b3d9cefc3aa5be2c2466d862656719af348/classes.dex" />
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_65bafae47d68203b6742a9202c65f1949e94dc3f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/37e79f2347c2bf380f4dc79084d40a0129a9088f/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\09833e522a48d854ba3fc5093e2ea992d0353da7\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="6a2f9209ff0d33539df6866d019181ecd1ecd047">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_754d6c61b44ddddeab7984512bdd632965001a7f/classes.dex" />
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_af59e853ce959c2ee583132c76a365ddf4368952\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/8cf9fdaa90ecf53e21e437a4f574bf475c3da920/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\1.3.2\b6dde38349ba9bb5e6ea6320531eae969985dae5\commons-io-1.3.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_c8a750aa5f6c400cc5d253c2a510752b206ad583/classes.dex" />
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-io-1.3.2_e311fb85240aa6eadecb0dce6e38541bc7a75caa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/a6ab8ec6a57abf125dcaf38d787ed3d97cd65ef8/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\b319f73d70ec10fffd4a6d7f3b6cd2c8bcb60c7e\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_c54e724f99bcdcf7164d32e3ec72ea83f15a26fa/classes.dex" />
+        sha1="a34a28ae586a32e1a33eeb63378732b473cad2be">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_228005cdc65f07f2b2a5eb0eedbe7a4394819fba\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/bolts-applinks-1.4.0_a8614d72394b93189719cdf9de130ee5e86d869c/classes.dex" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\jsr305-3.0.0_85549e05c51269c996dbd094edaf91111b16b5d5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/2.9.2/5ff2f760c3bcad9d4e60f1f84aa695321184ebc0/android-sdk-2.9.2.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\9d1590b6daed6b87dbec01402d4a7360612780e7\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="5ff2f760c3bcad9d4e60f1f84aa695321184ebc0">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/android-sdk-2.9.2_808a2febf7029dc002ef2979291dbf84c59d3398/classes.dex" />
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1fae48431de9834e1d8ae8936db273c85f91d2d9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/5fc0c1fed5a221c8da84bdb273ce0cda21bf750f/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\8f9c11ac09848a6cb72958a0601e42aa171bbc5f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="af69623378285932372eb7b3b8ff0ef66fa42b93">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_d5eaa32a727646e25c896d9776a25054a84536e3/classes.dex" />
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_cbaf277c1277ee2f4f7eab173de3f306ae604294\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\4b1393283b99b657d389bdb7d8e99412c5ff239c\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0163d85a0e5a1d01e222bbe44005ba3a6aa6b56f/classes.dex" />
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_844c88b36ea077d0c91231130b943a44d9fbdcfb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/stetho-1.3.1_36f98803a3672c9dcb5d24ceaa56afcc477536a3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/492f6f52fc3b4fe55bfc553bc68f09f414a2c0ed/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_41c9873994283ff498abd0e063deb72a783ba834/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.gradle/caches/modules-2/files-2.1/com.raizlabs.android/DBFlow-Core/2.2.1/e07bfc8e2041edf27469bd94e08bc19f52f4dee7/DBFlow-Core-2.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/DBFlow-Core-2.2.1_9820a4ff5de7bee9d64f012be4d27761601b1cb3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/33ef625759fd1e01ab29373d490537db72a1639b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_1c8f0224032bd11dcde454392bd0914c893ac69f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_a82b960519912b71864be665d29a6b6af087f31e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\b3fddcb452618f5af29c4d9a89e9b40e606c8006\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_317b1f7e80cd5be1a10adb01e6d03baa2303acbb/classes.dex" />
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ee9f6e99eb763da21be355c3de89ad85a3432c18\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/jars/classes.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.android\build-cache\5994eb89678cfacfbaba9168522a708b297277b4\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/classes_0f80a18e8382700ca90ed06db90365fbc5131740/classes.dex" />
+        sha1="ffbd3e8e40ef62a454f4c3990aa70bbda3ffa596">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b26ab9fe5b5c518f2aec61d0685522250c2af5d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jo/.android/build-cache/14a15c1c1bdf0f33fa2beac90f2085f2d48b980a/output/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\core\1.53.0.0\619f704791db186304325bd129b2e7ec34f77438\core-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\core-1.53.0.0_a0cce798c17a5cb95b31e74017df7f5676f7aa3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\eb369b691ddc1a62c3adb7766ac9c2b0253c4709\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c83a644dfc8545d77ed076721762fc4eb4092d81">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_83221d51267368cbdcb7be1a5f558ef12054fa82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9111e38999fee0b16a1ccd057b779f5b08f330e2">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_040e4bd8feb3f0e71bf260447fbf3140cdd66809\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\2a9d3597c2ac4327f67ef49583e7ce5dd5a23f1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_49323886a70e12cf3f6343d9b37d0b1a66b73196\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-ws-3.4.1_8642d14560e4fbe72fc5c58e63c2f9de7a00eaa0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\universal-image-loader-1.9.5_f2c97a35e2383013c8f92456d411ab6615e59a6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\f8a13596fe300404c00471bae58331f1213bec35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_af4e8dfc2099fb9dc62ece1678ee68a40f351f9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\1792583bdb7a42117279ab34232a91821e696fdf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="906fdd57c143ec9adc27a76a697fed1c0cfd6348">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f2e4bef7d16742296873defa575a68c1d4c11752\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\cd406ffb4d2bdfc950287ae9baf1451045ae6df9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_c65666b7148a46288d54b6a94169e91eddde8b3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\d917f56813490492c6816e85d23045eb507dbacf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_68621b4dd9570e3a56ac35373a13e0bc2040333e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\01e0b1012dd039c7d23030a154425646c9a1aefd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_9bd5a54400836e9a098423ffac4371263892414d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\42d5481c2dd9e364cddf5ce2f62ea74f6e0a0929\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53dc9d74b0ac22d201549cd806780597d9679e9a">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e30de280468d7d04bc7f6bae403df820a92221e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\53cbff579c0c3e2190e06338eda8a763b22accda\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4cbe7da85f8999ea96dbefaa423a1db99081a068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\184dac0a6d329d48bfc78a928ca3b0d837a510a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="79b01f1eace6ce22c6ffd67000bd6b5c5d2477a9">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8ba9c299bb2ad54736868faf434365b8a0d6b171\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\70c03aefd07a2c5bac47898d7cce50bfbe60b486\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_cfacacff36579858b0f1297059b99c26b595cd49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\3a3d826a03b2f2bc8ec303b100d2fc9c4264ccb9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e144b577222097bcdf3161a64429bd3c0ed5c99e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.amplitude\android-sdk\2.9.2\5ff2f760c3bcad9d4e60f1f84aa695321184ebc0\android-sdk-2.9.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ff2f760c3bcad9d4e60f1f84aa695321184ebc0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\android-sdk-2.9.2_3839e98b4aa3f1113825836f6a2b36658eeb2709\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\8720748b498775d41bcf4b9c7f933ae9003dfac5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="131115ec18ae3951c1584c543de8baa9ac20012a">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1912c9bf7dfacb9faea7a3d29268daf267ca559d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\3d2bcfef883989b96f911879c11fdcbed23e0159\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_58dbf62c641d7adc7038a804bf8e511a7a723621\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\d636f5b58bbf95cdeac4a2ddf084297637615b3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="13469de5eef4b3c0488c0e4963fef197fc745f8a">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_12c388eee0361ce79637a7e63156cf54e9550df9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\90ce99edd1ad0de85d847b859ee5bdfaf8672959\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6172a6e0872c156ae82fe8b51d82b2daed424aa">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_9e0a6d26444c2456a7904c69297b55265b38be21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\90ce99edd1ad0de85d847b859ee5bdfaf8672959\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="83d6e98f2b48f3cf1ec0e7c2b3bf2b3d4618f680">
-        <dex dex="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/10/infer-annotations-4.0_905830c35c76ac69e682556fc308c67e7856b9e9/classes.dex" />
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_1176d99ef892c45f22e3061fb97995d7001c83e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\8af9f4da603d2f125296a6592e2672ad28cf0dd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_731c17c6b4debe0e5f5d7b492bd1e70d6da83dad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\b762aa1372b1197553d2ade38be9b19ec1bf1610\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5da13aff5b86f663aa3f88f0322887ffd04e785a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\e994e4ce0918e31255c7856e019afe0372db5bb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_71de34589b672309f1ce34e0eaacc2a1cefaf491\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\7d121d037cd40274b722d805ed736315fec8235f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_164a8f5ebdc235327b03ddc636583a850a5f0967\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\2223b3aa5481ae3b304d44cd98c302cdfdbe3775\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_87eac49543bbb0fb3bb8216088dbe36cb2ada79b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\7c2a5da1071d7dd2042d8235e1453ea5905cf81c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="10c32fcf3d0acc4b208fc39f8d2e16b69ef8bd3b">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ba18ff43251b38d33255221185f793d284fe55e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\2c99865846b92458dd7378a74b3e5b39d5b868d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dae2154348a4c38a18e8d1042cf445faea4647d0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f7705b43d7fe4607a57aa33741642d85d4366607\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\1167e7a9c6a798cd27dc33bb357b10ab83e8685f\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82231c00c16c59ee23a508bec9fc6bc3e60c96b2">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_bb6aceddf8ba58175c02946f1099b597e3732888\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\19fa27d05b47b171c37c050a5c2f776b1dada261\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_9c770cf5a2ebda51982ebe36dbe10555fe876501\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ff40e0c4e115ab71fa137157ec3b3a3f12825d7e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_eb8be2de6fb9bd88fce18979223b4977fa83e4bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.segment.analytics.android\analytics\4.3.0\88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e\analytics-4.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88ab91d4641af4bed4b39aa3fd7cf487b66b9d5e">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\analytics-4.3.0_0582325ccfeff1f8f57a62dd6c9876461c74f0d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\e3df244c7084a6c8d54c1e261f58b80eea5981ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_aea9f779fce9fc4a3c7010410fb58fbddc847171\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\257eb551cc3e1986d550f6fc8bcf07ab3138d18f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7bf36963372211d8b9e000939020b1c3242234e">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e8419ad82cc1f8275fe48f1e669242b6c929ca3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\1d3054773653d0dd8d85961919354ef474665735\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_529d4ce65d0748b68b43a6047f3157f000c56a5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\19ffde02fd3473a02b9befe5b18785d92168feda\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f0826eb27976eadf3d99c46eba5e121bedf98202\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ff4ae4d5fcf15247d42656a4b343d056cb322707\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47803d3db7213b155bf0a1876ba920d29000abaa">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8dcce516c9e7a800c3c85d906c12194e5d60e432\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\338304d35e7de2d6b3ff35878f17769994b28c8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8f86acf1db3cfe106b6a981423cb319821e5381d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.raizlabs.android\DBFlow-Core\2.2.1\e07bfc8e2041edf27469bd94e08bc19f52f4dee7\DBFlow-Core-2.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\DBFlow-Core-2.2.1_11455b2e33613e579797d324fdb600aa7dcc45f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.madgag.spongycastle\prov\1.53.0.0\72c4892e05c7563fbab0c4ada0187cd879113389\prov-1.53.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="72c4892e05c7563fbab0c4ada0187cd879113389">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\prov-1.53.0.0_3ca41ab7bf8fa7c3880ffb8acbdfc68c91c29a0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\c9926cf5955849ec4679acf1e5475a3220f91a6f\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_c3b58a38cce06d51a15cbf34d0a3b7aa9a092f31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\18340efd84181bffdf3aa1b8e1f693b7b5aebeae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_e1e9e03b4f1a1fb2aff9f3366453cf9e2cbdfd63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\8f126cf3b27b34762eeeaa814ab5489b505a86aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="765f07d2233e2e7f1f77fbae57361781a5a9c406">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_bdef35804c644e074004c1ac24148a72a8da5e09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\maven\expolib_v1\com\squareup\okhttp3\okhttp\3.6.0\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="565de69ddf97fffe074cba6cb0512520cdce4394">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-3.6.0_0f4ea76948fea5a89d554e95774de617d071eaa9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.3\1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14\jackson-core-2.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\jackson-core-2.2.3_47501a1c40a7b41aa84898dda0cd0b5214c98c55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\19aa5ec173b8ffb99e731950aad6d67c23db96e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5f55bc10d793c31f5229dec28fb50e043a2567da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\28bcd4d8a595e1b1e5284b44e6c6808f05307773\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b65ec1ebc84af3baecfd28954c9e7ff01b937a8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8fce9fc51716da4d7a84eede6d1b8cf352ea1207\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\23537220c9981dc2cee26c125aeabe033d5d5777\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4b997720ec4e62395e612a4ad4871a821a73804a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ed1f60906f2321d4eed77e7f45380163140daf3b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_0059052eb0d1a0bb7976dc3601d7220e6735a07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\dac20d6b304dea49ffd06a9e2dfaabdae3d350c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_59a84facc6d9ddb038e6f4ba9a1cc935c6a09bb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\c9926cf5955849ec4679acf1e5475a3220f91a6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="20be4fc45af5a418fbbfb8d1040020b64b187885">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_41ef1df15aa41714324969e1c06a21b005520078\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\a75fddc70692e1e12c50b09cb745389a56ab6079\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="911e32ad69cea4fa5fa2db60df88d541ef18b153">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f974fb3d978b24ef6d3ec9fe13abc02e8d5c9574\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\bolts-applinks-1.4.0_f8995e66dcd10a7fb968d22bb057115278ad15af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\javax.inject-1_ab0fb7ccfbe28f6944f1c7fda31428ef026920d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\butterknife-7.0.1_34741942395a61d846659bc02a1462312d3c4bc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\1d3533d847a57279b459ed3460da891d63532e84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f7e5cee20bf5273ad13ef41c08c4aff5dcf6f367\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-cli-1.2_721ee4798d9eb469dc3457ccacde0d4ef9850c50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\7bdb4f26c50303e55234c279d46da6532644a1b4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_722c6b6e3d45bc3372b04e1fc75ee92cb81c28a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho-okhttp3\1.3.1\c596b3b33b5a92107bb70544bb5ee35f597bc6d8\stetho-okhttp3-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\stetho-okhttp3-1.3.1_545a8684289916cd89410dcc41097106f66ff8b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\4ee093907c91677f681ed59e5941879ab2e45789\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_54bd3b1d1734be09b334944197a062f886da9158\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\16b7bb057ce791fb84ff0877ae93854f1c29e39d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_107ffc9f9b6c7dfe46240287c813470bfbdb8dbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\6ae789a7467c1a5629c78ca37c88994c376ab267\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa112f9589a72edd6c8458764cd65e80a39e6d8c">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b5f204b9c0966a3fcf8ca26696ddde2edf8d6b90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\33e8fc62cdfd0a4246d7d55442ebcb47340e9df9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="68d8ffe33fc5c2feb623b2e216dfc180e7540cd5">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8404e3a46edbab7373f1656aa0d6a733352f7657\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\a6bb98b7f8718e659ef66e60518424215df0765a\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ea01f90e60978bc6871543cd76136a97a19450b5">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_88177ccd697bdffec672b7c5b90fffb523999b7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\a6bb98b7f8718e659ef66e60518424215df0765a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2f1cc63c85dfeb86263311713a0810d23112495e">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5e4b8d573032e05fac1875df91268b21bc979fa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-urlconnection-3.4.1_d63dc7bd87f34ada0686dd3fb1e95d16ef6b336d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_413c117280ad2cad6c4c4d06d1d8dc890d725913\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\870ca347dc442ca81c6be54e608ea0ca0475ab33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_caa0cd1c41ae8f385c4dfff3b8cd29cea52f320c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\maven\expolib_v1\com\squareup\okhttp3\okhttp-urlconnection\3.6.0\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ae77d4921dcf287b3776baabfbca09b55616ab13">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-urlconnection-3.6.0_c05422d63122719a8f26fdc3e43dc5a7a71fe0f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\staticlayout-proxy-1.0_059206447fdf84835811fb2d826c0362865d1ef2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\db2f62eda32283a89682fc4817446c13905d60d7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_fa661f9dd97ade1d51d1aa6906bd45a16138d280\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\bolts-tasks-1.4.0_bd1dd483879df56f3405bbba4fd62e96ce1f7d4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\12a6ca5e18f4c54c46eeb997a10e5511b361c9d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_13a3be613d781b444380be8076e104522a62fe76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\7d78310eb72dd3a03e513369c02d88d8aa217484\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b5262a0d4734871914d32788c134fdd5443ba19d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\eventbus-2.4.0_a1ace111747ce714c9301e4bc0d8917d9ad23862\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\Documents\GitHub\plant-identifier\node_modules\react-native-tensorflow\android\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cc2480518a028c1b099016a9bc10c89681f3f9a8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\4\classes_8343b06206c9d8a49ed442028785b7341d8817fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\2ac2fac291d2ab4a83db997fb5548f121f14d160\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4a5416e6ba1c6f4dc3498b62cf07e7a7289236a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\86397958a7f61267a071354850bb246666862819\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_1465802db85315664589399bdcca99c026945bcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\core-3.3.0_3f166481bd95604c9d18dce3ac90cd37049409f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\0a9cf483dfc9383c1bf970a9cb1d5fc7b19f6265\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="42a37372fca7123a593202ba76a7f98fbd691f05">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_954cbd4b687d16075d82ae2797483035d4b70455\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\commons-codec-1.10_77183437e43d03fbf04d48242f704eeda6368256\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\344b7ffb084cf7d210857f6f60c107ea770bd030\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a1bf9b692415450434f79cdd7c4b590103898030\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\96d73ad08e251d28c3fa895b8c9cd4df48d665df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_69606169782f8866211859c4b0f40b4bb745dbc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\5d46f2e9a8cee5c694e1edec4addb02570d3afae\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6eb79bde4cf6bbb7573bcf7dfbaf8a313f57612e">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_06b6dae5e12ac97f2767378221f6fa3c9b1c1cc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.1\e1bb32b12b25e2f78e6786059ca7ea878f8345e0\support-annotations-26.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\support-annotations-26.0.1_5ae76ce64a56791aa2648f41d0c861140cafad65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\0a109aa8788f5847f7d3acaa6819fdbf6da610c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b4b09fb05cdf88818c212ca958c223fddd81031c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\11b08cf691c6bcaf1d3262f870b47a9358b977f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_4b107406ed3f54920397deb32058c6cb8cdda8d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.facebook.stetho\stetho\1.3.1\2c4076b466a0eb4d6ddf5721edd35cd1adc1f317\stetho-1.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\stetho-1.3.1_6e7f3e65625ff7497ada0d5cad2c6383a6339d3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\0b82c294672d76082f1e623328e30a05eb49d24b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a2f9209ff0d33539df6866d019181ecd1ecd047">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_33bb07fe21822823628856c436b166332795446b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\maven\expolib_v1\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89890cffce351fec7caf3fdfd4351c7f4b4769b4">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okio-1.13.0_dbf8d432a90e29d64c17e6e3eccc991ed3514d7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\49d07fef86d121cee5a86284dcf5cf7c6336d3af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a774607cf90ca991586347daa59ed0de0ad9cb49">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_dd83dc04939883fa87140e200070c5bf1649e3a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\dfc311fa6eccbcd8d21fd2a896f5026e5f5cd94c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_532a41947e2e0c8335e5a87059ffa170252662f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okhttp-3.4.1_9c6360426e4a2dba8461e725492592a372b82f99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\e3eee76896d57b0d93c750e6d2d0047264f189bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5752490d7d5d13ace4be85060a9441c29914a9ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ff4ae4d5fcf15247d42656a4b343d056cb322707\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="edaed5c051302ba960315d8e3161935f3df40f65">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_eab0eaff442d68621919626feaba3b811533be22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\okio-1.9.0_adefd96d2ec1c13878a434f836af6b144eaec672\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\c45aec0785a6d4ba52726305cb57fb8be9b75031\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_015d4015fde0fc114b958a148533351b9523507f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\5d46f2e9a8cee5c694e1edec4addb02570d3afae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cac4539de2fbfcb1c4c44c55166f0332b92d34b7">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6357e6b475b5feff30c84fd4dd53c80d5b5e346b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ffd5f94046fe00f921db57a75d452500a57f946e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03530f261b6f66dbcae414f12c732bd943f5ba53">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_37713d88bd8b8e207b6337ed1639aec8d187bfc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ffdef8c2cad64a6395a9aefef4b8d87fb03cceec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfb92acadeeff1086115fff6b318e95df8b2b29">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_35626bfc856a32f3e13d1fd7abe1f9175036233d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\aed029a506922012368c7b145830c68befaa5d17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a88eaa7f9a31907def9a7968367475bdf5170be">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_c9cdbe511965262be7c5fbf38dbe25eaf419f9f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\d9b2692242478d4463cf36d25a2d6ea6c50f6dd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b735a82ad2237864ce8a6e03fff7718748d5fce1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\d72781c3c40eeb34734a4a05b2b20ccb02ec4f53\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a96390d5b7d02ab3cdcf7dfb3ef5ccd7d512c7fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\33e8fc62cdfd0a4246d7d55442ebcb47340e9df9\output\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f9558f8bf566536221101e576b5c398787cfcbc3">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\infer-annotations-4.0_0987ffbcff157f436047997eec359bb14736b436\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ccbf21c11efda15715defc77058369cfba427573\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c97dc8446f6a46da5620f40b3737e162d53c40c2">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_c57dd6ba037e3501eb5121cdfa86d10981527f71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ddbdbd7176618a32a653b006b9e33c429aab9654\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_a9a00303f0c876ddb1cc379e12c291745aa58f31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.facebook.device.yearclass\yearclass\1.0.1\adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22\yearclass-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="adfc67ed7e13d1648f20c2a5d6cb757ce43d9c22">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\yearclass-1.0.1_73ea260f5a25805bcfea9889df73b630235c8358\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\picasso-2.5.2_c700ced369d1145a0199ac357d2ec6a5660cf3c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\4d646db4fe77946532dacf4eba2c95ef8c30efaf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_cc9f63fc5349364ffe16e6da12af599b30907be9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_5ec191379a54ce5b95de21765fefda972672dd7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\5ab6ddaa372a295e49135910f4e9c13d9f374063\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_40147e3bcd8de409d38b336fdce61c444c5035e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\fdbb19eda8b7943dae57134034a73b93375c0745\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_0b4643b6c231afed359c8e657a9daeb5dd5986f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\1167e7a9c6a798cd27dc33bb357b10ab83e8685f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="418dca1ee8bac0cc2f78f8f34b594c4d89eec057">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_879f2b37a2f98655c8a73f5381ffed02c8e552d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pearl\.android\build-cache\ec8ed96b24ca15eb3042161c8acec9dcaf4646ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec224ad624f39212bacaf5903d989fe066166e7a">
+        <dex dex="C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_6810163370ba92c9d5f3ce98427ae12adc4923fd\classes.dex" />
     </item>
 
 </items>

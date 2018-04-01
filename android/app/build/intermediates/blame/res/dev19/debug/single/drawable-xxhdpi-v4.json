@@ -1,350 +1,698 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png",
-        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_pause.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_pause.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/cc_back.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/cc_back.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_amex.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_amex.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_amex.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_amex.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_next.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_next.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_visa.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_visa.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_diners.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_diners.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f41dea6ff7a0d989ed2804ba24eeea414bae141\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_placeholder.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_placeholder.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_rewind.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_rewind.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_rotate_left.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a0d0737971f4149172ef6b0bbc788c4610a938f4\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_rotate_left.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/messenger_bubble_small_blue.png",
-        "source": "/Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/res/drawable-xxhdpi-v4/messenger_bubble_small_blue.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_flip.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\aed029a506922012368c7b145830c68befaa5d17\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_flip.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_rotate_left.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\aed029a506922012368c7b145830c68befaa5d17\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_rotate_left.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_fullscreen_32dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a556dc34ddff78ec6a4904449e14ab76a665852d\\output\\res\\drawable-xxhdpi-v4\\ic_fullscreen_32dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_previous.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_previous.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/messenger_button_send_round_shadow.png",
-        "source": "/Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/res/drawable-xxhdpi-v4/messenger_button_send_round_shadow.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/crop_image_menu_rotate_left.png",
-        "source": "/Users/jo/.android/build-cache/a0d0737971f4149172ef6b0bbc788c4610a938f4/output/res/drawable-xxhdpi-v4/crop_image_menu_rotate_left.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_fullscreen_32dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\drawable-xxhdpi-v4\\ic_fullscreen_32dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/com_facebook_button_icon_white.png",
-        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/drawable-xxhdpi-v4/com_facebook_button_icon_white.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\16f6196d73031d8a0f5a3bf602aa31b99cf2ac21\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_pause.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_pause.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_discover.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_discover.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_jcb.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_jcb.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_visa.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_visa.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/crop_image_menu_flip.png",
-        "source": "/Users/jo/.android/build-cache/a0d0737971f4149172ef6b0bbc788c4610a938f4/output/res/drawable-xxhdpi-v4/crop_image_menu_flip.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png",
-        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_fullscreen_exit_32dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a556dc34ddff78ec6a4904449e14ab76a665852d\\output\\res\\drawable-xxhdpi-v4\\ic_fullscreen_exit_32dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_play.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_play.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_fullscreen_32dp.png",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/drawable-xxhdpi-v4/ic_fullscreen_32dp.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_diners.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_diners.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/messenger_bubble_large_blue.png",
-        "source": "/Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/res/drawable-xxhdpi-v4/messenger_bubble_large_blue.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\e3df244c7084a6c8d54c1e261f58b80eea5981ca\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon_white.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\e3df244c7084a6c8d54c1e261f58b80eea5981ca\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon_white.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\cc_back.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\cc_back.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_jcb.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_jcb.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/messenger_bubble_small_white.png",
-        "source": "/Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/res/drawable-xxhdpi-v4/messenger_bubble_small_white.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_rotate_right.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\aed029a506922012368c7b145830c68befaa5d17\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_rotate_right.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_fastforward.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_fastforward.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_discover.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_discover.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\fdbb19eda8b7943dae57134034a73b93375c0745\\output\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_flip.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a0d0737971f4149172ef6b0bbc788c4610a938f4\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_flip.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_fastforward.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_fastforward.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_fullscreen_exit_32dp.png",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/drawable-xxhdpi-v4/ic_fullscreen_exit_32dp.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png",
-        "source": "/Users/jo/.android/build-cache/6f41dea6ff7a0d989ed2804ba24eeea414bae141/output/res/drawable-xxhdpi-v4/com_facebook_button_send_icon_white.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/crop_image_menu_rotate_right.png",
-        "source": "/Users/jo/.android/build-cache/a0d0737971f4149172ef6b0bbc788c4610a938f4/output/res/drawable-xxhdpi-v4/crop_image_menu_rotate_right.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/ic_card_mastercard.png",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xxhdpi-v4/ic_card_mastercard.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/messenger_bubble_large_white.png",
-        "source": "/Users/jo/.android/build-cache/16f6196d73031d8a0f5a3bf602aa31b99cf2ac21/output/res/drawable-xxhdpi-v4/messenger_bubble_large_white.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_rewind.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_rewind.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon_white.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6371fbed2c0731946b4592467a34d8872c8db270\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon_white.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_play.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_play.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\e3df244c7084a6c8d54c1e261f58b80eea5981ca\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon_blue.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_previous.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_previous.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\16f6196d73031d8a0f5a3bf602aa31b99cf2ac21\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xxhdpi-v4/exo_controls_pause.png",
-        "source": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/drawable-xxhdpi-v4/exo_controls_pause.png"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_fullscreen_exit_32dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\drawable-xxhdpi-v4\\ic_fullscreen_exit_32dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_diners.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_diners.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_fastforward.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_fastforward.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_play.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_play.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_next.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e\\output\\res\\drawable-xxhdpi-v4\\exo_controls_next.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\16f6196d73031d8a0f5a3bf602aa31b99cf2ac21\\output\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\fdbb19eda8b7943dae57134034a73b93375c0745\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_visa.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_visa.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\fdbb19eda8b7943dae57134034a73b93375c0745\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_mastercard.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_mastercard.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_amex.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_amex.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\fdbb19eda8b7943dae57134034a73b93375c0745\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\16f6196d73031d8a0f5a3bf602aa31b99cf2ac21\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_mastercard.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_mastercard.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\d72781c3c40eeb34734a4a05b2b20ccb02ec4f53\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_discover.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_discover.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_next.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_jcb.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_jcb.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6f1d14b9240321e544bec9c8a37a902bc6b9fbd4\\output\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_rewind.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_rewind.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_placeholder.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\drawable-xxhdpi-v4\\ic_card_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\ic_card_placeholder.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\ic_card_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\16f6196d73031d8a0f5a3bf602aa31b99cf2ac21\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\cc_back.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\76f4ec29c90b852495d6c161be8bb5c024a9bb96\\output\\res\\drawable-xxhdpi-v4\\cc_back.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6371fbed2c0731946b4592467a34d8872c8db270\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\crop_image_menu_rotate_right.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\a0d0737971f4149172ef6b0bbc788c4610a938f4\\output\\res\\drawable-xxhdpi-v4\\crop_image_menu_rotate_right.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\6371fbed2c0731946b4592467a34d8872c8db270\\output\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\jo\\portfolio\\plant_identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\jo\\.android\\build-cache\\36e66d625747374a59906833560aab5edf3f8c09\\output\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\exo_controls_previous.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\drawable-xxhdpi-v4\\exo_controls_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\fdbb19eda8b7943dae57134034a73b93375c0745\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
     }
 ]
