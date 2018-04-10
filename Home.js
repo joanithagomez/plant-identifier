@@ -35,12 +35,14 @@ export default class Home extends React.Component {
   componentDidMount() {
     FileSystem.getInfoAsync(FileSystem.documentDirectory + "photos").then(res => {
       if (!res.exists) {
-        FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos").catch(e => {
+        FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos",{
+          intermediates: true,
+        }).catch(e => {
           console.log(e, "Directory exists");
         });
       }
     });
-    
+
   }
 
   takePicture = async function() {

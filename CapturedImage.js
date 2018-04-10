@@ -13,27 +13,59 @@ export default class CapturedImage extends Component {
 constructor(){
   super();
   this.state = {
-    result: "",
     image: null,
-  };
+    result: ""
+  }
 }
 
-  componentDidMount() {
-      this._pickImage();
+   componentDidMount() {
+    this._pickImage();
   }
+
   _pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
-      // allowsEditing: true,
       aspect: [4, 3]
     });
 
+    console.log("FileSystem.documentDirectory : " + FileSystem.documentDirectory );
+    console.log("FileSystem.cacheDirectory : " + FileSystem.cacheDirectory );
+
     if (!result.cancelled) {
-      this.setState({
-        image: result.uri,
-        showImage: true
-      },() => this.recognizeImage());
+      try{
+
+        let res = FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
+          if (!res.exists) {
+            FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "selectedImages/").catch(e => {
+              console.log(e, "Directory exists");
+            });
+          }
+
+        let info = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
+        console.log(info);
+
+        let arr = (result.uri).split('/');
+        let filename = arr[arr.length-1];
+
+        await FileSystem.copyAsync({
+            from: result.uri,
+            to: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`
+          });
+
+
+        this.setState({
+          image: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`
+        });
+
+      let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "selectedImages/");
+      console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
+      this.recognizeImage();
+      }
+      catch(e){
+        console.log(e);
+      }
     }
-  };
+
+  }
 
 
   async recognizeImage() {
@@ -46,10 +78,14 @@ constructor(){
         imageStd: 128,
       })
 
+      var img = decodeURI(this.state.image).replace("file://","");
+      console.log("Passing to tf: " + img);
       const results = await tfImageRecognition.recognize({
-        image: this.state.image,
+        image: img,
         outputName:"final_result"
-      })
+      });
+
+
       const resultText = `Name: ${results[0].name} - Confidence: ${results[0].confidence}`
       this.setState({result: resultText})
 
@@ -59,42 +95,32 @@ constructor(){
     }
   }
 
-  render() {
-    return (
-      <View style={{ flex: 1 }}>
-        <Text style={styles.backButton} onPress={this._goBackHome}>
-          Go back home
-        </Text>
-        {this.state.image && (<View>
-          <Image source={{ uri: this.state.image }} style={styles.pic} />
-          <Text style={styles.results}>
-            {this.state.result}
+    render() {
+      return (
+        <View style={styles.container}>
+          {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
+          <Text style={styles.welcome}>
+            This is a picture of.. {this.state.result}
           </Text>
         </View>
-
-        )}
-      </View>
-    );
+      );
+    }
   }
 
-  _goBackHome = () => {
-    this.props.navigator.pop();
-  };
-}
-
-
-const styles = StyleSheet.create({
-  backButton: {
-    padding: 10,
-    backgroundColor: "indianred"
-  },
-  results: {
-   textAlign: 'center',
-   color: '#333333',
-   marginBottom: 5,
- },
-  pic: {
-    width: 600,
-    height: 800
-  }
-});
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#F5FCFF',
+    },
+    results: {
+      textAlign: 'center',
+      color: '#333333',
+      marginBottom: 5,
+    },
+    image: {
+      width: 150,
+      height: 100
+    },
+  });

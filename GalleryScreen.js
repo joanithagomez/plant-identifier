@@ -24,7 +24,6 @@ export default class GalleryScreen extends React.Component {
           {
             photos,
           },
-          this.detectFaces
         );
       }
     });

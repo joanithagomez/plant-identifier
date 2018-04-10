@@ -8,10 +8,30 @@
   },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "postinstall": "react-native-schemes-manager all"
   },
   "jest": {
     "preset": "jest-expo"
+  },
+  "xcodeSchemes": {
+    "Debug": [
+      "Staging",
+      "Preflight"
+    ],
+    "Release": [
+      "Beta"
+    ],
+    "projectDirectory": "iOS",
+    "settings": {
+      "fix-script": {
+        "env": {
+          "NODE_BINARY": "/usr/bin/node6",
+          "LOGGING_LEVEL": "4"
+        },
+        "nodeCommand": "$NODE_BINARY ../node_modules/@sentry/cli/bin/sentry-cli react-native xcode"
+      }
+    }
   },
   "dependencies": {
     "@expo/ex-navigation": "^4.2.0",
@@ -21,6 +41,7 @@
     "react": "16.2.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
     "react-native-camera": "^1.0.0",
+    "react-native-schemes-manager": "^1.0.4",
     "react-native-tensorflow": "^0.1.6"
   }
 }

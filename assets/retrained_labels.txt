@@ -1,0 +1,10 @@
+agave 
+bamboo 
+daffodil 
+daisy 
+iris 
+lavender 
+orchid 
+rose 
+sunflower 
+tulip 
