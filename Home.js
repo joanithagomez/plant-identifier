@@ -161,7 +161,7 @@ export default class Home extends React.Component {
   }
 
   _goToImageScreen = () => {
-    this.props.navigator.push("image");
+    this.props.navigation.navigate('Image');
   };
 
   render() {

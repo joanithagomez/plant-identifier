@@ -1,7 +1,8 @@
 import React, {Component} from "react";
-import { CameraRoll, StyleSheet, Text, View, Image } from "react-native";
+import { CameraRoll, StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
 import { Constants, Camera, FileSystem, Permissions, ImagePicker } from "expo";
 import { TfImageRecognition } from 'react-native-tensorflow';
+import PlantInfo from "./PlantInfo";
 
 export default class CapturedImage extends Component {
   static route = {
@@ -26,9 +27,6 @@ constructor(){
     let result = await ImagePicker.launchImageLibraryAsync({
       aspect: [4, 3]
     });
-
-    console.log("FileSystem.documentDirectory : " + FileSystem.documentDirectory );
-    console.log("FileSystem.cacheDirectory : " + FileSystem.cacheDirectory );
 
     if (!result.cancelled) {
       try{
@@ -57,7 +55,7 @@ constructor(){
         });
 
       let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "selectedImages/");
-      console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
+      // console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
       this.recognizeImage();
       }
       catch(e){
@@ -69,7 +67,6 @@ constructor(){
 
 
   async recognizeImage() {
-
     try {
       const tfImageRecognition = new TfImageRecognition({
         model:require('./assets/model/optimized_graph.pb'),
@@ -86,7 +83,7 @@ constructor(){
       });
 
 
-      const resultText = `Name: ${results[0].name} - Confidence: ${results[0].confidence}`
+      const resultText = `${results[0].name}`
       this.setState({result: resultText})
 
       await tfImageRecognition.close()
@@ -94,7 +91,12 @@ constructor(){
       alert(err)
     }
   }
-
+  //
+  // _goToInfoscreen = (name) => {
+  //   console.log(name);
+  //   this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
+  // };
+  //
     render() {
       return (
         <View style={styles.container}>
@@ -102,6 +104,17 @@ constructor(){
           <Text style={styles.welcome}>
             This is a picture of.. {this.state.result}
           </Text>
+        {(this.state.result) !== "" && <PlantInfo itemWiki={{item : this.state.result}}></PlantInfo>}
+          {/* <TouchableOpacity
+          style={styles.buttonInfo}
+          onPress={() => {
+            this._goToInfoscreen(this.state.result);
+          }}>
+          <Text style={styles.textInfo}>
+            {this.state.result}
+          </Text>
+
+        </TouchableOpacity> */}
         </View>
       );
     }
@@ -119,6 +132,17 @@ constructor(){
       color: '#333333',
       marginBottom: 5,
     },
+  buttonInfo: {
+    margin: 15,
+    padding: 20,
+    width: 175,
+    alignItems: 'center',
+    backgroundColor: 'steelblue',
+  },
+  textInfo: {
+    fontSize: 18,
+    color: 'white',
+  },
     image: {
       width: 150,
       height: 100
