@@ -5,6 +5,7 @@ import PlantInfo from "./PlantInfo";
 import Recognize from "./Recognize";
 import GalleryScreen from "./GalleryScreen";
 import Login from "./Login";
+import Guess from "./Guess";
 
 import { StackNavigator } from 'react-navigation';
 
@@ -27,10 +28,13 @@ const RootStack = StackNavigator(
     },
     Login: {
       screen: Login,
+    },
+    Guess:{
+      screen: Guess,
     }
   },
   {
-    initialRouteName: 'Login',
+    initialRouteName: 'Home',
   }
 );
 export default class App extends React.Component {

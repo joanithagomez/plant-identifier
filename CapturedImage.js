@@ -3,6 +3,7 @@ import { CameraRoll, StyleSheet, Text, TouchableOpacity, View, Image } from "rea
 import { Constants, Camera, FileSystem, Permissions, ImagePicker } from "expo";
 import { TfImageRecognition } from 'react-native-tensorflow';
 import PlantInfo from "./PlantInfo";
+import Guess from "./Guess";
 
 export default class CapturedImage extends Component {
   static route = {
@@ -15,7 +16,8 @@ constructor(){
   super();
   this.state = {
     image: null,
-    result: ""
+    result: "",
+    options:[],
   }
 }
 
@@ -82,9 +84,14 @@ constructor(){
         outputName:"final_result"
       });
 
+      console.log("Tf recognition plants result:" + results);
+
 
       const resultText = `${results[0].name}`
-      this.setState({result: resultText})
+      this.setState({
+        // options: [results[0].name, results[1].name, results[2].name],
+        result: resultText,
+      });
 
       await tfImageRecognition.close()
     } catch(err) {
@@ -101,10 +108,8 @@ constructor(){
       return (
         <View style={styles.container}>
           {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
-          <Text style={styles.welcome}>
-            This is a picture of.. {this.state.result}
-          </Text>
-        {(this.state.result) !== "" && <PlantInfo itemWiki={{item : this.state.result}}></PlantInfo>}
+          {(this.state.result) !== "" && <Guess option={this.state.result} {...this.props}></Guess>}
+        {/* {(this.state.result) !== "" && <PlantInfo itemWiki={{item : this.state.result}}></PlantInfo>} */}
           {/* <TouchableOpacity
           style={styles.buttonInfo}
           onPress={() => {

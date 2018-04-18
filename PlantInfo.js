@@ -58,13 +58,16 @@ export default class PlantInfo extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isLoading: true };
+    // console.log("Props in plantinfo: " + this.props);
+    // for(var property in this.props.navigation.state.params){
+    //   console.log(property);
+    // }
   }
 
   componentDidMount() {
-    // const { params } = this.props.navigation.state;
-    // const itemWiki = params ? params.itemWiki : null;
-    const itemWiki = this.props.itemWiki;
-    console.log(itemWiki);
+    const { params } = this.props.navigation.state;
+    const itemWiki = params ? params.itemWiki : null;
+    // console.log("itemWiki: " +this.props.navigation.state);
     var convertItemWikii = itemWiki.item;
     var urlWiki = initialArr[convertItemWikii].wiki;
 
