@@ -38,6 +38,8 @@
     "auth0-js": "^9.3.2",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "expo": "^25.0.0",
+    "firebase": "^4.12.1",
+    "native-base": "^2.4.2",
     "react": "16.2.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
     "react-native-camera": "^1.0.0",

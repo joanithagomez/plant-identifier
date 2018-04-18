@@ -24,7 +24,9 @@ export default class Home extends React.Component {
     showCam: false,
     photoId: 1,
     showGallery: false,
-    showImage: false
+    showImage: false,
+    image:null,
+    result: '',
   };
 
   async componentWillMount() {
@@ -51,15 +53,20 @@ export default class Home extends React.Component {
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
         console.log("uri:" + data.uri);
         console.log("saveResult: " + saveResult);
+        let arr = (data.uri).split('/');
+        let filename = arr[arr.length-1];
 
         FileSystem.moveAsync({
           from: data.uri,
-          to: `${FileSystem.documentDirectory}photos/Photo_${this.state.photoId}.jpg`
+          to: `${FileSystem.documentDirectory}photos/Photo_${filename}`
         }).then(() => {
           this.setState({
-            photoId: this.state.photoId + 1
+            image: `${FileSystem.documentDirectory}photos/Photo_${filename}`
           });
           Vibration.vibrate();
+          // this.recognizeImage();
+          // this._goToInfoscreen(this.state.result);
+          // this.props.navigation.navigate('Recognize');
         });
       });
     }
@@ -132,6 +139,12 @@ export default class Home extends React.Component {
               >
                 <Text style={styles.flipText}>Gallery</Text>
               </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.flipButton, { flex: 0.25, alignSelf: "flex-end" }]}
+                onPress={this._goToGalleryScreen}
+              >
+                <Text style={styles.flipText}>Manage</Text>
+              </TouchableOpacity>
             </View>
           </Camera>
         </View>
@@ -163,6 +176,41 @@ export default class Home extends React.Component {
   _goToImageScreen = () => {
     this.props.navigation.navigate('Image');
   };
+
+  _goToGalleryScreen = () =>{
+    this.props.navigation.navigate('GalleryScreen');
+  }
+
+    // async recognizeImage() {
+    //   try {
+    //     const tfImageRecognition = new TfImageRecognition({
+    //       model:require('./assets/model/optimized_graph.pb'),
+    //       labels: require('./assets/model/retrained_labels.txt'),
+    //       imageMean: 128,
+    //       imageStd: 128,
+    //     })
+    //
+    //     var img = decodeURI(this.state.image).replace("file://","");
+    //     // console.log("Passing to tf: " + img);
+    //     const results = await tfImageRecognition.recognize({
+    //       image: img,
+    //       outputName:"final_result"
+    //     });
+    //
+    //
+    //     const resultText = `${results[0].name}`
+    //     this.setState({result: resultText})
+    //
+    //     await tfImageRecognition.close();
+    //
+    //   } catch(err) {
+    //     alert(err)
+    //   }
+    // }
+
+    // _goToInfoscreen(name){
+    //   this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
+    // }
 
   render() {
     let currentView;

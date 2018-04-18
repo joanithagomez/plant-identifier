@@ -28,12 +28,12 @@
         "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
-        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
-    },
-    {
         "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/common_full_open_on_phone.png",
         "source": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
+        "source": "/Users/jo/.android/build-cache/6371fbed2c0731946b4592467a34d8872c8db270/output/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
@@ -68,12 +68,12 @@
         "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/drawable-xhdpi-v4/ic_card_diners.png"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
         "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png",

@@ -94,7 +94,7 @@ constructor(){
   //
   // _goToInfoscreen = (name) => {
   //   console.log(name);
-  //   this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
+    // this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
   // };
   //
     render() {
