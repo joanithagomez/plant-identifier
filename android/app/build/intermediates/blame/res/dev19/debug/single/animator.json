@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_left_in.xml",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/animator/card_flip_left_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_right_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\animator\\card_flip_right_out.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_right_in.xml",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/animator/card_flip_right_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_left_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\animator\\card_flip_left_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_left_out.xml",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/animator/card_flip_left_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_right_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\animator\\card_flip_right_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/animator/card_flip_right_out.xml",
-        "source": "/Users/jo/.android/build-cache/a556dc34ddff78ec6a4904449e14ab76a665852d/output/res/animator/card_flip_right_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_left_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\8f126cf3b27b34762eeeaa814ab5489b505a86aa\\output\\res\\animator\\card_flip_left_out.xml"
     }
 ]

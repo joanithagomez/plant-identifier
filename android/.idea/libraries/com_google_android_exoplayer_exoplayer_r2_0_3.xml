@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.google.android.exoplayer:exoplayer-r2.0.3">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/6ae789a7467c1a5629c78ca37c88994c376ab267/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6ae789a7467c1a5629c78ca37c88994c376ab267/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,0 +1,42 @@
+-injars 'C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\transforms\jarMerging\dev19\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\multi-dex\dev19\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Pearl\AppData\Local\Android\Sdk\build-tools\26.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\Pearl\Documents\GitHub\plant-identifier\android\app\build\intermediates\multi-dex\dev19\debug\components.flags'
+
+
+# view AndroidManifest.xml #generated:104
+-keep class host.exp.exponent.MainApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

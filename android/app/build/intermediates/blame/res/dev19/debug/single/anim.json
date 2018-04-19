@@ -1,98 +1,98 @@
 [
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_popup_enter.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_fade_in.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_fade_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/slide_up.xml",
-        "source": "/Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/res/anim/slide_up.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\5d46f2e9a8cee5c694e1edec4addb02570d3afae\\output\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/fade_in.xml",
-        "source": "/Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/res/anim/fade_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\tooltip_exit.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/fade_out.xml",
-        "source": "/Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/res/anim/fade_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_slide_up.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_slide_up.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\anim\\shake.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\slide_up.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\5d46f2e9a8cee5c694e1edec4addb02570d3afae\\output\\res\\anim\\slide_up.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_fade_in.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_fade_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_slide_up.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_slide_up.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/slide_down.xml",
-        "source": "/Users/jo/.android/build-cache/75162b2ab77c0f0f25c719816f026b9e3065806d/output/res/anim/slide_down.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\cycle.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\a4eb69f63eb3103fbcb720600dc63706e95ca7fa\\output\\res\\anim\\cycle.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_fade_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_fade_out.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_fade_out.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_fade_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\5d46f2e9a8cee5c694e1edec4addb02570d3afae\\output\\res\\anim\\fade_out.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/tooltip_enter.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/tooltip_enter.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\tooltip_enter.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_slide_down.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_slide_down.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\slide_down.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\5d46f2e9a8cee5c694e1edec4addb02570d3afae\\output\\res\\anim\\slide_down.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_push_up_out.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_push_up_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_fade_out.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_fade_out.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_push_up_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/abc_popup_exit.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/cycle.xml",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/anim/cycle.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_push_up_out.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/tooltip_exit.xml",
-        "source": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/anim/tooltip_exit.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/shake.xml",
-        "source": "/Users/jo/.android/build-cache/76f4ec29c90b852495d6c161be8bb5c024a9bb96/output/res/anim/shake.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_fade_in.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_fade_in.xml"
     },
     {
-        "merged": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/res/merged/dev19/debug/anim/catalyst_push_up_in.xml",
-        "source": "/Users/jo/.android/build-cache/b8cb5462eff50ac6f775c05a6bb3cd40b1e48798/output/res/anim/catalyst_push_up_in.xml"
+        "merged": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_slide_down.xml",
+        "source": "C:\\Users\\Pearl\\.android\\build-cache\\c9926cf5955849ec4679acf1e5475a3220f91a6f\\output\\res\\anim\\catalyst_slide_down.xml"
     }
 ]

@@ -1,4 +1,0 @@
-#Tue Apr 17 01:49:36 PDT 2018
-base.0=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_1
-renamed.0=classes.dex
-file.0=/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_1/classes.dex

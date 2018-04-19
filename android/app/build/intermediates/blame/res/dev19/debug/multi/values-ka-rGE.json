@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml",
+        "outputFile": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 208
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 275
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 420
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 497
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 566
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/bb8aa0e89b97ff0c4b8fb05e4d91a733398d4c0e/output/res/values-ka-rGE/values-ka-rGE.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6ae789a7467c1a5629c78ca37c88994c376ab267\\output\\res\\values-ka-rGE\\values-ka-rGE.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

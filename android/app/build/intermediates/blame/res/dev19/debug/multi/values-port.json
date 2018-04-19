@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-port/values-port.xml",
+        "outputFile": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-port/values-port.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

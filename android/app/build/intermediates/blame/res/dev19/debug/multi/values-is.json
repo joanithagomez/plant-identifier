@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-is/values-is.xml",
+        "outputFile": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-is\\values-is.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 308
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 431
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 528
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 640
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 725
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 826
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1020
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1100
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1181
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1291
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1399
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1497
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1606
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1705
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1808
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1926
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2024
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2207
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2393
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2520
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2631
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2831
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 2958
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3092
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3280
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/9cae91fe9db49de15241b917bcc5b2c616994faa/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\ed1f60906f2321d4eed77e7f45380163140daf3b\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3493
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3601
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 3789
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 3917
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 4118
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 4302
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 4396
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 4489
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -695,7 +695,7 @@
                     "endOffset": 4597
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/6f1d14b9240321e544bec9c8a37a902bc6b9fbd4/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\b3fddcb452618f5af29c4d9a89e9b40e606c8006\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -714,7 +714,7 @@
                     "endOffset": 4724
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -733,7 +733,7 @@
                     "endOffset": 4828
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -752,7 +752,7 @@
                     "endOffset": 4938
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -771,7 +771,7 @@
                     "endOffset": 5041
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -790,7 +790,7 @@
                     "endOffset": 5143
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -809,7 +809,7 @@
                     "endOffset": 5239
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -828,7 +828,7 @@
                     "endOffset": 5311
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -847,7 +847,7 @@
                     "endOffset": 5392
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -866,7 +866,7 @@
                     "endOffset": 5493
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/36e66d625747374a59906833560aab5edf3f8c09/output/res/values-is/values-is.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\6264ec6bd4e91e4af627ffff8b87bc42a65ef2a0\\output\\res\\values-is\\values-is.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -885,7 +885,7 @@
                     "endOffset": 5620
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -904,7 +904,7 @@
                     "endOffset": 5709
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/449dab6c8914d26d82d372f72d31534d9e2e60c5/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\0f27a6ea529cfa139ee5a92c803bf57f5dee7b76\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -923,7 +923,7 @@
                     "endOffset": 5814
                 },
                 "from": {
-                    "file": "/Users/jo/.android/build-cache/daff09bbab3286f345754c751453b0eb8c3c4303/output/res/values-is/values.xml",
+                    "file": "C:\\Users\\Pearl\\.android\\build-cache\\c45aec0785a6d4ba52726305cb57fb8be9b75031\\output\\res\\values-is\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.facebook.fresco:imagepipeline-base-1.0.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/b6bc15b15debcd04f75571f3a622c332f290d36d/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/b6bc15b15debcd04f75571f3a622c332f290d36d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/16b7bb057ce791fb84ff0877ae93854f1c29e39d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/16b7bb057ce791fb84ff0877ae93854f1c29e39d/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

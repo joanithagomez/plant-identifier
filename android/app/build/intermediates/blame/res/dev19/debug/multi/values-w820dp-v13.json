@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/incremental/mergeDev19DebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/jo/portfolio/plant_identifier/android/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "C:\\Users\\Pearl\\Documents\\GitHub\\plant-identifier\\android\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 2,
-                        "startOffset": 287,
+                        "startOffset": 291,
                         "endColumn": 55,
-                        "endOffset": 340
+                        "endOffset": 344
                     }
                 }
             }
