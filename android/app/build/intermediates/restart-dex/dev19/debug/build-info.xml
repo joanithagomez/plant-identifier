@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1524084328389"
+    timestamp="1524123945449"
     token="-6772420097162327113"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,7 +25,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1524083899555"
+        timestamp="1524115187786"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk"
@@ -66,15 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1524084013733"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/jo/portfolio/plant_identifier/android/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1524084328389"
+        timestamp="1524123945449"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

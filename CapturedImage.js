@@ -98,28 +98,14 @@ constructor(){
       alert(err)
     }
   }
-  //
-  // _goToInfoscreen = (name) => {
-  //   console.log(name);
-    // this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
-  // };
-  //
+
+  
     render() {
       return (
         <View style={styles.container}>
           {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
           {(this.state.result) !== "" && <Guess option={this.state.result} {...this.props}></Guess>}
-        {/* {(this.state.result) !== "" && <PlantInfo itemWiki={{item : this.state.result}}></PlantInfo>} */}
-          {/* <TouchableOpacity
-          style={styles.buttonInfo}
-          onPress={() => {
-            this._goToInfoscreen(this.state.result);
-          }}>
-          <Text style={styles.textInfo}>
-            {this.state.result}
-          </Text>
 
-        </TouchableOpacity> */}
         </View>
       );
     }

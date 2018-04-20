@@ -2,14 +2,11 @@ import React from "react";
 import {
   CameraRoll,
   StyleSheet,
-  Text,
   View,
-  Image,
-  TouchableOpacity,
-  Button,
-  Vibration
+  Image
 } from "react-native";
 import { Constants, Camera, FileSystem, Permissions, ImagePicker } from "expo";
+import { Container,Button, Icon, Text } from 'native-base';
 
 export default class Home extends React.Component {
   static route = {
@@ -18,213 +15,30 @@ export default class Home extends React.Component {
     }
   };
 
-  state = {
-    hasCameraPermission: null,
-    type: "Camera.Constants.Type.back",
-    showCam: false,
-    photoId: 1,
-    showGallery: false,
-    showImage: false,
-    image:null,
-    result: '',
-  };
-
-  async componentWillMount() {
-    const { status } = await Permissions.askAsync(Permissions.CAMERA);
-    this.setState({ hasCameraPermission: status === "granted" });
-  }
-
-  componentDidMount() {
-    FileSystem.getInfoAsync(FileSystem.documentDirectory + "photos").then(res => {
-      if (!res.exists) {
-        FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos",{
-          intermediates: true,
-        }).catch(e => {
-          console.log(e, "Directory exists");
-        });
-      }
-    });
-
-  }
-
-  takePicture = async function() {
-    if (this.camera) {
-      this.camera.takePictureAsync().then(data => {
-        let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
-        console.log("uri:" + data.uri);
-        console.log("saveResult: " + saveResult);
-        let arr = (data.uri).split('/');
-        let filename = arr[arr.length-1];
-
-        FileSystem.moveAsync({
-          from: data.uri,
-          to: `${FileSystem.documentDirectory}photos/Photo_${filename}`
-        }).then(() => {
-          this.setState({
-            image: `${FileSystem.documentDirectory}photos/Photo_${filename}`
-          });
-          Vibration.vibrate();
-          // this.recognizeImage();
-          // this._goToInfoscreen(this.state.result);
-          // this.props.navigation.navigate('Recognize');
-        });
-      });
-    }
-  };
-
-  openCam() {
-    const { hasCameraPermission } = this.state;
-    if (hasCameraPermission == null) {
-      return (
-        <View>
-          <Text>Permission:null</Text>
-        </View>
-      );
-    } else if (hasCameraPermission === false) {
-      return <Text>No access</Text>;
-    } else {
-      return (
-        <View
-          style={{
-            flex: 1
-          }}
-        >
-          <Camera
-            style={{ flex: 1 }}
-            ref={ref => {
-              this.camera = ref;
-            }}
-            type={this.state.type}
-          >
-            <View
-              style={{
-                flex: 1,
-                backgroundColor: "transparent",
-                flexDirection: "row"
-              }}
-            >
-              <TouchableOpacity
-                style={{
-                  flex: 1,
-                  alignSelf: "flex-end",
-                  alignItems: "center"
-                }}
-                onPress={() => {
-                  this.setState({
-                    type:
-                      this.state.type === Camera.Constants.Type.back
-                        ? Camera.Constants.Type.front
-                        : Camera.Constants.Type.back
-                  });
-                }}
-              >
-                <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
-                  {" "}
-                  Flip{" "}
-                </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[
-                  styles.flipButton,
-                  styles.picButton,
-                  { flex: 0.3, alignSelf: "flex-end" }
-                ]}
-                onPress={this.takePicture.bind(this)}
-              >
-                <Text style={styles.flipText}> SNAP </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, { flex: 0.25, alignSelf: "flex-end" }]}
-                onPress={this._goToImageScreen}
-              >
-                <Text style={styles.flipText}>Gallery</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, { flex: 0.25, alignSelf: "flex-end" }]}
-                onPress={this._goToGalleryScreen}
-              >
-                <Text style={styles.flipText}>Manage</Text>
-              </TouchableOpacity>
-            </View>
-          </Camera>
-        </View>
-      );
-    }
-  }
-
-  initialView() {
-    return (
-      <View style={styles.container}>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => {
-            this.setState({
-              showCam: true
-            });
-          }}
-        >
-          <Text style={styles.flipText}> Take Photo </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.button} onPress={this._goToImageScreen}>
-          <Text style={styles.flipText}>Open Gallery</Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
-
-  _goToImageScreen = () => {
-    this.props.navigation.navigate('Image');
-  };
-
-  _goToGalleryScreen = () =>{
-    this.props.navigation.navigate('GalleryScreen');
-  }
-
-    // async recognizeImage() {
-    //   try {
-    //     const tfImageRecognition = new TfImageRecognition({
-    //       model:require('./assets/model/optimized_graph.pb'),
-    //       labels: require('./assets/model/retrained_labels.txt'),
-    //       imageMean: 128,
-    //       imageStd: 128,
-    //     })
-    //
-    //     var img = decodeURI(this.state.image).replace("file://","");
-    //     // console.log("Passing to tf: " + img);
-    //     const results = await tfImageRecognition.recognize({
-    //       image: img,
-    //       outputName:"final_result"
-    //     });
-    //
-    //
-    //     const resultText = `${results[0].name}`
-    //     this.setState({result: resultText})
-    //
-    //     await tfImageRecognition.close();
-    //
-    //   } catch(err) {
-    //     alert(err)
-    //   }
-    // }
-
-    // _goToInfoscreen(name){
-    //   this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
-    // }
 
   render() {
-    let currentView;
-    currentView = this.state.showCam ? this.openCam() : this.initialView();
-    // currentView = this.state.showImage ? this._goToImageScreen() : this.initialView();
+    // for(var property in this.props)
+    //   console.log("Home: " + property);
 
-    return <View style={{ flex: 1 }}>{currentView}</View>;
+    return (
+      <View style={styles.container}>
+        <Button
+          style={styles.button}
+          onPress={() => this.props.navigation.navigate('CameraScreen')}
+        >
+          <Text style={styles.flipText}> Take Photo </Text>
+        </Button>
+        <Button style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
+          <Text style={styles.flipText}>Open Gallery</Text>
+        </Button>
+      </View>);
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#002800"
+    backgroundColor: "#eee",
   },
   button: {
     alignItems: "center",
