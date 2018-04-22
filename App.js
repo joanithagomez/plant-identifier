@@ -21,7 +21,8 @@ import {
   Badge
 } from 'native-base';
 import {Font, AppLoading} from "expo";
-import {StackNavigator} from 'react-navigation';
+import {BackHandler} from 'react-native';
+import {addNavigationHelpers, StackNavigator} from 'react-navigation';
 
 const RootStack = StackNavigator({
   Home: {
@@ -59,21 +60,21 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: true,
+      loading: true
     };
   }
 
-  async componentDidMount() {
-    await Font.loadAsync({Roboto: require("native-base/Fonts/Roboto.ttf"), Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")});
-    this.setState({loading: false});
-  }
+
+    async componentDidMount() {
+      await Font.loadAsync({Roboto: require("native-base/Fonts/Roboto.ttf"), Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")});
+      this.setState({loading: false});
+    }
+
 
   render() {
     if (this.state.loading) {
       return <Expo.AppLoading/>;
     }
-    return (
-      <RootStack/>
-    );
+    return (<RootStack />);
   }
 }

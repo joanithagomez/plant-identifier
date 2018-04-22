@@ -1,63 +1,89 @@
 import React from 'react';
-import { FlatList, ActivityIndicator, Text, View, Button, Alert, ScrollView, Linking } from 'react-native';
+import {
+  FlatList,
+  ActivityIndicator,
+  View,
+  Image,
+  Alert,
+  StyleSheet,
+  Linking
+} from 'react-native';
+import {
+  Container,
+  Header,
+  Content,
+  Card,
+  H1,
+  CardItem,
+  Thumbnail,
+  Text,
+  Button,
+  Icon,
+  Left,
+  Body
+} from 'native-base';
+
 const initialArr = {
   'plumeria': {
     name: 'plumeria',
-    wiki: 'plumeria',
+    wiki: 'plumeria'
   },
   'iris': {
     name: 'iris',
-    wiki: 'iris (plant)',
+    wiki: 'iris (plant)'
   },
   'sunflower': {
     name: 'sunflower',
-    wiki: 'Helianthus',
+    wiki: 'Helianthus'
   },
-    'persimmon': {
+  'persimmon': {
     name: 'persimmon',
-    wiki: 'persimmon',
+    wiki: 'persimmon'
   },
-    'hibiscus': {
+  'hibiscus': {
     name: 'hibiscus',
-    wiki: 'hibiscus',
+    wiki: 'hibiscus'
   },
-    'lavender': {
+  'lavender': {
     name: 'lavender',
-    wiki: 'Lavandula',
+    wiki: 'Lavandula'
   },
-      'daffodil': {
+  'daffodil': {
     name: 'daffodil',
-    wiki: 'Narcissus (plant)',
+    wiki: 'Narcissus (plant)'
   },
-        'orchid': {
+  'orchid': {
     name: 'orchid',
-    wiki: 'Orchidaceae',
+    wiki: 'Orchidaceae'
   },
-        'agave': {
+  'agave': {
     name: 'agave',
-    wiki: 'agave',
+    wiki: 'agave'
   },
-        'daisy': {
+  'daisy': {
     name: 'daisy',
-    wiki: 'Asteraceae',
+    wiki: 'Asteraceae'
   },
-          'tulip': {
+  'tulip': {
     name: 'tulip',
-    wiki: 'tulip',
+    wiki: 'tulip'
   },
-          'bamboo': {
+  'bamboo': {
     name: 'bamboo',
-    wiki: 'bamboo',
+    wiki: 'bamboo'
   },
-          'rose': {
+  'rose': {
     name: 'rose',
-    wiki: 'rose',
-  },
+    wiki: 'rose'
+  }
 };
 export default class PlantInfo extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isLoading: true };
+    this.state = {
+      isLoading: true,
+      image: null
+    };
     // console.log("Props in plantinfo: " + this.props);
     // for(var property in this.props.navigation.state.params){
     //   console.log(property);
@@ -65,92 +91,106 @@ export default class PlantInfo extends React.Component {
   }
 
   componentDidMount() {
-    const { params } = this.props.navigation.state;
-    const itemWiki = params ? params.itemWiki : null;
+    const {params} = this.props.navigation.state;
+    const itemWiki = params
+      ? params.itemWiki
+      : null;
     // console.log("itemWiki: " +this.props.navigation.state);
+    const imageUri = itemWiki.image;
     var convertItemWikii = itemWiki.item;
     var urlWiki = initialArr[convertItemWikii].wiki;
 
-    var url =
-      'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=' + urlWiki;
-    return fetch(url)
-      .then(response => response.json())
-      .then(responseJson => {
-        var hey = responseJson.query.pages;
+    var url = 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=' + urlWiki;
+    return fetch(url).then(response => response.json()).then(responseJson => {
+      var hey = responseJson.query.pages;
 
-        var temp = hey;
-        var count = 0;
-        for (var prop in hey) {
-          if (count == 0) {
-            // object
-            temp = prop;
-          }
-          count++;
+      var temp = hey;
+      var count = 0;
+      for (var prop in hey) {
+        if (count == 0) {
+          // object
+          temp = prop;
         }
-        var obj = [
-          {
-            "title" : hey[temp].title,
-            "info" : hey[temp].extract
-          }
-        ];
-        this.setState(
-          {
-            isLoading: false,
-            dataSource: obj,
-          });
-      }).catch(error => {
-        console.error(error);
-      });
+        count++;
+      }
+      var obj = [
+        {
+          "title": hey[temp].title,
+          "info": hey[temp].extract
+        }
+      ];
+      this.setState({image: imageUri, isLoading: false, dataSource: obj});
+    }).catch(error => {
+      console.error(error);
+    });
   }
 
   render() {
+    // console.log("Image uri in plantinfo: " + image);
+    // console.log("datasource: " + this.state.dataSource);
+    // console.log("Property in datasource: ");
+    // for (var property in this.state.dataSource)
+    //   console.log(property);
+
     if (this.state.isLoading) {
-      return (
-        <View style={{ flex: 1, padding: 20 }}>
-          <ActivityIndicator />
-        </View>
-      );
+      return (<View style={{
+          flex: 1,
+          padding: 20
+        }}>
+        <ActivityIndicator/>
+      </View>);
     }
 
     return (
-      <ScrollView>
-      <View style={{ flex: 1, paddingTop: 20 }}>
-        <View style={{backgroundColor: 'skyblue', paddingTop: 10, }}>
-          <FlatList
-            data={this.state.dataSource}
-            renderItem={({ item}) => <Text style={{fontSize:30, fontWeight: 'bold'}}>{item.title}</Text>}
-            keyExtractor={(item, index) => index}
-          />
-        </View>
-        <View style={{ backgroundColor: 'powderblue', paddingTop: 10}}>
-          <FlatList
-            data={this.state.dataSource}
-            renderItem={({ item}) => <Text>{item.title}: {item.info}</Text>}
-            keyExtractor={(item, index) => index}
-          />
-        </View>
-        <View>
-          <FlatList
-            data={this.state.dataSource}
-            renderItem={({ item}) => <Button
-            title="Open Wikipedia to Read More!"
-              onPress={() => {
-                var wikiUrl = 'https://en.wikipedia.org/wiki/' + item.title;
-               Linking.openURL(wikiUrl).catch(err => {console.error('An error occurred', err), alert('Sorry! Cannot open Wikipedia at this time!')});
+       <Container >
+         <Content>
+      <Card style={{
+          flex: 0
+        }}>
+        <CardItem header>
+          <Left>
+            {/* <Thumbnail source={{uri: this.state.image}} /> */}
+            <H1>{this.state.dataSource[0].title}</H1>
+          </Left>
+        </CardItem>
+        <CardItem>
+          <Body>
+            <Image source={{
+        uri: this.state.image
+      }} style={{height: 200, width: 200, flex: 1}}/>
 
-              }}
-          />
-
-            }
-            keyExtractor={(item, index) => index}
-          />
-
-
-        </View>
-      </View>
-      </ScrollView>
-    );
-
+            <Text style={{paddingTop: 10}} >{this.state.dataSource[0].info}</Text>
+          </Body>
+        </CardItem>
+        <CardItem>
+          <Left>
+            <Button transparent textStyle={{
+                color: '#87838B'
+              }} onPress={() => {
+                var wikiUrl = 'https://en.wikipedia.org/wiki/' + this.state.dataSource[0].title;
+                Linking.openURL(wikiUrl).catch(err => {
+                  console.error('An error occurred', err),
+                  alert('Sorry! Cannot open Wikipedia at this time!')
+                });
+              }}>
+              <Text>Open Wikipedia to Read More!</Text>
+            </Button>
+          </Left>
+        </CardItem>
+      </Card>
+    </Content>
+  </Container>);
   }
-
 }
+const styles = StyleSheet.create({
+  imagecard: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+    position: 'relative'
+  },
+  container:{
+    padding: 20
+  }
+});

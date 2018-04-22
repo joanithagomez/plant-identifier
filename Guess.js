@@ -10,15 +10,19 @@ export default class Guess extends React.Component {
 
   constructor(props){
     super(props);
+  //   console.log("Property in guess: ");
+  //   for (var property in this.props)
+  //     console.log(property);
+
   }
 
-  _goToInfoscreen = (name) => {
-    console.log("Name going to _goToInfoscreen: " + name);
-    this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name}});
+  _goToInfoscreen = (name, image) => {
+    // console.log("Name going to _goToInfoscreen: " + name);
+    this.props.navigation.navigate('PlantInfoPage', {itemWiki: {item: name, image: image}});
   };
 
   render(){
-
+    // console.log(this.props.imageUri);
     return(
       <Container style={styles.container}>
         <Text style={styles.title}>What's your guess? </Text>
@@ -26,7 +30,7 @@ export default class Guess extends React.Component {
           <Text style={{ color: 'white' }}>{this.props.option}</Text>
         </Button>
         <Button style={{ marginTop: 10,borderRadius:50 }} full success={true} onPress={() => {
-          this._goToInfoscreen(this.props.option);
+          this._goToInfoscreen(this.props.option,this.props.imageUri);
         }}>
           <Text style={{ color: 'white' }}>{this.props.option}</Text>
         </Button>

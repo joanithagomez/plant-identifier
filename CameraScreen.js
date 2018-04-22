@@ -12,8 +12,6 @@ import {
   Container,
   Header,
   Content,
-  Footer,
-  FooterTab,
   Button,
   Icon,
   Text} from 'native-base';
@@ -58,10 +56,10 @@ export default class CameraScreen extends Component {
 
   takePicture = async function() {
     if (this.camera) {
-      let data = await this.camera.takePictureAsync();
+      let data = await this.camera.takePictureAsync({skipProcessing: true,fixOrientation: false});
 
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
-        console.log("uri:" + data.uri);
+        // console.log("uri:" + data.uri);
         // console.log("saveResult: " + saveResult);
         // console.log("Property in saveResult: ");
         // for (var property in saveResult)
@@ -78,9 +76,6 @@ export default class CameraScreen extends Component {
           // this.props.navigation.navigate('Recognition', {result: this.state.result});
 
         });
-        // let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "photos/");
-        // console.log("Reading FileSystem.documentDirectory/photos/: " + photos);
-
     }
   };
 
@@ -184,11 +179,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#eee"
   },
-  // button: {
-  //   alignItems: "center",
-  //   backgroundColor: "#000",
-  //   padding: 10
-  // },
   buttonText: {
     color: "white",
     fontSize: 15

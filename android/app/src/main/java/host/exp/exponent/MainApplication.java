@@ -1,13 +1,12 @@
 package host.exp.exponent;
 
-
 import com.facebook.react.ReactPackage;
 
 import java.util.Arrays;
 import java.util.List;
 
 // Needed for `react-native link`
-// import com.facebook.react.ReactApplication;
+//import com.facebook.react.ReactApplication;
 import com.rntensorflow.RNTensorFlowPackage;
 
 public class MainApplication extends ExpoApplication {
@@ -24,7 +23,7 @@ public class MainApplication extends ExpoApplication {
         // TODO: add native modules!
 
         // Needed for `react-native link`
-        // new MainReactPackage(),
+//         new MainReactPackage(),
             new RNTensorFlowPackage()
     );
   }

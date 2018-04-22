@@ -103,9 +103,8 @@ constructor(props){
     render() {
       return (
         <View style={styles.container}>
-          {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
-          {(this.state.result) !== "" && <Guess option={this.state.result} {...this.props}></Guess>}
-
+          {(this.state.image) &&<Image source={{uri: this.state.image}} />}
+          {(this.state.result !== "") && (this.state.image) && <Guess imageUri= {this.state.image} option={this.state.result} {...this.props}></Guess>}
         </View>
       );
     }
@@ -134,8 +133,8 @@ constructor(props){
     fontSize: 18,
     color: 'white',
   },
-    image: {
-      width: 150,
-      height: 100
-    },
+    // image: {
+    //   width: 150,
+    //   height: 100
+    // },
   });

@@ -44,7 +44,7 @@ render(){
   return(
     <View style={styles.container}>
       {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
-      {(this.state.answer) !== "" && <Guess option={this.state.answer} {...this.props}></Guess>}
+      {(this.state.result !== "") && (this.state.image) && <Guess imageUri= {this.state.image} option={this.state.result} {...this.props}></Guess>}
     </View>
   );
 
