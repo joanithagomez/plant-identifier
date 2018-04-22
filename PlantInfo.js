@@ -97,11 +97,8 @@ export default class PlantInfo extends React.Component {
           {
             isLoading: false,
             dataSource: obj,
-          },
-          function() {}
-        );
-      })
-      .catch(error => {
+          });
+      }).catch(error => {
         console.error(error);
       });
   }

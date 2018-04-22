@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/android.iml" filepath="$PROJECT_DIR$/.idea/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fs/android/react-native-fs.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fs/android/react-native-fs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/react-native-tensorflow.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/react-native-tensorflow.iml" />
     </modules>
   </component>

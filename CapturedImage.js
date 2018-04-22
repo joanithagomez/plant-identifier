@@ -12,16 +12,18 @@ export default class CapturedImage extends Component {
     }
   };
 
-constructor(){
-  super();
+constructor(props){
+  super(props);
   this.state = {
     image: null,
     result: "",
-    options:[],
   }
 }
 
    componentDidMount() {
+     // console.log("Property in Gallery: ");
+     // for(var property in this.props)
+     //   console.log(property);
     this._pickImage();
   }
 
@@ -41,7 +43,7 @@ constructor(){
           }
 
         let info = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
-        console.log(info);
+        // console.log(info);
 
         let arr = (result.uri).split('/');
         let filename = arr[arr.length-1];
@@ -64,7 +66,6 @@ constructor(){
         console.log(e);
       }
     }
-
   }
 
 
@@ -89,7 +90,6 @@ constructor(){
 
       const resultText = `${results[0].name}`
       this.setState({
-        // options: [results[0].name, results[1].name, results[2].name],
         result: resultText,
       });
 
@@ -99,7 +99,7 @@ constructor(){
     }
   }
 
-  
+
     render() {
       return (
         <View style={styles.container}>
