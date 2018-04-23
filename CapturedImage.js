@@ -65,7 +65,7 @@ export default class CapturedImage extends Component {
 
   async recognizeImage() {
     try {
-      const tfImageRecognition = new TfImageRecognition({model: require('./assets/model/optimized_graph.pb'), labels: require('./assets/model/retrained_labels.txt'), imageMean: 128, imageStd: 128})
+      const tfImageRecognition = new TfImageRecognition({model: require('./assets/model/retrained_graph.pb'), labels: require('./assets/model/retrained_labels.txt'), imageMean: 128, imageStd: 128})
 
       var img = decodeURI(this.state.image).replace("file://", "");
       console.log("Passing to tf: " + img);

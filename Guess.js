@@ -3,7 +3,6 @@ import {StyleSheet} from "react-native";
 import {Container, Text, Spinner, Button} from 'native-base';
 import PlantInfo from "./PlantInfo";
 
-
 export default class Guess extends React.Component {
   constructor(props) {
     super(props);
@@ -16,36 +15,52 @@ export default class Guess extends React.Component {
   componentDidMount() {
 
     var labels = [
-      'plumeria',
-      'iris',
-      'sunflower',
-      'persimmon',
-      'hibiscus',
-      'lavender',
-      'daffodil',
-      'orchid',
       'agave',
-      'daisy',
-      'tulip',
       'bamboo',
-      'rose'
+      'bird of paradise',
+      'bleeding hearts ',
+      'blue thistle ',
+      'california poppy',
+      'calla lily ',
+      'cherry blossoms',
+      'crocus ',
+      'daffodil',
+      'dahlia',
+      'daisy',
+      'fern',
+      'fly agaric ',
+      'forsythia',
+      'foxgloves',
+      'gerbera',
+      'hibiscus',
+      'iris',
+      'lace leaf',
+      'lavender',
+      'orchid',
+      'persimmon',
+      'plumeria',
+      'poinsettia',
+      'protea',
+      'rose',
+      'snowdrop',
+      'sunflower',
+      'tulip'
     ];
+
+    // console.log("Labels array: " + labels);
     //remove answer from labels array so that one of the 2 random elements picked are not the answer
     var dupLabels = labels;
-      var index = dupLabels.indexOf(this.props.option);
-      if (index > -1) {
-        dupLabels.splice(index, 1);
-      }
-      //shuffle the array and pick the first to elements from array and set as option 1 and 2
-      var arr = shuffleArray(dupLabels);
+    var index = dupLabels.indexOf(this.props.option);
+    if (index > -1) {
+      dupLabels.splice(index, 1);
+    }
+    //shuffle the array and pick the first to elements from array and set as option 1 and 2
+    var arr = shuffleArray(dupLabels);
 
-      var finalOptionsArr = shuffleArray([arr[0], arr[1], this.props.option]);
-      // console.log("shuffled: " + finalOptionsArr + ".");
-      if (finalOptionsArr.length === 3)
-        this.setState({
-          optionsArr: finalOptionsArr,
-          isLoading: false,
-        });
+    var finalOptionsArr = shuffleArray([arr[0], arr[1], this.props.option]);
+    // console.log("shuffled: " + finalOptionsArr + ".");
+    if (finalOptionsArr.length === 3)
+      this.setState({optionsArr: finalOptionsArr, isLoading: false});
 
     }
 
@@ -71,14 +86,16 @@ export default class Guess extends React.Component {
       <Text style={styles.title}>What's your best guess?
       </Text>
       <Button style={{
-          marginTop: 10,
-        }} rounded full primary={true}>
+          marginTop: 10
+        }} full rounded primary={true}>
         <Text style={{
             color: 'white'
           }}>{this.state.optionsArr[0]}</Text>
       </Button>
       <Button style={{
-          marginTop: 10 }} full rounded primary={true} onPress={() => {
+          marginTop: 10
+        }} full rounded primary={true} onPress={() => {
+          // console.log(this.props.option)
           this._goToInfoscreen(this.props.option, this.props.imageUri);
         }}>
         <Text style={{
@@ -86,7 +103,8 @@ export default class Guess extends React.Component {
           }}>{this.state.optionsArr[1]}</Text>
       </Button>
       <Button style={{
-          marginTop: 10 }} full rounded primary={true}>
+          marginTop: 10
+        }} full rounded primary={true}>
         <Text style={{
             color: 'white'
           }}>{this.state.optionsArr[2]}</Text>
@@ -108,7 +126,6 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   }
 });
-
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {

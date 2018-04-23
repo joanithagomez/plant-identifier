@@ -19,59 +19,96 @@ import {
   Left,
   Body
 } from 'native-base';
-
 const initialArr = {
   'plumeria': {
-    name: 'plumeria',
     wiki: 'plumeria'
   },
   'iris': {
-    name: 'iris',
     wiki: 'iris (plant)'
   },
   'sunflower': {
-    name: 'sunflower',
     wiki: 'Helianthus'
   },
   'persimmon': {
-    name: 'persimmon',
     wiki: 'persimmon'
   },
   'hibiscus': {
-    name: 'hibiscus',
     wiki: 'hibiscus'
   },
   'lavender': {
-    name: 'lavender',
     wiki: 'Lavandula'
   },
   'daffodil': {
-    name: 'daffodil',
     wiki: 'Narcissus (plant)'
   },
   'orchid': {
-    name: 'orchid',
     wiki: 'Orchidaceae'
   },
   'agave': {
-    name: 'agave',
     wiki: 'agave'
   },
   'daisy': {
-    name: 'daisy',
     wiki: 'Asteraceae'
   },
   'tulip': {
-    name: 'tulip',
     wiki: 'tulip'
   },
   'bamboo': {
-    name: 'bamboo',
     wiki: 'bamboo'
   },
   'rose': {
-    name: 'rose',
     wiki: 'rose'
+  },
+  'bird of paradise': {
+    wiki: 'bird of paradise'
+  },
+  'bleeding hearts': {
+    wiki: 'bleeding hearts'
+  },
+  'blue thistle': {
+    wiki: 'blue thistle'
+  },
+  'california poppy': {
+    wiki: 'california poppy'
+  },
+  'calla lily': {
+    wiki: 'calla lily'
+  },
+  'cherry blossoms': {
+    wiki: 'cherry blossoms'
+  },
+  'crocus': {
+    wiki: 'crocus'
+  },
+  'dahlia': {
+    wiki: 'dahlia'
+  },
+  'fern': {
+    wiki: 'fern'
+  },
+  'fly agaric': {
+    wiki: 'fly agaric'
+  },
+  'forsythia': {
+    wiki: 'forsythia'
+  },
+  'foxgloves': {
+    wiki: 'foxgloves'
+  },
+  'gerbera': {
+    wiki: 'gerbera'
+  },
+  'lace leaf': {
+    wiki: 'lace leaf'
+  },
+  'poinsettia': {
+    wiki: 'poinsettia'
+  },
+  'protea': {
+    wiki: 'protea'
+  },
+  'snowdrop': {
+    wiki: 'snowdrop'
   }
 };
 export default class PlantInfo extends React.Component {
@@ -93,8 +130,13 @@ export default class PlantInfo extends React.Component {
       ? params.itemWiki
       : null;
     // console.log("itemWiki: " +this.props.navigation.state);
+    // for (var property in itemWiki)
+    //   console.log(property);
+
     const imageUri = itemWiki.image;
     var convertItemWikii = itemWiki.item;
+    // console.log(convertItemWikii);
+    // console.log(initialArr[convertItemWikii].wiki);
     var urlWiki = initialArr[convertItemWikii].wiki;
 
     var url = 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=' + urlWiki;
