@@ -1,9 +1,10 @@
 import React, {Component} from "react";
-import { CameraRoll, StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
-import { Constants, Camera, FileSystem, Permissions, ImagePicker } from "expo";
-import { TfImageRecognition } from 'react-native-tensorflow';
+import {CameraRoll, StyleSheet, Text, View, Image} from "react-native";
+import {Constants, Camera, FileSystem, Permissions, ImagePicker} from "expo";
+import {TfImageRecognition} from 'react-native-tensorflow';
 import PlantInfo from "./PlantInfo";
 import Guess from "./Guess";
+import {Container, Spinner} from 'native-base';
 
 export default class CapturedImage extends Component {
   static route = {
@@ -12,18 +13,19 @@ export default class CapturedImage extends Component {
     }
   };
 
-constructor(props){
-  super(props);
-  this.state = {
-    image: null,
-    result: "",
+  constructor(props) {
+    super(props);
+    this.state = {
+      image: null,
+      result: "",
+      isLoading: true
+    }
   }
-}
 
-   componentDidMount() {
-     // console.log("Property in Gallery: ");
-     // for(var property in this.props)
-     //   console.log(property);
+  componentDidMount() {
+    // console.log("Property in Gallery: ");
+    // for(var property in this.props)
+    //   console.log(property);
     this._pickImage();
   }
 
@@ -33,108 +35,96 @@ constructor(props){
     });
 
     if (!result.cancelled) {
-      try{
+      try {
 
         let res = FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
-          if (!res.exists) {
-            FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "selectedImages/").catch(e => {
-              console.log(e, "Directory exists");
-            });
-          }
+        if (!res.exists) {
+          FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "selectedImages/").catch(e => {
+            console.log(e, "Directory exists");
+          });
+        }
 
         let info = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
         // console.log(info);
 
         let arr = (result.uri).split('/');
-        let filename = arr[arr.length-1];
+        let filename = arr[arr.length - 1];
 
-        await FileSystem.copyAsync({
-            from: result.uri,
-            to: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`
-          });
+        await FileSystem.copyAsync({from: result.uri, to: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`});
 
+        this.setState({image: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`});
 
-        this.setState({
-          image: `${FileSystem.documentDirectory}selectedImages/Photo_${filename}`
-        });
-
-      let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "selectedImages/");
-      // console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
-      this.recognizeImage();
-      }
-      catch(e){
+        let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "selectedImages/");
+        // console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
+        this.recognizeImage();
+      } catch (e) {
         console.log(e);
       }
     }
   }
 
-
   async recognizeImage() {
     try {
-      const tfImageRecognition = new TfImageRecognition({
-        model:require('./assets/model/optimized_graph.pb'),
-        labels: require('./assets/model/retrained_labels.txt'),
-        imageMean: 128,
-        imageStd: 128,
-      })
+      const tfImageRecognition = new TfImageRecognition({model: require('./assets/model/optimized_graph.pb'), labels: require('./assets/model/retrained_labels.txt'), imageMean: 128, imageStd: 128})
 
-      var img = decodeURI(this.state.image).replace("file://","");
+      var img = decodeURI(this.state.image).replace("file://", "");
       console.log("Passing to tf: " + img);
-      const results = await tfImageRecognition.recognize({
-        image: img,
-        outputName:"final_result"
-      });
+      const results = await tfImageRecognition.recognize({image: img, outputName: "final_result"});
 
       console.log("Tf recognition plants result:" + results);
 
-
       const resultText = `${results[0].name}`
-      this.setState({
-        result: resultText,
-      });
+      this.setState({result: resultText, isLoading: false});
 
       await tfImageRecognition.close()
-    } catch(err) {
+    } catch (err) {
       alert(err)
     }
   }
 
+  render() {
 
-    render() {
-      return (
-        <View style={styles.container}>
-          {(this.state.image) &&<Image source={{uri: this.state.image}} />}
-          {(this.state.result !== "") && (this.state.image) && <Guess imageUri= {this.state.image} option={this.state.result} {...this.props}></Guess>}
-        </View>
-      );
+    if (this.state.isLoading) {
+      return (<Container style={{
+          flex: 1,
+          padding: 20
+        }}>
+        <Spinner color='green'/>
+      </Container>);
     }
-  }
 
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#F5FCFF',
-    },
-    results: {
-      textAlign: 'center',
-      color: '#333333',
-      marginBottom: 5,
-    },
+    return (<View style={styles.container}>
+      {(this.state.image) &&< Image source = {{uri: this.state.image}}/>}
+      {(this.state.result !== "") && (this.state.image) && <Guess imageUri={this.state.image} option={this.state.result} {...this.props}></Guess>}
+    </View>);
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF'
+  },
+  results: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5
+  },
   buttonInfo: {
     margin: 15,
     padding: 20,
     width: 175,
     alignItems: 'center',
-    backgroundColor: 'steelblue',
+    backgroundColor: 'steelblue'
   },
   textInfo: {
     fontSize: 18,
-    color: 'white',
+    color: 'white'
   },
-    // image: {
-    //   width: 150,
-    //   height: 100
-    // },
-  });
+  // image: {
+  //   width: 150,
+  //   height: 100
+  // },
+});

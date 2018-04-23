@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  FlatList,
-  ActivityIndicator,
   View,
   Image,
   Alert,
@@ -13,9 +11,8 @@ import {
   Header,
   Content,
   Card,
-  H1,
+  H1,Spinner,
   CardItem,
-  Thumbnail,
   Text,
   Button,
   Icon,
@@ -133,12 +130,9 @@ export default class PlantInfo extends React.Component {
     //   console.log(property);
 
     if (this.state.isLoading) {
-      return (<View style={{
-          flex: 1,
-          padding: 20
-        }}>
-        <ActivityIndicator/>
-      </View>);
+        return (<Container style={{flex: 1, padding:20 }}>
+          <Spinner color='green'/>
+        </Container>);
     }
 
     return (

@@ -90,7 +90,7 @@ export default class CameraScreen extends Component {
         })
 
         var img = decodeURI(this.state.image).replace("file://","");
-        console.log("Passing to tf: " + img);
+        // console.log("Passing to tf: " + img);
         const results = await tfImageRecognition.recognize({
           image: img,
           outputName:"final_result"
@@ -106,7 +106,7 @@ export default class CameraScreen extends Component {
         });
 
         await tfImageRecognition.close()
-        console.log("this.state.result : " + this.state.result);
+        console.log("this.state.result in cameraScreen: " + this.state.result);
         this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
 
       } catch(err) {
