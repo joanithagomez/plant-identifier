@@ -1,17 +1,12 @@
 import React from 'react';
-import {
-  View,
-  Image,
-  Alert,
-  StyleSheet,
-  Linking
-} from 'react-native';
+import {View, Image, Alert, StyleSheet, Linking} from 'react-native';
 import {
   Container,
   Header,
   Content,
   Card,
-  H1,Spinner,
+  H1,
+  Spinner,
   CardItem,
   Text,
   Button,

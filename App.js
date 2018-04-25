@@ -9,6 +9,9 @@ import Login from "./Login";
 // import BottomTab from "./BottomTab";
 import Guess from "./Guess";
 import Game from "./Game";
+import JoinRoom from './JoinRoom';
+import GameRoom from './GameRoom';
+
 import {
   Container,
   Header,
@@ -54,8 +57,15 @@ const RootStack = StackNavigator({
   },
   Game: {
     screen: Game
-  }
-}, {initialRouteName: 'Home'});
+  },
+  JoinRoom: {
+    screen: JoinRoom
+  },
+  GameRoom: {
+    screen: GameRoom
+  },
+},{initialRouteName: 'Home'});
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);

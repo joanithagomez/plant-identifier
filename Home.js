@@ -9,28 +9,33 @@ import { Constants, Camera, FileSystem, Permissions, ImagePicker } from "expo";
 import { Container,Button, Icon, Text } from 'native-base';
 
 export default class Home extends React.Component {
-  static route = {
-    navigationBar: {
-      title: "Home"
-    }
-  };
+  static navigationOptions = ({ navigation }) => ({
+ title: 'Plant Identifier',
+  headerTitleStyle : { color: 'white', textAlign: 'center',alignSelf:'center'},
+     headerStyle:{
+         backgroundColor:'green',
+     },
 
+ });
 
   render() {
-    // for(var property in this.props)
-    //   console.log("Home: " + property);
 
     return (
       <View style={styles.container}>
-        <Button
-          style={styles.button}
-          onPress={() => this.props.navigation.navigate('CameraScreen')}
-        >
-          <Text style={styles.flipText}> Take Photo </Text>
-        </Button>
-        <Button style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
-          <Text style={styles.flipText}>Open Gallery</Text>
-        </Button>
+          <View>
+          <Button
+            style={styles.button}
+            onPress={() => this.props.navigation.navigate('CameraScreen')}
+          >
+            <Text style={styles.flipText}> Take Photo </Text>
+          </Button>
+          <Button style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
+            <Text style={styles.flipText}>Open Gallery</Text>
+          </Button>
+          <Button style={styles.button} onPress={() => this.props.navigation.navigate('Game',{title: 'Game'})}>
+            <Text style={styles.flipText}>Game</Text>
+          </Button>
+        </View>
       </View>);
   }
 }
@@ -38,12 +43,15 @@ export default class Home extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: "white",
   },
   button: {
     alignItems: "center",
     backgroundColor: "#000",
-    padding: 10
+    padding: 10,
+    margin: 10,
   },
   flipText: {
     color: "white",
@@ -65,8 +73,5 @@ const styles = StyleSheet.create({
   picButton: {
     backgroundColor: "darkseagreen"
   },
-  backButton: {
-    padding: 20,
-    backgroundColor: "indianred"
-  }
+
 });

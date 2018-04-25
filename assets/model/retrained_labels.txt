@@ -13,7 +13,7 @@ daisy
 fern
 fly agaric
 forsythia
-foxgloves 
+foxgloves
 gerbera
 hibiscus
 iris
