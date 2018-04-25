@@ -57,7 +57,6 @@ export default class CreateRoom extends Component {
               onDateChange = {(time) => this.setState({endingtime: time })}
             />
 
-             //test string
             <Text>{this.state.endingtime}{this.state.roomname} {this.state.points[0]}Current Point! {this.state.points[1]}</Text>
             <Text style={styles.infoTextStyle}>Input Point Values for Each Plant (Default = 10)</Text>
             {this.renderrender()}
@@ -84,12 +83,11 @@ export default class CreateRoom extends Component {
       count++;
       return this.renderInput(count);
     });
-
   }
 
   renderInput(id){
     return  (
-      <View style={styles.viewInputStyle}>
+      <View key ={id} style={styles.viewInputStyle}>
               <Text  style={styles.textStyle1}>{list[id]}</Text>
               <TextInput
                 style={styles.textInputStyle}
@@ -125,37 +123,33 @@ export default class CreateRoom extends Component {
 	  // 2. todo: takes user back to profile page
 
     }
-
   }
-
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#ecf0f1'
   },
   paragraph: {
     margin: 24,
     fontSize: 18,
-    fontWeight: 'bold',
     textAlign: 'center',
-    color: '#34495e',
+    color: '#34495e'
   },
   viewInputStyle: {
     flexDirection: 'row',
-    marginTop: 10,
+    marginTop: 10
   },
   infoTextStyle: {
     fontSize: 18,
     fontWeight: 'bold',
     textDecorationLine: 'underline',
-    marginTop: 5,
+    marginTop: 5
   },
   textStyle1: {
-     fontSize: 20,
+    fontSize: 20
   },
   textInputStyle: {
     fontSize: 20,
@@ -163,27 +157,25 @@ const styles = StyleSheet.create({
     borderColor: '#99ff99',
     borderWidth: 2,
     borderBottomWidth: 10,
-    backgroundColor: '#ffffe6',
+    backgroundColor: '#ffffe6'
   },
-   textInputStyle1: {
+  textInputStyle1: {
     fontSize: 25,
     margin: 10,
     borderColor: '#99ff99',
     borderWidth: 5,
-    backgroundColor: '#ffffe6',
+    backgroundColor: '#ffffe6'
   },
-    buttonStyle:{
+  buttonStyle: {
     margin: 15,
     padding: 20,
     width: 175,
-    fontWeight: 'bold',
-    align: 'center',
     alignItems: 'center',
-    backgroundColor: 'green',
-    },
-    buttonTextStyle:{
-      color: 'white',
-      fontWeight: 'bold',
-      fontSize: 25,
-    }
+    backgroundColor: 'green'
+  },
+  buttonTextStyle: {
+    color: 'white',
+    fontWeight: 'bold',
+    fontSize: 25
+  }
 });

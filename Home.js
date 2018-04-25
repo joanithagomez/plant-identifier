@@ -23,17 +23,14 @@ export default class Home extends React.Component {
     return (
       <View style={styles.container}>
           <View>
-          <Button
-            style={styles.button}
-            onPress={() => this.props.navigation.navigate('CameraScreen')}
-          >
-            <Text style={styles.flipText}> Take Photo </Text>
+          <Button large style={styles.button} onPress={() => this.props.navigation.navigate('CameraScreen')}>
+            <Text style={styles.btnText}>Take Photo</Text>
           </Button>
-          <Button style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
-            <Text style={styles.flipText}>Open Gallery</Text>
+          <Button large style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
+            <Text style={styles.btnText}>Open Gallery</Text>
           </Button>
-          <Button style={styles.button} onPress={() => this.props.navigation.navigate('Game',{title: 'Game'})}>
-            <Text style={styles.flipText}>Game</Text>
+          <Button large style={styles.button} onPress={() => this.props.navigation.navigate('Game',{title: 'Game'})}>
+            <Text style={styles.btnText}>Game</Text>
           </Button>
         </View>
       </View>);
@@ -53,25 +50,9 @@ const styles = StyleSheet.create({
     padding: 10,
     margin: 10,
   },
-  flipText: {
+  btnText: {
     color: "white",
     fontSize: 15
-  },
-  flipButton: {
-    flex: 0.3,
-    height: 40,
-    marginHorizontal: 2,
-    marginBottom: 10,
-    marginTop: 20,
-    borderRadius: 8,
-    borderColor: "white",
-    borderWidth: 1,
-    padding: 5,
-    alignItems: "center",
-    justifyContent: "center"
-  },
-  picButton: {
-    backgroundColor: "darkseagreen"
   },
 
 });

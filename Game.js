@@ -1,5 +1,11 @@
 import React from "react";
-import {Container, Text, Button, Label} from 'native-base';
+import {Container, Text, Button, Content} from 'native-base';
+import {
+  CameraRoll,
+  StyleSheet,
+  View,
+  Image
+} from "react-native";
 
 export default class Game extends React.Component {
   static navigationOptions = ({navigation}) => ({
@@ -15,14 +21,35 @@ export default class Game extends React.Component {
   });
 
   render() {
-    return (<Container>
-      <Button>
-        <Text>Create Room</Text>
-      </Button>
-      <Button onPress={() => this.props.navigation.navigate('JoinRoom', {title: 'Join Room'})}>
-        <Text>Join Room</Text>
-      </Button>
-      {/* <Button><Text>Room3</Text></Button> */}
+    return (<Container style={styles.container}>
+      <View>
+        <Button large style={styles.button} onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}>
+          <Text style={styles.btnText}>Create Room</Text>
+        </Button>
+        <Button large style={styles.button} onPress={() => this.props.navigation.navigate('JoinRoom', {title: 'Join Room'})}>
+          <Text style={styles.btnText}>Join Room</Text>
+        </Button>
+      </View>
     </Container>);
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: "white",
+  },
+  button: {
+    alignItems: "center",
+    backgroundColor: "#000",
+    padding: 10,
+    margin: 10,
+  },
+  btnText: {
+    color: "white",
+    fontSize: 15
+  },
+
+});

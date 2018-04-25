@@ -6,7 +6,8 @@ import Recognition from "./Recognition";
 import GalleryScreen from "./GalleryScreen";
 import CameraScreen from "./CameraScreen";
 import Login from "./Login";
-// import BottomTab from "./BottomTab";
+import CreateRoom from "./CreateRoom";
+// import CreateRoom from "./CreateRoom";
 import Guess from "./Guess";
 import Game from "./Game";
 import JoinRoom from './JoinRoom';
@@ -63,6 +64,9 @@ const RootStack = StackNavigator({
   },
   GameRoom: {
     screen: GameRoom
+  },
+  CreateRoom: {
+    screen: CreateRoom
   },
 },{initialRouteName: 'Home'});
 
