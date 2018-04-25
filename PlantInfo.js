@@ -82,19 +82,19 @@ const initialArr = {
     wiki: 'fern'
   },
   'fly agaric': {
-    wiki: 'fly agaric'
+    wiki: 'Amanita muscaria'
   },
   'forsythia': {
     wiki: 'forsythia'
   },
   'foxgloves': {
-    wiki: 'foxgloves'
+    wiki: 'digitalis'
   },
   'gerbera': {
     wiki: 'gerbera'
   },
   'lace leaf': {
-    wiki: 'lace leaf'
+    wiki: 'Anthurium'
   },
   'poinsettia': {
     wiki: 'poinsettia'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, TextInput, ScrollView, TouchableOpacity } from 'react-native';
+import {  View, StyleSheet, TextInput, ScrollView, TouchableOpacity } from 'react-native';
 import { Constants } from 'expo';
-
+import {  Container,Content, Button, Toast, Text } from 'native-base';
 import DatePicker from 'react-native-datepicker'
 import Room from './Room'
 // or any pure javascript modules available in npm
@@ -16,8 +16,9 @@ export default class CreateRoom extends Component {
       roomname: "",
       endingtime: "10:00", //this might be wrong <-------------------
       points:  [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
-
+     showToast: false,
     };
+
   }
   render() {
     return (
@@ -25,7 +26,8 @@ export default class CreateRoom extends Component {
         <View style={styles.container}>
           <Text style={styles.paragraph}>
             Fill in the input values below
-          </Text>
+          </Text>        
+
           <Card title=" Create Your Own Room for a Plant Game">
             <Text style={styles.infoTextStyle}>Enter Room Name</Text>
             <TextInput
@@ -61,19 +63,21 @@ export default class CreateRoom extends Component {
             <Text style={styles.infoTextStyle}>Input Point Values for Each Plant (Default = 10)</Text>
             {this.renderrender()}
 
-              <TouchableOpacity
+              <Button
               style={styles.buttonStyle}
               onPress={() => {
                 this.submitButtonHandler();
-              }}>
+            }}>
             <Text style={styles.buttonTextStyle}>
               Confirm
             </Text>
 
-            </TouchableOpacity>
+          </Button>
           </Card>
+
         </View>
       </ScrollView>
+
     );
   }
 
@@ -118,10 +122,13 @@ export default class CreateRoom extends Component {
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
       // 1. todo: push room onto firebase
 
+      this.setState({
+        showToast: true
+      })
       // alert("Your room: " + room.toString() + " was created!");
 
 	  // 2. todo: takes user back to profile page
-
+    // this.props.navigation.navigate('Game');
     }
   }
 }

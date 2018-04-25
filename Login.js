@@ -20,6 +20,17 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export default class Login extends React.Component {
+  static navigationOptions = ({navigation}) => ({
+    title: `${navigation.state.params.title}`,
+    headerTitleStyle: {
+      color: 'white',
+      textAlign: 'center',
+      alignSelf: 'center'
+    },
+    headerStyle: {
+      backgroundColor: 'green'
+    }
+  });
 
   constructor(props){
     super(props)
@@ -53,7 +64,7 @@ loginUser = (email,password)=>{
   try{
 
       firebase.auth().signInWithEmailAndPassword(email, password)
-      this.props.navigation.navigate("Home")
+      this.props.navigation.navigate("Game", {title: "Let's Play"})
   }
   catch(error){
     console.log("User has not been created")

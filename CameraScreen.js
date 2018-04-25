@@ -41,7 +41,7 @@ export default class CameraScreen extends Component {
     console.log("Property in CameraScreen: ");
     for(var property in this.props.props)
       console.log(property.rootTag);
-    try {
+    try { 
       let res = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "photos");
       if (!res.exists) {
         FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos", {intermediates: true}).catch(e => {
