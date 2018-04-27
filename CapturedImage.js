@@ -5,6 +5,8 @@ import {TfImageRecognition} from 'react-native-tensorflow';
 import PlantInfo from "./PlantInfo";
 import Guess from "./Guess";
 import {Container, Spinner} from 'native-base';
+import model from './assets/model/optimized_graph.pb';
+import labels from './assets/model/retrained_labels.txt';
 
 export default class CapturedImage extends Component {
   static route = {
@@ -62,11 +64,16 @@ export default class CapturedImage extends Component {
         console.log(e);
       }
     }
+    else{
+      this.props.navigation.navigate('Home',{title: "Plant Identifier"})
+    }
   }
 
   async recognizeImage() {
     try {
-      const tfImageRecognition = new TfImageRecognition({model: require('./assets/model/optimized_graph.pb'), labels: require('./assets/model/retrained_labels.txt'), imageMean: 128, imageStd: 128})
+      const tfImageRecognition = new TfImageRecognition({model , labels, imageMean: 128, imageStd: 128})
+      console.log(tfImageRecognition);
+
 
       var img = decodeURI(this.state.image).replace("file://", "");
       console.log("Passing to tf: " + img);
@@ -89,7 +96,6 @@ export default class CapturedImage extends Component {
   }
 
   render() {
-
     if (this.state.isLoading) {
       return (<Container style={{
           flex: 1,

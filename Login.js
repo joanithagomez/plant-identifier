@@ -20,17 +20,17 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export default class Login extends React.Component {
-  static navigationOptions = ({navigation}) => ({
-    title: `${navigation.state.params.title}`,
-    headerTitleStyle: {
-      color: 'white',
-      textAlign: 'center',
-      alignSelf: 'center'
-    },
-    headerStyle: {
-      backgroundColor: 'green'
-    }
-  });
+  // static navigationOptions = ({navigation}) => ({
+  //   title: `${navigation.state.params.title}`,
+  //   headerTitleStyle: {
+  //     color: 'white',
+  //     textAlign: 'center',
+  //     alignSelf: 'center'
+  //   },
+  //   headerStyle: {
+  //     backgroundColor: 'green'
+  //   }
+  // });
 
   constructor(props){
     super(props)
@@ -41,36 +41,39 @@ export default class Login extends React.Component {
     })
   }
 
-signUpUser = (email,password)=>{
-  try{
-
-    if(this.state.password.length<6)
+signUpUser = (email,password) => {
+try
+  {  if(this.state.password.length<6)
     {
       alert("Please enter at least 6 characters")
       return;
     }
 
-    firebase.auth().createUserWithEmailAndPassword(email, password)
-  }
+    firebase.auth().createUserWithEmailAndPassword(email, password);
+    this.props.navigation.navigate("Home", {title: "Let's Play"});
 
-  catch(error){
-    console.log(error.toString())
+}
+    catch(error) {
+   console.log(error.code);
+   console.log(error.message);
   }
 
 }
 
 loginUser = (email,password)=>{
-
-  try{
-
+    try{
       firebase.auth().signInWithEmailAndPassword(email, password)
-      this.props.navigation.navigate("Game", {title: "Let's Play"})
-  }
-  catch(error){
-    console.log("User has not been created")
-  }
+         // this.props.navigation.navigate("Game", {title: "Let's Play"});
+         this.props.navigation.navigate("Home", {title: "Home"})
+
+       }
+        catch(error) {
+             console.error("Sign in failed.");
+        }
+      // this.props.navigation.navigate("Game", {title: "Let's Play"})
 
 }
+
 
   render() {
     return (
@@ -105,10 +108,10 @@ loginUser = (email,password)=>{
           <Button style={{marginTop: 10 }} full primary={true} onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
             <Text style={{ color: 'white' }}>Sign Up</Text>
           </Button>
-
           <Button rounded dark style={{ marginTop: 10}} onPress={() => {this.props.navigation.navigate('Setting')}}>
             <Text style={{ color: 'white'}}>Settings</Text>
           </Button>
+
 
         </Form>
       </Container>

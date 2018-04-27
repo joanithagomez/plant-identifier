@@ -23,6 +23,7 @@ export default class Game extends React.Component {
   render() {
     return (<Container style={styles.container}>
       <View>
+        <Text>Welcome !</Text>
         <Button large style={styles.button} onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}>
           <Text style={styles.btnText}>Create Room</Text>
         </Button>
