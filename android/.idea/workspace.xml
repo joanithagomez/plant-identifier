@@ -2,19 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac47b91-ab9c-4ffc-b6c0-5d086ec4865b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-25-15-04-28-448.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-25-15-22-24-313.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-25-15-24-10-925.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-25-15-54-10-031.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-26-12-15-50-779.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-26-12-18-10-773.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-16-02-32-263.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-18-50-07-466.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-19-59-30-503.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-27-21-07-19-154.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-28-17-14-54-056.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-04-28-21-25-19-508.rawproto" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../leaf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../tree.png" />
+      <change beforePath="$PROJECT_DIR$/../App.js" afterPath="$PROJECT_DIR$/../App.js" />
+      <change beforePath="$PROJECT_DIR$/../BottomTab.js" afterPath="$PROJECT_DIR$/../BottomTab.js" />
+      <change beforePath="$PROJECT_DIR$/../CameraScreen.js" afterPath="$PROJECT_DIR$/../CameraScreen.js" />
       <change beforePath="$PROJECT_DIR$/../CapturedImage.js" afterPath="$PROJECT_DIR$/../CapturedImage.js" />
       <change beforePath="$PROJECT_DIR$/../Game.js" afterPath="$PROJECT_DIR$/../Game.js" />
-      <change beforePath="$PROJECT_DIR$/../Login.js" afterPath="$PROJECT_DIR$/../Login.js" />
+      <change beforePath="$PROJECT_DIR$/../GameRoom.js" afterPath="$PROJECT_DIR$/../GameRoom.js" />
+      <change beforePath="$PROJECT_DIR$/../Home.js" afterPath="$PROJECT_DIR$/../Home.js" />
+      <change beforePath="$PROJECT_DIR$/../JoinRoom.js" afterPath="$PROJECT_DIR$/../JoinRoom.js" />
+      <change beforePath="$PROJECT_DIR$/../Recognition.js" afterPath="$PROJECT_DIR$/../Recognition.js" />
+      <change beforePath="$PROJECT_DIR$/../Room.js" afterPath="$PROJECT_DIR$/../Room.js" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev19/debug/host/exp/exponent/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev19/debug/host/exp/exponent/generated/DetachBuildConstants.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/dev19/debug/package_slice_3/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/dev19/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/dev19/debug/slices/slice_3.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/dev19/debug/folders/1000/5/slice_3/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev19/debug/folders/1/5/main/host/exp/exponent/generated/DetachBuildConstants.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/../ios/react-native-test.xcodeproj/project.xcworkspace/xcuserdata/jo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../ios/react-native-test.xcodeproj/project.xcworkspace/xcuserdata/jo.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev19/debug/folders/1/5/slice_3/host/exp/exponent/generated/DetachBuildConstants.class" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/host/exp/exponent/generated/DetachBuildConstants.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +83,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1873">
+            <state relative-caret-position="1950">
               <caret line="130" column="50" lean-forward="false" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="50" />
               <folding />
             </state>
@@ -63,7 +93,7 @@
       <file leaf-file-name="react-native-tensorflow.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/react-native-tensorflow.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1617">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -73,8 +103,8 @@
       <file leaf-file-name="ResourceManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="389">
+              <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -7724,9 +7754,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
+    <option name="x" value="740" />
     <option name="y" value="23" />
-    <option name="width" value="1316" />
+    <option name="width" value="700" />
     <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -7746,6 +7776,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7753,50 +7784,10 @@
               <item name="android" type="b2602c69:ProjectViewProjectNode" />
               <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rntensorflow" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
@@ -7806,7 +7797,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="device.picker.selection" value="02612e1c6794aef3" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524771954213" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524977721446" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -8132,7 +8123,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="23" width="1316" height="834" extended-state="0" />
+    <frame x="740" y="23" width="700" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -8149,8 +8140,8 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26373628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20972644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -8406,14 +8397,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/RNTensorflowInference.java">
@@ -8549,7 +8540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1873">
+        <state relative-caret-position="1950">
           <caret line="130" column="50" lean-forward="false" selection-start-line="130" selection-start-column="50" selection-end-line="130" selection-end-column="50" />
           <folding />
         </state>
@@ -8557,7 +8548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/react-native-tensorflow.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -8565,8 +8556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="389">
+          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

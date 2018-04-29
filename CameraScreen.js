@@ -38,10 +38,10 @@ export default class CameraScreen extends Component {
   }
 
   async componentDidMount() {
-    console.log("Property in CameraScreen: ");
-    for(var property in this.props.props)
-      console.log(property.rootTag);
-    try { 
+    // console.log("Property in CameraScreen: ");
+    // for(var property in this.props.props)
+    //   console.log(property.rootTag);
+    try {
       let res = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "photos");
       if (!res.exists) {
         FileSystem.makeDirectoryAsync(FileSystem.documentDirectory + "photos", {intermediates: true}).catch(e => {
@@ -97,8 +97,8 @@ export default class CameraScreen extends Component {
         });
 
         console.log("Tf recognition plant result:" + results);
-        for (var property in results)
-          console.log(property);
+        // for (var property in results)
+        //   console.log(property);
 
         const resultText = `${results[0].name}`
         this.setState({
@@ -107,14 +107,17 @@ export default class CameraScreen extends Component {
 
         await tfImageRecognition.close()
         console.log("this.state.result in cameraScreen: " + this.state.result);
-        this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
+        // this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
 
+          this.props.navigation.state.params.returnData(this.state.result, this.state.image);
+          this.props.navigation.goBack();
       } catch(err) {
         alert(err)
       }
     }
 
   render() {
+
 
     const {hasCameraPermission} = this.state;
     if (hasCameraPermission == null) {

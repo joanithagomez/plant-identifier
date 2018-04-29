@@ -18,7 +18,6 @@ export default class Recognition extends Component {
     const { params } = this.props.navigation.state;
     const res = params ? params.result : null;
     const image = params ? params.image : null;
-    // console.log("image: " + image);
     if(res && image){
       this.setState({
         image: image,

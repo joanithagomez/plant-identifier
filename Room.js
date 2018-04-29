@@ -55,10 +55,8 @@ export default class Room {
     }
   }
   updatePersonPoints(userid, plant, index){
-    var i;
-    for(i = 0; i < this.people.length; i++){
+    for(var i = 0; i < this.people.length; i++){
       if(userid == this.people[i].getUserId()){
-
         this.people[i].addPlant(plant, this.allpoints[index]);
         break;
       }

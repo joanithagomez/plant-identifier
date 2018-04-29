@@ -32,10 +32,6 @@ export default class BottomTab extends React.Component {
               <Icon name="home" />
               <Text>Home</Text>
             </Button>
-            <Button vertical active={this.state.selectedTab === 'camera'} onPress={() => this.setState({selectedTab: 'camera'}); this.props.navigation.navigate('CameraScreen')}>
-              <Icon name="camera" />
-              <Text>Camera</Text>
-            </Button>
             <Button vertical onPress={() => this.props.navigation.navigate('Game')}>
               <Icon name="md-game-controller-b" />
               <Text>Game</Text>

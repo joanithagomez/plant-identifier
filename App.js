@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  Container,
+  Footer,
+  Content,
+  FooterTab,
+  Button,
+  Icon,
+  Text
+} from "native-base";
+import { Ionicons } from '@expo/vector-icons';
 import Home from "./Home";
 import CapturedImage from "./CapturedImage";
 import PlantInfo from "./PlantInfo";
@@ -7,28 +17,15 @@ import GalleryScreen from "./GalleryScreen";
 import CameraScreen from "./CameraScreen";
 import Login from "./Login";
 import CreateRoom from "./CreateRoom";
-// import CreateRoom from "./CreateRoom";
 import Guess from "./Guess";
 import Game from "./Game";
 import JoinRoom from './JoinRoom';
 import GameRoom from './GameRoom';
 
-import {
-  Container,
-  Header,
-  Content,
-  Footer,
-  Fab,
-  Button,
-  Icon,
-  Text,
-  Badge
-} from 'native-base';
 import {Font, AppLoading} from "expo";
-import {BackHandler} from 'react-native';
-import {addNavigationHelpers, StackNavigator} from 'react-navigation';
+import {addNavigationHelpers, TabNavigator, TabBarBottom , StackNavigator} from 'react-navigation';
 
-const RootStack = StackNavigator({
+const HomeStack = StackNavigator({
   Home: {
     screen: Home
   },
@@ -50,12 +47,12 @@ const RootStack = StackNavigator({
   Guess: {
     screen: Guess
   },
-  // BottomTab: {
-  //   screen: BottomTab
-  // },
   Recognition: {
     screen: Recognition
-  },
+  }
+}, {initialRouteName: 'Home'});
+
+const GameStack = StackNavigator({
   Game: {
     screen: Game
   },
@@ -68,27 +65,52 @@ const RootStack = StackNavigator({
   CreateRoom: {
     screen: CreateRoom
   },
-},{initialRouteName: 'Home'});
+  CameraScreen: {
+    screen: CameraScreen
+  },
+
+}, {initialRouteName: 'Game'});
+
+const Tab = TabNavigator({
+  Home: { screen: HomeStack },
+  Game: { screen: GameStack },
+},
+{
+    tabBarComponent: TabBarBottom,
+    tabBarPosition: 'bottom',
+    tabBarOptions: {
+      activeTintColor: '#AACD6E',
+      activeBackgroundColor: '#fff',
+      inactiveTintColor: 'gray',
+      labelStyle: {
+       fontSize: 12,
+       padding: 12
+     }
+    },
+    animationEnabled: true,
+    swipeEnabled: true,
+  });
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: true
+      loading: true,
     };
   }
 
-
-    async componentDidMount() {
-      await Font.loadAsync({Roboto: require("native-base/Fonts/Roboto.ttf"), Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")});
-      this.setState({loading: false});
-    }
+  async componentDidMount() {
+    await Font.loadAsync({Roboto: require("native-base/Fonts/Roboto.ttf"), Roboto_medium: require("native-base/Fonts/Roboto_medium.ttf")});
+    this.setState({loading: false});
+  }
 
 
   render() {
     if (this.state.loading) {
       return <Expo.AppLoading/>;
     }
-    return (<RootStack />);
+    return (<Container>
+      <Tab />
+    </Container>);
   }
 }

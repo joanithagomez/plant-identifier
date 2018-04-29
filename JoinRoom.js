@@ -1,24 +1,30 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
+import {  View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import { Constants } from 'expo';
 import Room from './Room'
 import Person from './Person'
+import {Container, Text, Spinner} from 'native-base';
+
 export default class JoinRoom extends Component {
 
+  constructor(props){
+    super(props);
+
+  }
   render() {
     return (
-      <View style={styles.container}>
+      <Container>
         <Text style={styles.paragraph}>
           Join a Room!
         </Text>
         {this.renderRooms()}
-      </View>
+      </Container>
     );
   }
 
-  renderRooms(){
+  renderRooms = () => {
     var name ="The Garden"
-     var name1 ="Farming Elites"
+    var name1 ="Farming Elites"
     var time = "10:00";
     var points = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
     var people = [];
@@ -73,13 +79,6 @@ export default class JoinRoom extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
-  },
   paragraph: {
     margin: 24,
     fontSize: 18,
@@ -95,7 +94,7 @@ const styles = StyleSheet.create({
     },
     buttonTextStyle:{
       color: 'white',
-      fontWeight: 'bold',
+      // fontWeight: 'bold',
       fontSize: 25,
     }
 });

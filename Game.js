@@ -6,30 +6,21 @@ import {
   View,
   Image
 } from "react-native";
+import JoinRoom from './JoinRoom';
 
 export default class Game extends React.Component {
-  static navigationOptions = ({navigation}) => ({
-    title: `${navigation.state.params.title}`,
-    headerTitleStyle: {
-      color: 'white',
-      textAlign: 'center',
-      alignSelf: 'center'
-    },
-    headerStyle: {
-      backgroundColor: 'green'
+  static navigationOptions = {
+        header: null
     }
-  });
 
   render() {
+
     return (<Container style={styles.container}>
       <View>
-        <Text>Welcome !</Text>
         <Button large style={styles.button} onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}>
           <Text style={styles.btnText}>Create Room</Text>
         </Button>
-        <Button large style={styles.button} onPress={() => this.props.navigation.navigate('JoinRoom', {title: 'Join Room'})}>
-          <Text style={styles.btnText}>Join Room</Text>
-        </Button>
+        <JoinRoom {...this.props}/>
       </View>
     </Container>);
   }
@@ -37,7 +28,6 @@ export default class Game extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: "white",
