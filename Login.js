@@ -1,5 +1,6 @@
 import React from "react";
 import CapturedImage from "./CapturedImage";
+import Firebase from "./Firebase";
 import * as firebase from 'firebase';
 import { StyleSheet, Text, View } from 'react-native';
 import{ StackNavigator,} from 'react-navigation';
@@ -7,30 +8,18 @@ import{ StackNavigator,} from 'react-navigation';
 
 import {Container, Content, Header, Form, Input, Item, Button, Label} from 'native-base'
 
-
-// Initialize Firebase
-const firebaseConfig = {
-    apiKey: "AIzaSyDR34ALXOEOnNqCvtGXsXnBThTZ6V-e-NM",
-    authDomain: "plant-identifier-cf27c.firebaseapp.com",
-    databaseURL: "https://plant-identifier-cf27c.firebaseio.com",
-    projectId: "plant-identifier-cf27c",
-    storageBucket: ""
-};
-
-firebase.initializeApp(firebaseConfig);
-
 export default class Login extends React.Component {
-  // static navigationOptions = ({navigation}) => ({
-  //   title: `${navigation.state.params.title}`,
-  //   headerTitleStyle: {
-  //     color: 'white',
-  //     textAlign: 'center',
-  //     alignSelf: 'center'
-  //   },
-  //   headerStyle: {
-  //     backgroundColor: 'green'
-  //   }
-  // });
+  static navigationOptions = ({navigation}) => ({
+    title: `${navigation.state.params.title}`,
+    headerTitleStyle: {
+      color: 'white',
+      textAlign: 'center',
+      alignSelf: 'center'
+    },
+    headerStyle: {
+      backgroundColor: 'green'
+    }
+  });
 
   constructor(props){
     super(props)
@@ -41,39 +30,43 @@ export default class Login extends React.Component {
     })
   }
 
-signUpUser = (email,password) => {
-try
-  {  if(this.state.password.length<6)
+signUpUser = (email,password)=>{
+  try{
+
+    if(this.state.password.length<6)
     {
       alert("Please enter at least 6 characters")
       return;
     }
 
-    firebase.auth().createUserWithEmailAndPassword(email, password);
-    this.props.navigation.navigate("Home", {title: "Let's Play"});
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+    this.props.navigation.navigate("Register");
 
-}
-    catch(error) {
-   console.log(error.code);
-   console.log(error.message);
+    database.ref("users").push().child("email").set(email)
+    database.ref("users").push().child("name").set(null);
+    database.ref("users").push().child("total identified")
+    database.ref("users").push().child("num correct")
+    database.ref("users").push().child("photos")
+  }
+
+  catch(error){
+    console.log(error.toString())
   }
 
 }
 
 loginUser = (email,password)=>{
-    try{
-      firebase.auth().signInWithEmailAndPassword(email, password)
-         // this.props.navigation.navigate("Game", {title: "Let's Play"});
-         this.props.navigation.navigate("Home", {title: "Home"})
 
-       }
-        catch(error) {
-             console.error("Sign in failed.");
-        }
-      // this.props.navigation.navigate("Game", {title: "Let's Play"})
+  try{
+
+      firebase.auth().signInWithEmailAndPassword(email, password)
+      this.props.navigation.navigate("Game", {title: "Let's Play"})
+  }
+  catch(error){
+    console.log("User has not been created")
+  }
 
 }
-
 
   render() {
     return (
@@ -105,13 +98,13 @@ loginUser = (email,password)=>{
             <Text style={{ color: 'white' }}>Login</Text>
           </Button>
 
-          <Button style={{marginTop: 10 }} full primary={true} onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
+          <Button style={{marginTop: 10 }} full primary={true} onPress={()=>this.props.navigation.navigate("Register")} >
             <Text style={{ color: 'white' }}>Sign Up</Text>
           </Button>
+
           <Button rounded dark style={{ marginTop: 10}} onPress={() => {this.props.navigation.navigate('Setting')}}>
             <Text style={{ color: 'white'}}>Settings</Text>
           </Button>
-
 
         </Form>
       </Container>

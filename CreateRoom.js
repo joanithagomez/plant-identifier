@@ -6,8 +6,10 @@ import DatePicker from 'react-native-datepicker'
 import Room from './Room'
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // Version can be specified in package.json
+import * as firebase from 'firebase';
 
 const list = [ 'agave', 'bamboo', 'bird of paradise', 'bleeding hearts', 'blue thistle', 'california poppy', 'calla lily', 'cherry blossoms', 'crocus', 'daffodil', 'dahlia', 'daisy', 'fern', 'fly agaric', 'forsythia', 'foxgloves', 'gerbera', 'hibiscus', 'iris', 'lace leaf', 'lavender', 'orchid', 'persimmon', 'plumeria', 'poinsettia', 'protea', 'rose', 'snowdrop', 'sunflower', 'tulip'];
+
 
 export default class CreateRoom extends Component {
   constructor(props) {
@@ -26,7 +28,7 @@ export default class CreateRoom extends Component {
         <View style={styles.container}>
           <Text style={styles.paragraph}>
             Fill in the input values below
-          </Text>        
+          </Text>
 
           <Card title=" Create Your Own Room for a Plant Game">
             <Text style={styles.infoTextStyle}>Enter Room Name</Text>
@@ -121,6 +123,13 @@ export default class CreateRoom extends Component {
     else{
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
       // 1. todo: push room onto firebase
+      // database.ref("rooms").ref("name").set(roomnameTemp)
+      // database.ref("rooms").ref("endTime").set(endingtimeTemp)
+      // database.ref("rooms").ref("treeMap").ref("name").set(roomnameTemp)
+      // database.ref("rooms").ref("treeMap").ref("point").set(pointsTemp)
+      // database.ref("rooms").ref("person").ref("name").set(peopleTemp)
+      // database.ref("rooms").ref("person").ref("userId").set(currentid)
+      // database.ref("rooms").ref("person").ref("IdPlants").push()
 
       this.setState({
         showToast: true
