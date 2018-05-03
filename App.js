@@ -12,6 +12,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Home from "./Home";
 import CapturedImage from "./CapturedImage";
 import PlantInfo from "./PlantInfo";
+import Register from "./Register";
 import Recognition from "./Recognition";
 import GalleryScreen from "./GalleryScreen";
 import CameraScreen from "./CameraScreen";
@@ -34,6 +35,9 @@ const HomeStack = StackNavigator({
   },
   CameraScreen: {
     screen: CameraScreen
+  },
+  Register: {
+    screen: Register
   },
   PlantInfoPage: {
     screen: PlantInfo
