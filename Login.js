@@ -10,7 +10,7 @@ import {Container, Content, Header, Form, Input, Item, Button, Label} from 'nati
 
 export default class Login extends React.Component {
   static navigationOptions = ({navigation}) => ({
-    title: `${navigation.state.params.title}`,
+    title: 'Login',
     headerTitleStyle: {
       color: 'white',
       textAlign: 'center',

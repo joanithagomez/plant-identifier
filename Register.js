@@ -42,7 +42,9 @@ export default class Register extends React.Component {
         numCorrect: this.state.numCorrect
       }
 
-      database.ref("users").push(data)
+      var key = database.ref("users").push(data).key;
+      console.log(key);
+      database.ref("users").push(data);
       this.props.navigation.navigate("Game", {title: "Let's Play"})
       /*database.ref("users").push().child("email").set(email)
       database.ref("users").push().child("name").set(this.state.name)

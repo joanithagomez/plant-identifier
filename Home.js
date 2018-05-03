@@ -31,6 +31,11 @@ export default class Home extends React.Component {
           <Button large style={styles.button} onPress={() => this.props.navigation.navigate('Image')}>
             <Text style={styles.btnText}>Open Gallery</Text>
           </Button>
+
+          <Button large style={styles.button} onPress={() => this.props.navigation.navigate('Login')}>
+            <Text style={styles.btnText}>Login</Text>
+          </Button>
+
         </View>
       </View>);
   }
