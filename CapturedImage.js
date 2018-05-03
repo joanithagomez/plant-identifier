@@ -9,7 +9,7 @@ import model from './assets/model/optimized_graph.pb';
 import labels from './assets/model/retrained_labels.txt';
 
 export default class CapturedImage extends Component {
-  
+
 
   constructor(props) {
     super(props);
@@ -72,12 +72,12 @@ export default class CapturedImage extends Component {
 
 
       var img = decodeURI(this.state.image).replace("file://", "");
-      console.log("Passing to tf: " + img);
+      // console.log("Passing to tf: " + img);
       const results = await tfImageRecognition.recognize({image: img, outputName: "final_result", maxResults: 3});
 
-      console.log("Tf recognition plants result:" + results);
-      for(var property in results)
-        console.log(property);
+      // console.log("Tf recognition plants result:" + results);
+      // for(var property in results)
+      //   console.log(property);
 
       console.log("Result : " + results[0].name + " confidence: " + results[0].confidence);
       // console.log("Result : " + results[1].name + " confidence: " + results[1].confidence);
@@ -102,7 +102,6 @@ export default class CapturedImage extends Component {
     }
 
     return (<View style={styles.container}>
-      {(this.state.image) && <Image source = {{uri: this.state.image}} style={styles.image}/>}
       {(this.state.result !== "") && (this.state.image) && <Guess imageUri={this.state.image} option={this.state.result} {...this.props}></Guess>}
     </View>);
   }
@@ -112,7 +111,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF'
   },
   results: {
@@ -131,8 +129,5 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'white'
   },
-  image: {
-    width: 150,
-    height: 100
-  },
+
 });

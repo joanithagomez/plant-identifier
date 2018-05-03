@@ -179,7 +179,7 @@ export default class GameRoom extends Component {
 
     room.updatePersonPoints(currentid, plantname, i);
     this.setState({
-      total: aroom.getPerson(currentid).getTotalPoints()
+      total: this.state.aroom.getPerson(currentid).getTotalPoints()
     })
   }
 

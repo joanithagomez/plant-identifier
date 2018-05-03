@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet} from "react-native";
+import {StyleSheet, Image, View} from "react-native";
 import {Container, Text, Spinner, Button} from 'native-base';
 import PlantInfo from "./PlantInfo";
 
@@ -8,12 +8,13 @@ export default class Guess extends React.Component {
     super(props);
     this.state = {
       optionsArr: [],
-      isLoading: true
+      isLoading: true,
+      selection: 'none',
+
     }
   }
 
   componentDidMount() {
-
     var labels = [
       'agave',
       'bamboo',
@@ -58,11 +59,11 @@ export default class Guess extends React.Component {
     var arr = shuffleArray(dupLabels);
 
     var finalOptionsArr = shuffleArray([arr[0], arr[1], this.props.option]);
-    // console.log("shuffled: " + finalOptionsArr + ".");
+     // console.log("shuffled: " + finalOptionsArr + ".");
     if (finalOptionsArr.length === 3)
       this.setState({optionsArr: finalOptionsArr, isLoading: false});
 
-    }
+  }
 
   _goToInfoscreen = (name, image) => {
     // console.log("Name going to _goToInfoscreen: " + name);
@@ -74,6 +75,23 @@ export default class Guess extends React.Component {
     });
   };
 
+  handleSelection(selected) {
+    if(selected === this.props.option){
+      this.setState({
+        selection: selected
+      });
+    }
+    //todo: go to next page after some time
+      this._goToInfoscreen(this.props.option, this.props.imageUri);
+
+  }
+
+  getColor(optionName){
+    if(this.state.selection === optionName){
+      return styles.greenButton;
+    }else
+      return styles.button;
+  }
   render() {
 
     if (this.state.isLoading) {
@@ -82,33 +100,34 @@ export default class Guess extends React.Component {
       </Container>);
     }
 
-    return (<Container>
+
+    return (<Container style={styles.container}>
+      {(this.props.imageUri) && <Image source = {{uri: this.props.imageUri}} style={styles.image}/>}
       <Text style={styles.title}>What's your best guess?
       </Text>
-      <Button style={{
-          marginTop: 10
-        }} full rounded primary={true}>
-        <Text style={{
+      <Button style={this.getColor(this.state.optionsArr[0])} onPress={() => this.handleSelection(this.state.optionsArr[0])} full rounded>
+          <Text style={{
             color: 'white'
           }}>{this.state.optionsArr[0]}</Text>
       </Button>
-      <Button style={{
-          marginTop: 10
-        }} full rounded primary={true} onPress={() => {
-          // console.log(this.props.option)
-          this._goToInfoscreen(this.props.option, this.props.imageUri);
-        }}>
+      <Button style={this.getColor(this.state.optionsArr[1])} onPress={() => this.handleSelection(this.state.optionsArr[1])} full rounded >
         <Text style={{
             color: 'white'
           }}>{this.state.optionsArr[1]}</Text>
       </Button>
-      <Button style={{
-          marginTop: 10
-        }} full rounded primary={true}>
-        <Text style={{
+      <Button style={this.getColor(this.state.optionsArr[2])} onPress={() => this.handleSelection(this.state.optionsArr[2])} full rounded>
+      <Text style={{
             color: 'white'
           }}>{this.state.optionsArr[2]}</Text>
       </Button>
+
+      <Button transparent full rounded style={{marginTop: 40}}
+        onPress={() => {
+          // console.log(this.props.option)
+          this._goToInfoscreen(this.props.option, this.props.imageUri);
+        }}>
+          <Text>Skip to answer</Text>
+        </Button>
     </Container>);
   }
 }
@@ -116,15 +135,30 @@ export default class Guess extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    alignItems: 'center',
+    backgroundColor: "#cbe86b",
     justifyContent: 'center',
-    // padding: 10
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center'
-  }
+  },
+  greenButton:{
+    backgroundColor: '#007830',
+  },
+  redButton:{
+    backgroundColor: 'red'
+  },
+  button: {
+    backgroundColor: '#34282F',
+    marginTop: 10
+  },
+  image: {
+    marginTop: 20,
+    width: 150,
+    height: 100
+  },
 });
 
 function shuffleArray(array) {

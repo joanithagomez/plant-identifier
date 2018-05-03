@@ -26,6 +26,10 @@ import GameRoom from './GameRoom';
 import {Font, AppLoading} from "expo";
 import {addNavigationHelpers, TabNavigator, TabBarBottom , StackNavigator} from 'react-navigation';
 
+console.ignoredYellowBox = [
+  'Setting a timer'
+];
+
 const HomeStack = StackNavigator({
   Home: {
     screen: Home
