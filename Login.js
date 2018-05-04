@@ -9,58 +9,40 @@ import{ StackNavigator,} from 'react-navigation';
 import {Container, Content, Header, Form, Input, Item, Button, Label} from 'native-base'
 
 export default class Login extends React.Component {
-  static navigationOptions = ({navigation}) => ({
-    title: `${navigation.state.params.title}`,
-    headerTitleStyle: {
-      color: 'white',
-      textAlign: 'center',
-      alignSelf: 'center'
-    },
-    headerStyle: {
-      backgroundColor: 'green'
-    }
-  });
-
+  // static navigationOptions = ({navigation}) => ({
+  //   title: `${navigation.state.params.title}`,
+  //   headerTitleStyle: {
+  //     color: 'white',
+  //     textAlign: 'center',
+  //     alignSelf: 'center'
+  //   },
+  //   headerStyle: {
+  //     backgroundColor: 'green'
+  //   }
+  // });
+  static navigationOptions = {
+    header: null
+  }
   constructor(props){
     super(props)
 
     this.state= ({
       email: '',
-      password:''
+      password:'',
+      userData: null,
     })
   }
-
-signUpUser = (email,password)=>{
-  try{
-
-    if(this.state.password.length<6)
-    {
-      alert("Please enter at least 6 characters")
-      return;
-    }
-
-    firebase.auth().createUserWithEmailAndPassword(email, password)
-    this.props.navigation.navigate("Register");
-
-    database.ref("users").push().child("email").set(email)
-    database.ref("users").push().child("name").set(null);
-    database.ref("users").push().child("total identified")
-    database.ref("users").push().child("num correct")
-    database.ref("users").push().child("photos")
-  }
-
-  catch(error){
-    console.log(error.toString())
-  }
-
-}
 
 loginUser = (email,password)=>{
 
   try{
+      firebase.auth().signInWithEmailAndPassword(email, password).then((data) => {
+        this.setState({
+          userData: data
+        });
+        this.props.navigation.navigate("Game", {title: "Let's Play", userData: data})
 
-      firebase.auth().signInWithEmailAndPassword(email, password)
-      this.props.navigation.navigate("Game", {title: "Let's Play"})
+      });
   }
   catch(error){
     console.log("User has not been created")
@@ -69,6 +51,8 @@ loginUser = (email,password)=>{
 }
 
   render() {
+      // console.log(this.state.userData.uid + " In login");
+
     return (
 
       <Container style={styles.container}>
@@ -98,12 +82,13 @@ loginUser = (email,password)=>{
             <Text style={{ color: 'white' }}>Login</Text>
           </Button>
 
-          <Button style={{marginTop: 10 }} full primary={true} onPress={()=>this.props.navigation.navigate("Register")} >
-            <Text style={{ color: 'white' }}>Sign Up</Text>
-          </Button>
 
-          <Button rounded dark style={{ marginTop: 10}} onPress={() => {this.props.navigation.navigate('Setting')}}>
-            <Text style={{ color: 'white'}}>Settings</Text>
+
+            <Button style={{marginTop: 10 }} full dark transparent onPress={()=>this.props.navigation.navigate("Register")} >
+              <Text>
+                Dont have an account?
+              </Text>
+              <Text> Sign Up</Text>
           </Button>
 
         </Form>
