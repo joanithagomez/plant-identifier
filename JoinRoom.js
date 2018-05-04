@@ -16,20 +16,7 @@ import {Container, Text, Spinner} from 'native-base';
 import * as firebase from 'firebase';
 
 export default class JoinRoom extends Component {
-	/*
-  constructor(props){
-    super(props);
-	this.database = firebase.database();
-	this.roomlist = [];
-	this.tasksRef = this.database.ref("rooms");
-	
-	firebase.database().ref("rooms").once('value').then(snap => snap.val()).then(items => {
-		console.log('items ', items);
-		this.roomlist.push(items);
-	});
-	
-  }
-*/
+
 constructor(props) {
     super(props);
     this.tasksRef = firebase.database().ref("rooms");
@@ -42,7 +29,7 @@ constructor(props) {
   }
 _renderItem(task) {
   return (
-    <ListItem task={task} />
+    <ListItem {...this.props} task={task} />
   );
 }
 listenForTasks(tasksRef) {
@@ -73,11 +60,12 @@ listenForTasks(tasksRef) {
 	   <ToolbarAndroid
 			  style={styles.navbar}
 			  title="Room List" />
-        <ListView
+        <ListView 
           enableEmptySections={true}
           dataSource={this.state.dataSource}
           renderRow={this._renderItem.bind(this)}
-          style={styles.listView}/>
+          style={styles.listView}
+		  />
       </View>
     );
   }

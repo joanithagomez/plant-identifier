@@ -32,7 +32,7 @@ export default class Game extends React.Component {
 			</View>
 			<View style={styles.containerBottom}>
 				<Text style={styles.headingStyle}>❁ ...Or Choose a Room to Join! ❁</Text>
-				<JoinRoom {...this.props}/>
+				<JoinRoom  {...this.props}/>
 			</View>
 		</ScrollView>
 	);

@@ -9,7 +9,7 @@ import {
   Icon,
   Text,ListItem,List,Thumbnail,Right,Body
 } from 'native-base';
-
+import * as firebase from 'firebase';
 import Room from './Room'
 import Person from './Person'
 
@@ -47,64 +47,36 @@ const allplants = [
   'sunflower',
   'tulip'
 ];
-
-var name = "The Garden";
-var time = "10:00";
-var points = [
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10,
-  10
-];
-var people = [];
-
-var currentPerson = new Person(1, 'Pearl');
-
-var currentid = 1; // 2. todo: replace with current user id
-
+	
 export default class GameRoom extends Component {
   static navigationOptions = {
     header: null
   }
 
   state = {
-     aroom: null,
+    aroom: null,
     result: '',
     submitted: [],
     total: 0
   }
+	constructor(props) {
+		super(props);
+		
+		const {key} = this.props.navigation.state.params; //room passed from navigation
+		
+		var name = "The Garden";
+		var time = "10:00";
+		var points = [];
+		var people = [];
 
+		var currentid = 1; // 2. todo: replace with current user id
+		
+		var database = firebase.database();
+		var hey = database.ref("rooms").child(key).roomname;
+		console.log("happy" + hey);
+	}
     componentDidMount(){
-      const {room} = this.props.navigation.state.params; //room passed from navigation
-
-      if(room) room.addPeople(currentPerson);
-      console.log(room)
+  
 
       this.setState({
         aroom: room

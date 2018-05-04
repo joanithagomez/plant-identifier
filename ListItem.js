@@ -13,6 +13,10 @@ import Room from './Room'
 import Person from './Person'
 
 class ListItem extends Component {
+  constructor(props) {
+	super(props);
+
+  }
   render() {
 	var dialogTitle = 'Are you sure you want to join ' + this.props.task.name + "?";
     return (
@@ -29,44 +33,29 @@ class ListItem extends Component {
               [
                 {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
                 {text: 'OK', onPress: () => {
+					var currentId = 2; //TODO replace with user's id 
+					var currentName = "Sneaky";
+					
 					var item = this.props.task.obj;
-					console.log("faith" + item.endingtime);
-					console.log("hey"+item.people);
-                    var tempUserId = 2; //  2. todo: replace w/ current user's id
-                    var tempUsername = 'Faith'; // 3. todo: replace w/ current user's name
-                    
-					var temporaryRoom = new Room(item.roomname, item.endingtime, item.allpoints, item.people);
-					var allpeople = [];
-					var heyPromise = new Promise(function(resolve, reject) {
-						database.ref("rooms").child(this.props.task._key).child("people").once('value').then(function(snapshot){
-							snapshot.forEach((child)=> {
-								var id1 = child.val().userid;
-								allpeople.push(id1);
-								
-								if(allpeople.length === 1){
-									resolve(allpeople);
-								}
-							});
-						});
-					});
+		
+					var alreadyExists = false;
+					for(var i = 1; i < item.people.length && !alreadyExists; i++){
+						if(currentId === item.people[i].userid){
+							alreadyExists = true;
+						}
+					}
 					
-					heyPromise.then(function(full){
-						console.log(full);
-					});
-					
-					if(!temporaryRoom.personExists(tempUserId)){
-						var tempPerson = new Person(tempUserId, tempUsername);		
+					if(!alreadyExists){
+						var tempPerson = new Person(currentId, currentName);
+						item.people.push(tempPerson);
                        // 4. todo: update the room in Firebase
 						var database = firebase.database();
-						var tempPeople = item.people;
-						tempPeople.push(tempPerson);
-						database.ref("rooms").child(this.props.task._key).child("people").set(tempPeople);
-						//database.ref("rooms").child(this.props.task._key).child("people").child(1).push(tempPerson);
+						database.ref("rooms").child(this.props.task._key).child("people").set(item.people);
+						
                     }
                     
-                    // 5. todo: navigate to game page and send the room as well
-                    //this.props.navigation.navigate('GameRoom', {title: 'Game Room', key: this.props.task._key, room:item});
-
+                    // 5. todo: navigate to game room and send the room as well
+                    this.props.navigation.navigate('GameRoom', {title: 'Game Room', key:this.props.task._key});
                   }
 
                 },
