@@ -8,7 +8,7 @@ AppRegistry,
   ListView,
   ToolbarAndroid
  } from 'react-native';
- import ListItem from './components/ListItem.js';
+ import ListItem from './ListItem.js';
 import { Constants } from 'expo';
 import Room from './Room'
 import Person from './Person'
@@ -51,6 +51,7 @@ listenForTasks(tasksRef) {
     dataSnapshot.forEach((child) => {
       tasks.push({
         name: child.val().roomname,
+		obj: child.val(),
         _key: child.key
       });
     });
@@ -69,9 +70,9 @@ listenForTasks(tasksRef) {
   render() {
     return (
       <View style={styles.container}>
-   <ToolbarAndroid
-          style={styles.navbar}
-          title="Todo List" />
+	   <ToolbarAndroid
+			  style={styles.navbar}
+			  title="Room List" />
         <ListView
           enableEmptySections={true}
           dataSource={this.state.dataSource}
@@ -165,25 +166,4 @@ const styles = StyleSheet.create({
       // fontWeight: 'bold',
       fontSize: 25,
     },
-	listView: {
-    flex: 1,
-  },
-  listItem: {
-    borderBottomColor: '#eee',
-    borderColor: 'gray',
-    flexDirection:'row',
-    alignItems:'center',
-    borderWidth: 1,
-    padding:20
-  },
-  listItemTitle: {
-    flex: 6,
-    color: '#000',
-    fontSize: 16,
-  },
-  listItemAction: {
-    flex: 1,
-    width: 40,
-    height: 40
-  },
 });
