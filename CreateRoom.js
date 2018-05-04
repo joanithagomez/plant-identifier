@@ -4,12 +4,13 @@ import { Constants } from 'expo';
 import {  Container,Content, Button, Toast, Text } from 'native-base';
 import DatePicker from 'react-native-datepicker'
 import Room from './Room'
+//import firebase from './Firebase'
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // Version can be specified in package.json
-import * as firebase from 'firebase';
 
 const list = [ 'agave', 'bamboo', 'bird of paradise', 'bleeding hearts', 'blue thistle', 'california poppy', 'calla lily', 'cherry blossoms', 'crocus', 'daffodil', 'dahlia', 'daisy', 'fern', 'fly agaric', 'forsythia', 'foxgloves', 'gerbera', 'hibiscus', 'iris', 'lace leaf', 'lavender', 'orchid', 'persimmon', 'plumeria', 'poinsettia', 'protea', 'rose', 'snowdrop', 'sunflower', 'tulip'];
 
+//var database = firebase.database();
 
 export default class CreateRoom extends Component {
   constructor(props) {
@@ -112,6 +113,12 @@ export default class CreateRoom extends Component {
   }
 
   submitButtonHandler(){
+    // var data = {
+    //   roomnameTemp: this.state.roomname,
+    //   endingtimeTemp: this.state.endingtime,
+    //   pointsTemp: this.state.points,
+    //   peopleTemp: []
+    // }
 
     var roomnameTemp = this.state.roomname;
     var endingtimeTemp = this.state.endingtime;
@@ -121,8 +128,11 @@ export default class CreateRoom extends Component {
       alert("Please enter roomname!");
     }
     else{
+      //database.ref("rooms").push(data);
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
       // 1. todo: push room onto firebase
+	  var database = firebase.database();
+	  database.ref("rooms").push(room);
       // database.ref("rooms").ref("name").set(roomnameTemp)
       // database.ref("rooms").ref("endTime").set(endingtimeTemp)
       // database.ref("rooms").ref("treeMap").ref("name").set(roomnameTemp)

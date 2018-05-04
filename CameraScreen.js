@@ -16,6 +16,9 @@ import {
   Icon,
   Text} from 'native-base';
 import {TfImageRecognition} from 'react-native-tensorflow';
+import firebase from './Firebase';
+
+var database = firebase.database();
 
 export default class CameraScreen extends Component {
 
@@ -59,6 +62,7 @@ export default class CameraScreen extends Component {
       let data = await this.camera.takePictureAsync({skipProcessing: true,fixOrientation: false});
 
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
+        
         // console.log("uri:" + data.uri);
         // console.log("saveResult: " + saveResult);
         // console.log("Property in saveResult: ");
