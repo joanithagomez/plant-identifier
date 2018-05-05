@@ -22,6 +22,7 @@ import Guess from "./Guess";
 import Splash from "./Splash";
 import Game from "./Game";
 import JoinRoom from './JoinRoom';
+import ListItem from './ListItem';
 import GameRoom from './GameRoom';
 
 import {Font, AppLoading} from "expo";
@@ -84,7 +85,13 @@ const GameStack = StackNavigator({
   CameraScreen: {
     screen: CameraScreen
   },
+
+  ListItem: {
+	  screen: ListItem
+  },
+
 },{initialRouteName: 'Game'});
+
 
 const InitialStackRoutes = StackNavigator(
   {

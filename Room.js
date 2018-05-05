@@ -1,17 +1,20 @@
+import Person from './Person'
+
 export default class Room {
 
-  constructor(roomname, endingtime, allpoints) {
+  constructor(roomname, endingtime, allpoints, people, size) {
       this.roomname = roomname;
 	  this.endingtime = endingtime;
       this.allpoints = allpoints;
-	  this.people = [];
+	  this.people = people;
+	  this.size = 0;
   }
   toString(){
 	  return this.roomname;
   }
   personExists(userid){
     var i;
-    for(i = 0; i < this.people.length; i++){
+    for(i = 1; i < this.people.length; i++){
       if(userid == this.people[i].getUserId()){
         return true;
       }
@@ -37,7 +40,7 @@ export default class Room {
     var max = 0;
     var username = "";
     var i;
-    for(i = 0; i < this.people.length; i++){
+    for(i = 1; i < this.people.length; i++){
       var temppoints = this.people[i].getTotalPoints();
       if(max < temppoints){
         max = temppoints;
@@ -48,14 +51,14 @@ export default class Room {
   }
   getPerson(userid){
     var i;
-    for(i = 0; i < this.people.length; i++){
+    for(i = 1; i < this.people.length; i++){
       if(userid == this.people[i].getUserId()){
         return this.people[i];
       }
     }
   }
   updatePersonPoints(userid, plant, index){
-    for(var i = 0; i < this.people.length; i++){
+    for(var i = 1; i < this.people.length; i++){
       if(userid == this.people[i].getUserId()){
         this.people[i].addPlant(plant, this.allpoints[index]);
         break;
