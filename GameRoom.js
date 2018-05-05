@@ -53,36 +53,48 @@ export default class GameRoom extends Component {
     header: null
   }
 
-  state = {
-    aroom: null,
-    result: '',
-    submitted: [],
-    total: 0
-  }
 	constructor(props) {
 		super(props);
 		
 		const {key} = this.props.navigation.state.params; //room passed from navigation
-		
-		var name = "The Garden";
-		var time = "10:00";
-		var points = [];
-		var people = [];
 
-		var currentid = 1; // 2. todo: replace with current user id
-		
-		var database = firebase.database();
-		var hey = database.ref("rooms").child(key).roomname;
-		console.log("happy" + hey);
+		this.state = {
+			aroom: null,
+			aname: "Plant Room",
+			atime: "0:00",
+			apoints: [],
+			apeople: [],
+			result: '',
+			submitted: [],
+			total: 0,
+			currentid: 1, // 2. todo: replace with current user id
+		  }
 	}
-    componentDidMount(){
-  
 
-      this.setState({
-        aroom: room
-      });
-    }
+componentDidMount() {
+	const {key} = this.props.navigation.state.params; //room passed from navigation
+	var database = firebase.database();
+	database.ref("rooms").child(key).on('value', (snapshot) => {
+		this.setState({
+			aname: snapshot.val().roomname,
+			atime: snapshot.val().endingtime,
+			apoints: snapshot.val().allpoints,
+			apeople: snapshot.val().people
+		});
+		var tempPoints = 90;
+		for(var i = 1; i < snapshot.val().people.length; i++){
+			if(this.state.currentid == snapshot.val().people[i].userid){
+				tempPoints = snapshot.val().people[i].totalPoints;
+				break;
+			}
+		}
+		this.setState({
+			total: tempPoints,
+		});
+	});
+	
 
+}
   renderSubmissions() {
     var arr = [];
     var submittedArray = this.state.submitted;
@@ -148,13 +160,47 @@ export default class GameRoom extends Component {
         break;
       }
     }
+	
+	var database = firebase.database();
+	var tempPoints = 0;
+	for(var i = 1; i < this.state.apeople.length && tempPoints == 0; i++){
+		if(currentid == this.state.apeople[i].userid){
+			console.log("again");
+			tempPoints = this.state.apeople[i].totalPoints;
+			tempPoints += this.state.apoints[0];
+			this.state.apeople[i].totalPoints = tempPoints;
+		}
+	}
+	
+	this.setState({
+	  total: tempPoints
+	})
+	const {key} = this.props.navigation.state.params;
+	
+	database.ref("rooms").child(key).child("people").child(currentid).child("totalPoints").set(tempPoints);
+				
+    //room.updatePersonPoints(currentid, plantname, i);
+	/*
+    this.setState({
+      total: this.state.aroom.getPerson(currentid).getTotalPoints()
+    })
+	*/
+  }
+/*
+  awardPoints(plantname, room, currentid) {
+    var i;
+    for (i = 0; i < allplants.length; i++) {
+      if (allplants[i] === plantname) {
+        break;
+      }
+    }
 
     room.updatePersonPoints(currentid, plantname, i);
     this.setState({
       total: this.state.aroom.getPerson(currentid).getTotalPoints()
     })
   }
-
+*/
   renderPoints(person) {
     var arr = person.getPlants();
     if (arr.length == 0) {
@@ -170,6 +216,15 @@ export default class GameRoom extends Component {
   }
 
   renderLeaderBoard(room) {
+    return room.map(item => {
+		if(item.userid != 'null'){
+      return (<Text key={'room' + item} style={styles.paragraph}>
+        {item.name}
+        - {item.totalPoints}
+        pts
+      </Text>);}
+    });
+	  /*
     return room.getPeople().map(item => {
       return (<Text key={'room' + item} style={styles.paragraph}>
         {item.getName()}
@@ -177,28 +232,79 @@ export default class GameRoom extends Component {
         pts
       </Text>);
     });
+	*/
   }
-
+  timeLeft(end){
+	var arr_end = end.split(":");
+	var hour_end = parseInt(arr_end[0]);
+	var min_end = parseInt(arr_end[1]);
+	var d = new Date();
+	var hour_diff = hour_end - d.getHours();
+	var min_diff = min_end - d.getMinutes();
+	if(min_diff < 0){
+		hour_diff--;
+		min_diff += 60;
+	}
+	
+	return (60*hour_diff) + min_diff;
+  }
+  
+  hasGameEnded(end){
+	var message = "blah";
+	var remainingTime = this.timeLeft(end);
+	if(remainingTime <= 0){
+		// game has ended
+		message = 'GAME OVER! The winner is ' + this.whoWon() + '!';
+		return (
+		<View>
+          <Text style={styles.timeticker}>
+			  {message}
+			</Text>
+        </View>);
+	}
+	else{
+		message = remainingTime + 'mins';
+		return (
+		<View style={styles.timer}>
+          <Text style={styles.timeticker}>
+			  {message}
+			</Text>
+        </View>);
+	}
+  }
+  
+  whoWon(){
+	var max = 0;
+	var winner = 'nobody';
+	for(var i = 1; i < this.state.apeople.length; i++){
+		if(max < this.state.apeople[i].totalPoints){
+			max = this.state.apeople[i].totalPoints;
+			winner = this.state.apeople[i].name;
+		}
+	}  
+	return winner;
+  }
+  
   render() {
+	var currentid = this.state.currentid;
+
     return (
       <ScrollView>
         <View style={styles.container}>
-        {this.state.aroom && <Text style={styles.header}>{this.state.aroom.getRoomName()}</Text>}
+        {this.state.aname && <Text style={styles.header}>{this.state.aname}</Text>}
         <Text style={styles.totalpoints}>
           <Image source={require('./leaf.png')}/>{this.state.total}
         </Text>
-
-        <View style={styles.timer}>
-          <Text style={styles.timeticker}>
-            10:00
-          </Text>
-        </View>
-        {this.state.aroom && <Text style={styles.paragraph}>
-            End Time: {this.state.aroom.getEndingTime()}
+		
+		{this.hasGameEnded(this.state.atime)}
+        
+		
+        {this.state.aname && <Text style={styles.paragraph}>
+            End Time: {this.state.atime}
          </Text>
        }
         <View>
-        {this.state.aroom && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aroom, currentid)}>
+        {this.state.aname && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aname, currentid)}>
           <Text style={styles.buttonSubmitText}>Take a Photo</Text>
         </Button>}
 
@@ -214,7 +320,7 @@ export default class GameRoom extends Component {
           </List>
         </Card>
       </View>
-        {this.state.aroom && <Card title="Leaderboard" style={styles.cardStyle}>{this.renderLeaderBoard(this.state.aroom)}</Card>}
+        {this.state.apeople && <Card title="Leaderboard" style={styles.cardStyle}>{this.renderLeaderBoard(this.state.apeople)}</Card>}
       </View>
     </ScrollView>
   );
@@ -225,7 +331,7 @@ const styles = StyleSheet.create({
 
   container: {
     padding: Constants.statusBarHeight,
-    backgroundColor: '#34282F'
+    backgroundColor: '#7ac3e2'
   },
   header: {
     fontSize: 30,

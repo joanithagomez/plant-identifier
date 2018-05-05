@@ -33,7 +33,7 @@ class ListItem extends Component {
               [
                 {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
                 {text: 'OK', onPress: () => {
-					var currentId = 2; //TODO replace with user's id 
+					var currentId = 1; //TODO replace with user's id 
 					var currentName = "Sneaky";
 					
 					var item = this.props.task.obj;
