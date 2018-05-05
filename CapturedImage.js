@@ -43,7 +43,7 @@ export default class CapturedImage extends Component {
         }
 
         let info = await FileSystem.getInfoAsync(FileSystem.documentDirectory + "selectedImages/");
-        console.log(info);
+        // console.log(info);
 
         let arr = (result.uri).split('/');
         let filename = arr[arr.length - 1];
@@ -54,7 +54,7 @@ export default class CapturedImage extends Component {
 
         let photos = await FileSystem.readDirectoryAsync(FileSystem.documentDirectory + "selectedImages/");
         // console.log("Reading FileSystem.documentDirectory/selectedImages/: " + photos);
-        console.log(this.state.image);
+        // console.log(this.state.image);
         this.recognizeImage();
       } catch (e) {
         console.log(e);
@@ -68,7 +68,7 @@ export default class CapturedImage extends Component {
   async recognizeImage() {
     try {
       const tfImageRecognition = new TfImageRecognition({model , labels, imageMean: 128, imageStd: 128})
-      console.log(tfImageRecognition);
+      // console.log(tfImageRecognition);
 
 
       var img = decodeURI(this.state.image).replace("file://", "");

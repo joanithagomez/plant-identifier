@@ -19,6 +19,7 @@ import CameraScreen from "./CameraScreen";
 import Login from "./Login";
 import CreateRoom from "./CreateRoom";
 import Guess from "./Guess";
+import Splash from "./Splash";
 import Game from "./Game";
 import JoinRoom from './JoinRoom';
 import ListItem from './ListItem';
@@ -41,24 +42,25 @@ const HomeStack = StackNavigator({
   CameraScreen: {
     screen: CameraScreen
   },
-  Register: {
-    screen: Register
-  },
+
   PlantInfoPage: {
     screen: PlantInfo
   },
   GalleryScreen: {
     screen: GalleryScreen
   },
-  Login: {
-    screen: Login
+  Register: {
+    screen: Register
   },
   Guess: {
     screen: Guess
   },
   Recognition: {
     screen: Recognition
-  }
+  },
+  // Game: {
+  //   screen: Game
+  // },
 }, {initialRouteName: 'Home'});
 
 const GameStack = StackNavigator({
@@ -74,34 +76,62 @@ const GameStack = StackNavigator({
   CreateRoom: {
     screen: CreateRoom
   },
+  Login: {
+    screen: Login
+  },
+  Register: {
+    screen: Register
+  },
   CameraScreen: {
     screen: CameraScreen
   },
+
   ListItem: {
 	  screen: ListItem
   },
 
-}, {initialRouteName: 'Game'});
+},{initialRouteName: 'Game'});
+
+
+const InitialStackRoutes = StackNavigator(
+  {
+      SplashScreen: {
+          screen: Splash
+      },
+      Login: {
+          screen: Login
+      },
+      Game: {
+          screen: GameStack
+      },
+  },{initialRouteName: 'SplashScreen'},
+  {
+      headerMode: 'none',
+      gesturesEnabled: false
+  }
+);
 
 const Tab = TabNavigator({
   Home: { screen: HomeStack },
-  Game: { screen: GameStack },
+  Game: { screen: InitialStackRoutes },
 },
 {
     tabBarComponent: TabBarBottom,
     tabBarPosition: 'bottom',
     tabBarOptions: {
-      activeTintColor: '#AACD6E',
-      activeBackgroundColor: '#fff',
+      activeBackgroundColor: '#cbe86b',
+      activeTintColor: 'black',
       inactiveTintColor: 'gray',
       labelStyle: {
-       fontSize: 12,
+       fontSize: 14,
        padding: 12
      }
     },
     animationEnabled: true,
     swipeEnabled: true,
   });
+
+
 
 export default class App extends React.Component {
   constructor(props) {

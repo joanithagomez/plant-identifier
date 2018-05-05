@@ -8,8 +8,13 @@ import {Container, Content, Header, Form, Input, Item, Button, Label} from 'nati
 
 
 var database = firebase.database();
+var ref = database.ref();
+var usersRef = ref.child('users');
 
 export default class Register extends React.Component {
+  static navigationOptions = {
+    header: null
+  }
 
   constructor(props){
     super(props)
@@ -18,6 +23,7 @@ export default class Register extends React.Component {
       email: '',
       password:'',
       name: '',
+      currentUserID: null,
       totalIdentified: 0,
       numCorrect: 0
     })
@@ -32,25 +38,26 @@ export default class Register extends React.Component {
         return;
       }
 
-      firebase.auth().createUserWithEmailAndPassword(email, password)
-      this.props.navigation.navigate("Register");
+      firebase.auth().createUserWithEmailAndPassword(email, password).then((user) => {
+        console.log(user);
+        // user.forEach((item) => {console.log(item);});
 
-      var data = {
-        email: email,
-        name:  this.state.name,
-        totalIdentified: this.state.totalIdentified,
-        numCorrect: this.state.numCorrect
-      }
+        var userId = user.uid;
 
-      var key = database.ref("users").push(data).key;
-      console.log(key);
-      database.ref("users").push(data);
+              usersRef.child(userId).set({
+                email: this.state.email,
+                  name:  this.state.name,
+                  totalIdentified: this.state.totalIdentified,
+                  numCorrect: this.state.numCorrect
+              });
+
+
+        // this.setState({ currentUserID: userId});
+      });
+
+
       this.props.navigation.navigate("Game", {title: "Let's Play"})
-      /*database.ref("users").push().child("email").set(email)
-      database.ref("users").push().child("name").set(this.state.name)
-      database.ref("users").push().child("total identified").set(this.state.totalIdentified)
-      database.ref("users").push().child("num correct").set(this.state.numCorrect)
-      database.ref("users").push().child("photos")*/
+
     }
 
     catch(error){
@@ -96,25 +103,7 @@ export default class Register extends React.Component {
             />
           </Item>
 
-          <Item floatingLabel>
-          <Label>Total Identified</Label>
-          <Input
-            autoCorrect={false}
-            autoCapitalize="none"
-            onChangeText={(totalIdentified) => this.setState({totalIdentified})}
-            />
-          </Item>
-
-          <Item floatingLabel>
-          <Label>Num Correct</Label>
-          <Input
-            autoCorrect={false}
-            autoCapitalize="none"
-            onChangeText={(numCorrect) => this.setState({numCorrect})}
-            />
-          </Item>
-
-          <Button style={{ marginTop: 10 }} full success={true} onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
+          <Button style={{ marginTop: 10 }} full dark onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
             <Text style={{ color: 'white' }}>Register</Text>
           </Button>
 
