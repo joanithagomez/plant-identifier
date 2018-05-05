@@ -12,6 +12,7 @@ export default class Game extends React.Component {
   state={
     userId: null
   };
+  
   componentDidMount(){
     var userId;
 

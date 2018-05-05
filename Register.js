@@ -56,9 +56,6 @@ export default class Register extends React.Component {
       });
 
 
-      var key = database.ref("users").push(data).key;
-      console.log(key);
-      database.ref("users").push(data);
       this.props.navigation.navigate("Game", {title: "Let's Play"})
 
     }
