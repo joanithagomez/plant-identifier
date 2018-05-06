@@ -4,14 +4,9 @@ import { Constants } from 'expo';
 import {  Container,Content, Button, Toast, Text } from 'native-base';
 import DatePicker from 'react-native-datepicker'
 import Room from './Room'
-<<<<<<< HEAD
-//import firebase from './Firebase'
-import firebase from './Firebase'
-=======
 import Person from './Person'
 import firebase from './Firebase'
 
->>>>>>> ff7f815bae408bd91b0bc6cb1991ae7c8de005be
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // Version can be specified in package.json
 
@@ -128,16 +123,9 @@ export default class CreateRoom extends Component {
     }
     else{
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
-      // 1. todo: push room onto firebase
+    
 	  var database = firebase.database();
 	  database.ref("rooms").push(room);
-      // database.ref("rooms").ref("name").set(roomnameTemp)
-      // database.ref("rooms").ref("endTime").set(endingtimeTemp)
-      // database.ref("rooms").ref("treeMap").ref("name").set(roomnameTemp)
-      // database.ref("rooms").ref("treeMap").ref("point").set(pointsTemp)
-      // database.ref("rooms").ref("person").ref("name").set(peopleTemp)
-      // database.ref("rooms").ref("person").ref("userId").set(currentid)
-      // database.ref("rooms").ref("person").ref("IdPlants").push()
 
       this.setState({
         showToast: true

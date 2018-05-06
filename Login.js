@@ -33,8 +33,6 @@ export default class Login extends React.Component {
     })
   }
 
-<<<<<<< HEAD
-=======
 loginUser = (email,password)=>{
 
   try{
@@ -52,7 +50,6 @@ loginUser = (email,password)=>{
 
 }
 
->>>>>>> ff7f815bae408bd91b0bc6cb1991ae7c8de005be
   render() {
       // console.log(this.state.userData.uid + " In login");
 

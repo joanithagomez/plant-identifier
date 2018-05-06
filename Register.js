@@ -48,7 +48,8 @@ export default class Register extends React.Component {
                 email: this.state.email,
                   name:  this.state.name,
                   totalIdentified: this.state.totalIdentified,
-                  numCorrect: this.state.numCorrect
+                  numCorrect: this.state.numCorrect,
+                  photos: 0,
               });
 
 
@@ -57,16 +58,7 @@ export default class Register extends React.Component {
 
 
       this.props.navigation.navigate("Game", {title: "Let's Play"})
-<<<<<<< HEAD
-      this.props.navigation.navigate("Game", {title: "Let's Play", key: key})
-      /*database.ref("users").push().child("email").set(email)
-      database.ref("users").push().child("name").set(this.state.name)
-      database.ref("users").push().child("total identified").set(this.state.totalIdentified)
-      database.ref("users").push().child("num correct").set(this.state.numCorrect)
-      database.ref("users").push().child("photos")*/
-=======
 
->>>>>>> ff7f815bae408bd91b0bc6cb1991ae7c8de005be
     }
 
     catch(error){
