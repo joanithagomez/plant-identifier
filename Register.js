@@ -46,6 +46,7 @@ export default class Register extends React.Component {
       console.log(key);
       database.ref("users").push(data);
       this.props.navigation.navigate("Game", {title: "Let's Play"})
+      this.props.navigation.navigate("Game", {title: "Let's Play", key: key})
       /*database.ref("users").push().child("email").set(email)
       database.ref("users").push().child("name").set(this.state.name)
       database.ref("users").push().child("total identified").set(this.state.totalIdentified)

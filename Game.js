@@ -8,6 +8,9 @@ import {
 } from "react-native";
 import JoinRoom from './JoinRoom';
 
+// retreive key from database
+const key = {key};
+
 export default class Game extends React.Component {
   static navigationOptions = {
         header: null

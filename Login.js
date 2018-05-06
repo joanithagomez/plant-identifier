@@ -30,44 +30,6 @@ export default class Login extends React.Component {
     })
   }
 
-signUpUser = (email,password)=>{
-  try{
-
-    if(this.state.password.length<6)
-    {
-      alert("Please enter at least 6 characters")
-      return;
-    }
-
-    firebase.auth().createUserWithEmailAndPassword(email, password)
-    this.props.navigation.navigate("Register");
-
-    database.ref("users").push().child("email").set(email)
-    database.ref("users").push().child("name").set(null);
-    database.ref("users").push().child("total identified")
-    database.ref("users").push().child("num correct")
-    database.ref("users").push().child("photos")
-  }
-
-  catch(error){
-    console.log(error.toString())
-  }
-
-}
-
-loginUser = (email,password)=>{
-
-  try{
-
-      firebase.auth().signInWithEmailAndPassword(email, password)
-      this.props.navigation.navigate("Game", {title: "Let's Play"})
-  }
-  catch(error){
-    console.log("User has not been created")
-  }
-
-}
-
   render() {
     return (
 
@@ -110,7 +72,22 @@ loginUser = (email,password)=>{
       </Container>
     );
   }
+
 }
+
+loginUser = (email,password)=>{
+
+  try{
+
+      firebase.auth().signInWithEmailAndPassword(email, password)
+      this.props.navigation.navigate("Game", {title: "Let's Play"})
+  }
+  catch(error){
+    console.log("User has not been created")
+  }
+
+}
+
 
 const styles = StyleSheet.create({
   container:{
