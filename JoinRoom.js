@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {  
-View, 
-StyleSheet, 
-TouchableOpacity, 
+import {
+View,
+StyleSheet,
+TouchableOpacity,
 Alert,
 AppRegistry,
   ListView,
@@ -60,7 +60,7 @@ listenForTasks(tasksRef) {
 	   <ToolbarAndroid
 			  style={styles.navbar}
 			  title="Room List" />
-        <ListView 
+        <ListView
           enableEmptySections={true}
           dataSource={this.state.dataSource}
           renderRow={this._renderItem.bind(this)}

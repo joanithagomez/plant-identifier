@@ -47,7 +47,7 @@ const allplants = [
   'sunflower',
   'tulip'
 ];
-	
+
 export default class GameRoom extends Component {
   static navigationOptions = {
     header: null
@@ -55,7 +55,7 @@ export default class GameRoom extends Component {
 
 	constructor(props) {
 		super(props);
-		
+
 		const {key} = this.props.navigation.state.params; //room passed from navigation
 
 		this.state = {
@@ -92,7 +92,7 @@ componentDidMount() {
 			total: tempPoints,
 		});
 	});
-	
+
 
 }
   renderSubmissions() {
@@ -160,7 +160,7 @@ componentDidMount() {
         break;
       }
     }
-	
+
 	var database = firebase.database();
 	var tempPoints = 0;
 	for(var i = 1; i < this.state.apeople.length && tempPoints == 0; i++){
@@ -171,14 +171,14 @@ componentDidMount() {
 			this.state.apeople[i].totalPoints = tempPoints;
 		}
 	}
-	
+
 	this.setState({
 	  total: tempPoints
 	})
 	const {key} = this.props.navigation.state.params;
-	
+
 	database.ref("rooms").child(key).child("people").child(currentid).child("totalPoints").set(tempPoints);
-				
+
     //room.updatePersonPoints(currentid, plantname, i);
 	/*
     this.setState({
@@ -245,10 +245,10 @@ componentDidMount() {
 		hour_diff--;
 		min_diff += 60;
 	}
-	
+
 	return (60*hour_diff) + min_diff;
   }
-  
+
   hasGameEnded(end){
 	var message = "blah";
 	var remainingTime = this.timeLeft(end);
@@ -272,7 +272,7 @@ componentDidMount() {
         </View>);
 	}
   }
-  
+
   whoWon(){
 	var max = 0;
 	var winner = 'nobody';
@@ -281,10 +281,10 @@ componentDidMount() {
 			max = this.state.apeople[i].totalPoints;
 			winner = this.state.apeople[i].name;
 		}
-	}  
+	}
 	return winner;
   }
-  
+
   render() {
 	var currentid = this.state.currentid;
 
@@ -295,10 +295,10 @@ componentDidMount() {
         <Text style={styles.totalpoints}>
           <Image source={require('./leaf.png')}/>{this.state.total}
         </Text>
-		
+
 		{this.hasGameEnded(this.state.atime)}
-        
-		
+
+
         {this.state.aname && <Text style={styles.paragraph}>
             End Time: {this.state.atime}
          </Text>

@@ -206,6 +206,17 @@ export default class PlantInfo extends React.Component {
               }}>
               <Text>Open Wikipedia to Read More!</Text>
             </Button>
+            <Button transparent textStyle={{
+                color: '#87838B'
+              }} onPress={() => {
+                var shopUrl = 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords='+ this.state.dataSource[0].title;
+                Linking.openURL(shopUrl).catch(err => {
+                  console.error('An error occurred', err),
+                  alert('Sorry! Cannot open Amazon at this time!')
+                });
+              }}>
+              <Text>Buy it</Text>
+            </Button>
           </Left>
         </CardItem>
       </Card>

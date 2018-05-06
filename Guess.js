@@ -26,6 +26,7 @@ export default class Guess extends React.Component {
 
       console.log("User in Guessing component: " + user.uid)
       database.ref("users/" + user.uid).once("value").then((snapshot) => {
+        console.log(snapshot.val());
         this.setState({userId: user.uid, numCorrect: snapshot.val().numCorrect, total: snapshot.val().totalIdentified});
       });
 

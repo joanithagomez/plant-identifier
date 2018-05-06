@@ -5,9 +5,8 @@ import {
   CameraRoll,
   StyleSheet,
   View,
-  Image, 
+  Image,
   ScrollView,
-  TouchableOpacity,
 } from "react-native";
 import {Constants} from 'expo';
 
@@ -22,7 +21,7 @@ export default class Game extends React.Component {
   state={
     userId: null
   };
-  
+
   componentDidMount(){
     var userId;
 
@@ -34,22 +33,22 @@ export default class Game extends React.Component {
     //This is the id of the logged in user
     // var userId = firebase.auth().currentUser.uid;
     console.log(this.state.userId + " in Game");
-    
+
     return (
 		<ScrollView>
-			<View style={styles.container}>
-				<View style={styles.containerInner}>
-					<Text style={styles.headingStyle}>❁ Create a Room to Play!... ❁</Text>
-					<TouchableOpacity
-						style={styles.button} 
+			<Container>
+        <Content contentContainerStyle={styles.contentContainer}>
+					<Text style={styles.headingStyle}>Create a Room to Play!</Text>
+					<Button
+						style={styles.button}
 						onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}
 					>
 						<Text style={styles.btnText}>Create a Room</Text>
-					</TouchableOpacity>
-				</View>
-			</View>
-			<View style={styles.containerBottom}>
-				<Text style={styles.headingStyle}>❁ ...Or Choose a Room to Join! ❁</Text>
+					</Button>
+        </Content>
+				{/* </View> */}
+      <Content contentContainerStyle={styles.contentContainer}>
+				<Text style={styles.headingStyle}>Or Choose a Room to Join!</Text>
 				<JoinRoom  {...this.props}/>
         {this.state.userId && <Button transparent onPress={() => {
                 firebase.auth().signOut().then(() => {
@@ -61,7 +60,9 @@ export default class Game extends React.Component {
               }}>
          <Text>Sign out</Text>
          </Button>}
-			</View>
+       </Content>
+			</Container>
+
 		</ScrollView>
 	);
   }
@@ -69,22 +70,23 @@ export default class Game extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
 	  padding: Constants.statusBarHeight,
     backgroundColor: '#cbe86b',
-	  flex: 1,
   },
+  contentContainer: {
+  paddingVertical: 20
+},
    containerBottom: {
-    justifyContent: 'center',
-    alignItems: 'center',
-	  padding: Constants.statusBarHeight,
-	  flex: 2,
+     justifyContent: 'center',
+     alignItems: 'center',
   },
   containerInner: {
-	marginTop: 50,
-	marginBottom: 25,
-  },  
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   button: {
     alignItems: "center",
 	borderColor: '#c2f9cf',
@@ -96,11 +98,9 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 15,
 	  padding: 15,
-	  fontWeight:'bold'
   },
   headingStyle: {
     color: 'black',
-    fontSize: 20,
-	  fontWeight:'bold'
+    fontSize: 14,
   },
 });
