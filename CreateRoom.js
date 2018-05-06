@@ -4,8 +4,14 @@ import { Constants } from 'expo';
 import {  Container,Content, Button, Toast, Text } from 'native-base';
 import DatePicker from 'react-native-datepicker'
 import Room from './Room'
+<<<<<<< HEAD
 //import firebase from './Firebase'
 import firebase from './Firebase'
+=======
+import Person from './Person'
+import firebase from './Firebase'
+
+>>>>>>> ff7f815bae408bd91b0bc6cb1991ae7c8de005be
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // Version can be specified in package.json
 
@@ -116,7 +122,7 @@ export default class CreateRoom extends Component {
     var roomnameTemp = this.state.roomname;
     var endingtimeTemp = this.state.endingtime;
     var pointsTemp = this.state.points;
-    var peopleTemp = [];
+    var peopleTemp = [new Person('null', 'null')];
     if(roomnameTemp.trim() == ""){
       alert("Please enter roomname!");
     }
@@ -139,7 +145,7 @@ export default class CreateRoom extends Component {
       // alert("Your room: " + room.toString() + " was created!");
 
 	  // 2. todo: takes user back to profile page
-    // this.props.navigation.navigate('Game');
+	  this.props.navigation.navigate('Game');
     }
   }
 }

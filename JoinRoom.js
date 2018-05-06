@@ -8,7 +8,7 @@ AppRegistry,
   ListView,
   ToolbarAndroid
  } from 'react-native';
- import ListItem from './components/ListItem.js';
+ import ListItem from './ListItem.js';
 import { Constants } from 'expo';
 import Room from './Room'
 import Person from './Person'
@@ -16,20 +16,7 @@ import {Container, Text, Spinner} from 'native-base';
 import * as firebase from 'firebase';
 
 export default class JoinRoom extends Component {
-	/*
-  constructor(props){
-    super(props);
-	this.database = firebase.database();
-	this.roomlist = [];
-	this.tasksRef = this.database.ref("rooms");
-	
-	firebase.database().ref("rooms").once('value').then(snap => snap.val()).then(items => {
-		console.log('items ', items);
-		this.roomlist.push(items);
-	});
-	
-  }
-*/
+
 constructor(props) {
     super(props);
     this.tasksRef = firebase.database().ref("rooms");
@@ -42,7 +29,7 @@ constructor(props) {
   }
 _renderItem(task) {
   return (
-    <ListItem task={task} />
+    <ListItem {...this.props} task={task} />
   );
 }
 listenForTasks(tasksRef) {
@@ -51,6 +38,7 @@ listenForTasks(tasksRef) {
     dataSnapshot.forEach((child) => {
       tasks.push({
         name: child.val().roomname,
+		obj: child.val(),
         _key: child.key
       });
     });
@@ -69,14 +57,15 @@ listenForTasks(tasksRef) {
   render() {
     return (
       <View style={styles.container}>
-   <ToolbarAndroid
-          style={styles.navbar}
-          title="Todo List" />
-        <ListView
+	   <ToolbarAndroid
+			  style={styles.navbar}
+			  title="Room List" />
+        <ListView 
           enableEmptySections={true}
           dataSource={this.state.dataSource}
           renderRow={this._renderItem.bind(this)}
-          style={styles.listView}/>
+          style={styles.listView}
+		  />
       </View>
     );
   }
@@ -165,25 +154,4 @@ const styles = StyleSheet.create({
       // fontWeight: 'bold',
       fontSize: 25,
     },
-	listView: {
-    flex: 1,
-  },
-  listItem: {
-    borderBottomColor: '#eee',
-    borderColor: 'gray',
-    flexDirection:'row',
-    alignItems:'center',
-    borderWidth: 1,
-    padding:20
-  },
-  listItemTitle: {
-    flex: 6,
-    color: '#000',
-    fontSize: 16,
-  },
-  listItemAction: {
-    flex: 1,
-    width: 40,
-    height: 40
-  },
 });

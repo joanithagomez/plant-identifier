@@ -4,7 +4,7 @@ export default class Person {
       this.userid = userid;
       this.name = name;
       this.totalPoints = 0;
-      this.plants = [];
+      this.plants = ['null'];
   }
   toString(){
 	  return this.name;

@@ -1,31 +1,72 @@
 import React from "react";
 import {Container, Text, Button, Content} from 'native-base';
+
 import {
   CameraRoll,
   StyleSheet,
   View,
-  Image
+  Image, 
+  ScrollView,
+  TouchableOpacity,
 } from "react-native";
+import {Constants} from 'expo';
+
 import JoinRoom from './JoinRoom';
+import Firebase from "./Firebase";
+import * as firebase from 'firebase';
 
 // retreive key from database
 const key = {key};
 
 export default class Game extends React.Component {
   static navigationOptions = {
-        header: null
+    header: null
+  }
+  state={
+    userId: null
+  };
+  
+  componentDidMount(){
+    var userId;
+
+    if(firebase.auth().currentUser){
+       this.setState({userId : firebase.auth().currentUser.uid});
     }
-
+  }
   render() {
-
-    return (<Container style={styles.container}>
-      <View>
-        <Button large style={styles.button} onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}>
-          <Text style={styles.btnText}>Create Room</Text>
-        </Button>
-        <JoinRoom {...this.props}/>
-      </View>
-    </Container>);
+    //This is the id of the logged in user
+    // var userId = firebase.auth().currentUser.uid;
+    console.log(this.state.userId + " in Game");
+    
+    return (
+		<ScrollView>
+			<View style={styles.container}>
+				<View style={styles.containerInner}>
+					<Text style={styles.headingStyle}>❁ Create a Room to Play!... ❁</Text>
+					<TouchableOpacity
+						style={styles.button} 
+						onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}
+					>
+						<Text style={styles.btnText}>Create a Room</Text>
+					</TouchableOpacity>
+				</View>
+			</View>
+			<View style={styles.containerBottom}>
+				<Text style={styles.headingStyle}>❁ ...Or Choose a Room to Join! ❁</Text>
+				<JoinRoom  {...this.props}/>
+        {this.state.userId && <Button transparent onPress={() => {
+                firebase.auth().signOut().then(() => {
+                  console.log("Sign-out successful.");
+                  this.props.navigation.navigate('Login');
+                }, function(error) {
+                  console.log("An error happened.");
+                });
+              }}>
+         <Text>Sign out</Text>
+         </Button>}
+			</View>
+		</ScrollView>
+	);
   }
 }
 
@@ -33,17 +74,36 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "white",
+	  padding: Constants.statusBarHeight,
+    backgroundColor: '#cbe86b',
+	  flex: 1,
   },
+   containerBottom: {
+    justifyContent: 'center',
+    alignItems: 'center',
+	  padding: Constants.statusBarHeight,
+	  flex: 2,
+  },
+  containerInner: {
+	marginTop: 50,
+	marginBottom: 25,
+  },  
   button: {
     alignItems: "center",
-    backgroundColor: "#000",
+	borderColor: '#c2f9cf',
+    backgroundColor: "#45c6b5",
     padding: 10,
-    margin: 10,
+    margin: 10
   },
   btnText: {
     color: "white",
-    fontSize: 15
+    fontSize: 15,
+	  padding: 15,
+	  fontWeight:'bold'
   },
-
+  headingStyle: {
+    color: 'black',
+    fontSize: 20,
+	  fontWeight:'bold'
+  },
 });
