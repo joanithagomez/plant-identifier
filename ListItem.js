@@ -16,6 +16,27 @@ class ListItem extends Component {
   constructor(props) {
 	super(props);
 
+	this.state = {
+		username: "Bulbasaur"
+	}
+
+	var user = firebase.auth().currentUser;
+	var currentId = 1;
+	if(user != null){
+		currentId = user.uid;
+	}
+
+	var database = firebase.database();
+	if(currentId != 1){
+		console.log("whhy" + currentId);
+		database.ref("users").child(currentId).on('value', (snapshot) => {
+			console.log("lumpy" + currentId);
+			this.setState({
+				username: snapshot.val().name
+			});
+		});
+	}
+
   }
   render() {
 	var dialogTitle = 'Are you sure you want to join ' + this.props.task.name + "?";

@@ -77,7 +77,7 @@ export default class GameRoom extends Component {
 			result: '',
 			submitted: [],
 			total: 0,
-			currentid: 1, // 2. todo: replace with current user id
+			currentid: uid, // 2. todo: replace with current user id
 		  }
 	}
 

@@ -76,8 +76,9 @@ export default class Register extends React.Component {
         <Form>
 
           <Item floatingLabel>
-          <Label>Email</Label>
+          <Label style={{ color: '#009F18' }}>Email</Label>
           <Input
+			style={{ color: 'white' }}
             name="email"
             autoCorrect={false}
             autoCapitalize="none"
@@ -86,8 +87,9 @@ export default class Register extends React.Component {
           </Item>
 
           <Item floatingLabel>
-          <Label>Password</Label>
+          <Label style={{ color: '#009F18' }}>Password</Label>
           <Input
+			style={{ color: 'white' }}
             secureTextEntry={true}
             autoCorrect={false}
             autoCapitalize="none"
@@ -96,15 +98,16 @@ export default class Register extends React.Component {
           </Item>
 
           <Item floatingLabel>
-          <Label>Name</Label>
+          <Label style={{ color: '#009F18' }}>Name</Label>
           <Input
+			style={{ color: 'white' }}
             autoCorrect={false}
             autoCapitalize="none"
             onChangeText={(name) => this.setState({name})}
             />
           </Item>
 
-          <Button style={{ marginTop: 10 }} full dark onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
+          <Button style={{ marginTop: 10, backgroundColor: '#45c6b5' }} full dark onPress={()=>this.signUpUser(this.state.email, this.state.password)} >
             <Text style={{ color: 'white' }}>Register</Text>
           </Button>
 
@@ -118,7 +121,7 @@ export default class Register extends React.Component {
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#bff165',
     justifyContent: 'center',
     padding: 10
   }
