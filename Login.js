@@ -62,7 +62,7 @@ loginUser = (email,password)=>{
           <Item floatingLabel>
           <Label style={{ color: '#009F18' }}>Email</Label>
           <Input
-			style={{ color: 'white' }}
+			style={{ color: 'black' }}
             autoCorrect={false}
             autoCapitalize="none"
             onChangeText={(email) => this.setState({email})}
@@ -72,7 +72,7 @@ loginUser = (email,password)=>{
           <Item floatingLabel>
           <Label style={{ color: '#009F18' }}>Password</Label>
           <Input
-			style={{ color: 'white' }}
+			style={{ color: 'black' }}
             secureTextEntry={true}
             autoCorrect={false}
             autoCapitalize="none"

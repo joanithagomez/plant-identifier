@@ -35,7 +35,7 @@ render(){
 
   return(
     <View style={styles.container}>
-      {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />}
+      {/* {(this.state.image) &&<Image source={{uri: this.state.image}} style={styles.image} />} */}
       {(this.state.result !== "") && (this.state.image) && <Guess imageUri= {this.state.image} option={this.state.result} {...this.props}></Guess>}
     </View>
   );
@@ -48,7 +48,7 @@ render(){
     container: {
       flex: 1,
       justifyContent: 'center',
-      alignItems: 'center',
+      // alignItems: 'center',
       backgroundColor: '#F5FCFF',
     },
     image: {

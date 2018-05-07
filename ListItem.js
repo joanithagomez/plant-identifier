@@ -15,29 +15,31 @@ import Person from './Person'
 class ListItem extends Component {
   constructor(props) {
 	super(props);
-
-	this.state = {
-		username: "Bulbasaur"
-	}
-
-	var user = firebase.auth().currentUser;
-	var currentId = 1;
-	if(user != null){
-		currentId = user.uid;
-	}
-
-	var database = firebase.database();
-	if(currentId != 1){
-		console.log("whhy" + currentId);
-		database.ref("users").child(currentId).on('value', (snapshot) => {
-			console.log("lumpy" + currentId);
-			this.setState({
-				username: snapshot.val().name
-			});
-		});
-	}
-
   }
+  //
+	// this.state = {
+	// 	username: "Bulbasaur"
+	// }
+  // }
+  // componentDidMount(){
+  //   var user = firebase.auth().currentUser;
+  // 	var currentId = 1;
+  // 	if(user != null){
+  // 		currentId = user.uid;
+  // 	}
+  //
+  // 	var database = firebase.database();
+  // 	if(currentId != 1){
+  // 		// console.log("whhy" + currentId);
+  // 		database.ref("users").child(currentId).on('value', (snapshot) => {
+  // 			// console.log("lumpy" + currentId);
+  // 			this.setState({
+  // 				username: snapshot.val().name
+  // 			});
+  // 		});
+  // 	}
+  //
+  // }
   render() {
 	var dialogTitle = 'Are you sure you want to join ' + this.props.task.name + "?";
     return (
@@ -48,12 +50,7 @@ class ListItem extends Component {
 		<TouchableOpacity
           style={styles.joinButtonStyle}
 		  onPress={() => {
-            Alert.alert(
-              dialogTitle,
-              'Click OK to Join!',
-              [
-                {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-                {text: 'OK', onPress: () => {
+
 					var currentId = 1; //TODO replace with user's id
 					var currentName = "jo";
 
@@ -69,21 +66,13 @@ class ListItem extends Component {
 					if(!alreadyExists){
 						var tempPerson = new Person(currentId, currentName);
 						item.people.push(tempPerson);
-                       // 4. todo: update the room in Firebase
 						var database = firebase.database();
 						database.ref("rooms").child(this.props.task._key).child("people").set(item.people);
 
                     }
-
-                    // 5. todo: navigate to game room and send the room as well
                     this.props.navigation.navigate('GameRoom', {title: 'Game Room', key:this.props.task._key});
                   }
-
-                },
-              ],
-              { cancelable: false }
-            )
-          }}
+          }
           >
           <Text style={styles.joinButtonTextStyle}>
             JOIN

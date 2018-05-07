@@ -77,7 +77,7 @@ export default class GameRoom extends Component {
 			result: '',
 			submitted: [],
 			total: 0,
-			currentid: uid, // 2. todo: replace with current user id
+			currentid: 1,
 		  }
 	}
 
@@ -85,12 +85,7 @@ componentDidMount() {
 	const {key} = this.props.navigation.state.params; //room passed from navigation
 	var database = firebase.database();
 	database.ref("rooms").child(key).on('value', (snapshot) => {
-		this.setState({
-			aname: snapshot.val().roomname,
-			atime: snapshot.val().endingtime,
-			apoints: snapshot.val().allpoints,
-			apeople: snapshot.val().people
-		});
+
 		var tempPoints = 90;
 		for(var i = 1; i < snapshot.val().people.length; i++){
 			if(this.state.currentid == snapshot.val().people[i].userid){
@@ -99,6 +94,10 @@ componentDidMount() {
 			}
 		}
 		this.setState({
+      aname: snapshot.val().roomname,
+      atime: snapshot.val().endingtime,
+      apoints: snapshot.val().allpoints,
+      apeople: snapshot.val().people,
 			total: tempPoints,
 		});
 	});
@@ -140,7 +139,7 @@ componentDidMount() {
 
   handleCamera(room, currentid) {
     var classified = '';
-    this.props.navigation.navigate('CameraScreen', {
+    this.props.navigation.navigate('CameraScreenGame', {
       returnData: (res, img) => { //callback function getting the recognition result and image url back
 
       this.setState({
@@ -346,10 +345,10 @@ _shareTextMessage(){
 		{this.hasGameEnded(this.state.atime)}
 
 
-        {this.state.aname && <Text style={styles.paragraph}>
+        {/* {this.state.aname && <Text style={styles.paragraph}>
             End Time: {this.state.atime}
          </Text>
-       }
+       } */}
         <View style={{ justifyContent:'center'}}>
         {this.state.aname && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aname, currentid)}>
           <Text style={styles.buttonSubmitText}>Take a Photo</Text>
@@ -409,7 +408,7 @@ const styles = StyleSheet.create({
   },
   header: {
     fontSize: 30,
-    color: '#fff',
+    color: 'black',
     fontWeight: 'bold',
     textAlign: 'center',
     // paddingTop: Constants.statusBarHeight

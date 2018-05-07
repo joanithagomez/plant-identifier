@@ -17,20 +17,20 @@ export default class Home extends React.Component {
       }
 
 componentDidMount(){
-  var user = firebase.auth().currentUser;
-  if(user){
-    console.log("User in Home component: " + user.uid)
-    }
+  // var user = firebase.auth().currentUser;
+  // if(user){
+  //   console.log("User in Home component: " + user.uid)
+  //   }
 }
   render() {
     // console.log("home: " + this.props.navigation.state);
     // for(var property in this.props.navigation.state){
     //   console.log(property);
     // }
-    // var user = firebase.auth().currentUser;
-    // if(user){
-    //   console.log("User in Home component: " + user.uid)
-    //   }
+    var user = firebase.auth().currentUser;
+    if(user){
+      console.log("User in Home component: " + user.uid)
+      }
     return (
       <Container style={styles.container}>
           <H1 style={styles.h1}>Hello</H1>

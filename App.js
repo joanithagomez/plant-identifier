@@ -16,6 +16,7 @@ import Register from "./Register";
 import Recognition from "./Recognition";
 import GalleryScreen from "./GalleryScreen";
 import CameraScreen from "./CameraScreen";
+import CameraScreenGame from "./CameraScreenGame";
 import Login from "./Login";
 import CreateRoom from "./CreateRoom";
 import Guess from "./Guess";
@@ -82,8 +83,8 @@ const GameStack = StackNavigator({
   Register: {
     screen: Register
   },
-  CameraScreen: {
-    screen: CameraScreen
+  CameraScreenGame: {
+    screen: CameraScreenGame
   },
   ListItem: {
 	  screen: ListItem

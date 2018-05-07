@@ -64,8 +64,8 @@ export default class CameraScreen extends Component {
       let data = await this.camera.takePictureAsync({skipProcessing: true,fixOrientation: false});
 
       // save pictures to firebase
-      var uid = firebase.auth().currentUser.uid;
-      database.ref("users").child(uid).child("photos").push(data.uri);
+      // var uid = firebase.auth().currentUser.uid;
+      // database.ref("users").child(uid).child("photos").push(data.uri);
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
 
         let arr = (data.uri).split('/');
@@ -108,10 +108,10 @@ export default class CameraScreen extends Component {
 
         await tfImageRecognition.close()
         // console.log("this.state.result in cameraScreen: " + this.state.result);
-        // this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
-
-          this.props.navigation.state.params.returnData(this.state.result, this.state.image);
-          this.props.navigation.goBack();
+        this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
+        //
+        // this.props.navigation.state.params.returnData(this.state.result, this.state.image);
+        // this.props.navigation.goBack();
 
       } catch(err) {
         alert(err)

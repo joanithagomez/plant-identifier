@@ -78,7 +78,7 @@ export default class Register extends React.Component {
           <Item floatingLabel>
           <Label style={{ color: '#009F18' }}>Email</Label>
           <Input
-			style={{ color: 'white' }}
+			style={{ color: 'black' }}
             name="email"
             autoCorrect={false}
             autoCapitalize="none"
@@ -89,7 +89,7 @@ export default class Register extends React.Component {
           <Item floatingLabel>
           <Label style={{ color: '#009F18' }}>Password</Label>
           <Input
-			style={{ color: 'white' }}
+			style={{ color: 'black' }}
             secureTextEntry={true}
             autoCorrect={false}
             autoCapitalize="none"
