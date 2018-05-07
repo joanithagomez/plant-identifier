@@ -16,7 +16,9 @@ import {Container, Text, Spinner} from 'native-base';
 import * as firebase from 'firebase';
 
 export default class JoinRoom extends Component {
-
+  static navigationOptions = {
+    header: null
+  }
 constructor(props) {
     super(props);
     this.tasksRef = firebase.database().ref("rooms");
@@ -69,70 +71,6 @@ listenForTasks(tasksRef) {
       </View>
     );
   }
-  /*
-  render() {
-    return (
-      <Container>
-        <Text style={styles.paragraph}>
-          Join a Room!
-        </Text>
-        {this.renderlist();}
-      </Container>
-    );
-  }
-  */
- /*
-renderlist = () =>{
-	return firebase.database().ref("rooms").once('value').then(snap => snap.val()).then(items => {
-				return(  <Text style={styles.buttonTextStyle}>
-					{items.getName()}
-			</Text>);
-			});
-}
-  renderRooms = () => {
-    return this.roomlist.map(item => {
-      var dialogTitle = 'Are you sure to join' + item.toString() + '?';
-      return(<TouchableOpacity
-          key = {item}
-          style={styles.buttonStyle}
-          onPress={() => {
-            Alert.alert(
-              dialogTitle,
-              'Click Join to Enter a Room',
-              [
-                {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-                {text: 'OK', onPress: () => {
-                    var tempUserId = 1; //  2. todo: replace w/ current user's id
-                    var tempUsername = 'Pearl'; // 3. todo: replace w/ current user's name
-                    if(!item.personExists(tempUserId)){
-                       var tempPerson = new Person(tempUserId, tempUsername);
-                       item.addPeople(tempPerson);
-
-                       // 4. todo: update the room in Firebase
-
-                    }
-                     // alert('added: ' + item.getPeople()); // this is a test that I can add a person obj to the room
-
-
-                    // 5. todo: navigate to game page and send the room as well
-                    this.props.navigation.navigate('GameRoom', {title: 'Game Room', room:item});
-
-                  }
-
-                },
-              ],
-              { cancelable: false }
-            )
-          }}>
-          <Text style={styles.buttonTextStyle}>
-            {item.toString()}
-          </Text>
-
-        </TouchableOpacity>);
-    });
-  }
-*/
-
 }
 
 const styles = StyleSheet.create({

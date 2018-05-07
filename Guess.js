@@ -8,6 +8,9 @@ var database = firebase.database();
 var usersRef = database.ref().child('users');
 
 export default class Guess extends React.Component {
+  static navigationOptions = {
+    header: null
+  }
   constructor(props) {
     super(props);
     this.state = {
@@ -145,19 +148,13 @@ export default class Guess extends React.Component {
       <Text style={styles.title}>What's your best guess?
       </Text>
       <Button full rounded style={this.getColor(this.state.optionsArr[0])} onPress={() => this.handleSelection(this.state.optionsArr[0])} >
-        <Text style={{
-            color: 'white'
-          }}>{this.state.optionsArr[0]}</Text>
+        <Text style={styles.btnText}>{this.state.optionsArr[0]}</Text>
       </Button>
       <Button full rounded style={this.getColor(this.state.optionsArr[1])} onPress={() => this.handleSelection(this.state.optionsArr[1])} >
-        <Text style={{
-            color: 'white'
-          }}>{this.state.optionsArr[1]}</Text>
+        <Text style={styles.btnText}>{this.state.optionsArr[1]}</Text>
       </Button>
       <Button full rounded style={this.getColor(this.state.optionsArr[2])} onPress={() => this.handleSelection(this.state.optionsArr[2])} >
-        <Text style={{
-            color: 'white'
-          }}>{this.state.optionsArr[2]}</Text>
+        <Text style={styles.btnText}>{this.state.optionsArr[2]}</Text>
       </Button>
 
       <Button transparent full rounded style={{
@@ -166,7 +163,7 @@ export default class Guess extends React.Component {
           // console.log(this.props.option)
           this._goToInfoscreen(this.props.option, this.props.imageUri);
         }}>
-        <Text>Skip to answer</Text>
+        <Text style={styles.btnText}>Skip to answer</Text>
       </Button>
 
       <Text>{this.state.numCorrect}/ {this.state.total}</Text>
@@ -178,13 +175,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: "#cbe86b",
+    backgroundColor: "#BFF165",
     justifyContent: 'center'
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    textAlign: 'center'
+    textAlign: 'center',
+    paddingBottom: 20,
   },
   greenButton: {
     backgroundColor: '#007830',
@@ -195,9 +193,13 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   button: {
-    backgroundColor: '#34282F',
+    backgroundColor: '#fff',
     margin: 10,
-    height: 80
+    height: 60
+  },
+  btnText:{
+    fontSize: 16,
+    color: '#000'
   },
   image: {
     marginTop: 20,

@@ -9,7 +9,9 @@ import model from './assets/model/optimized_graph.pb';
 import labels from './assets/model/retrained_labels.txt';
 
 export default class CapturedImage extends Component {
-
+  static navigationOptions = {
+    header: null
+  }
 
   constructor(props) {
     super(props);

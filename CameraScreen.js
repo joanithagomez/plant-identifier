@@ -21,7 +21,9 @@ import firebase from './Firebase';
 var database = firebase.database();
 
 export default class CameraScreen extends Component {
-
+  static navigationOptions = {
+    header: null
+  }
   state = {
     hasCameraPermission: null,
     type: "Camera.Constants.Type.back",
@@ -60,7 +62,7 @@ export default class CameraScreen extends Component {
   takePicture = async function() {
     if (this.camera) {
       let data = await this.camera.takePictureAsync({skipProcessing: true,fixOrientation: false});
-      
+
       // save pictures to firebase
       var uid = firebase.auth().currentUser.uid;
       database.ref("users").child(uid).child("photos").push(data.uri);
@@ -146,10 +148,7 @@ export default class CameraScreen extends Component {
               backgroundColor: "transparent",
               flexDirection: "row"
             }}>
-            <Button style={{
-                alignSelf: "flex-end",
-                alignItems: "center"
-              }} onPress={() => {
+            <Button style={styles.flipbutton} onPress={() => {
                 this.setState({
                   type: this.state.type === Camera.Constants.Type.back
                     ? Camera.Constants.Type.front
@@ -160,22 +159,13 @@ export default class CameraScreen extends Component {
                 Flip
               </Text>
             </Button>
-            <Button style={[
-                styles.button, {
-                  backgroundColor: 'green',
-                  alignSelf: "flex-end"
-                }
-              ]} onPress={
+            <Button style={styles.capturebtn} onPress={
             this.takePicture.bind(this)}>
-              <Text style={styles.buttonText}>
+              <Text style={styles.capturebtnText}>
                 Recognize
               </Text>
             </Button>
-            <Button style={[
-                styles.button, {
-                  alignSelf: "flex-end"
-                }
-              ]} onPress={() => this.props.navigation.navigate('Image')}>
+            <Button style={styles.gallerybtn} onPress={() => this.props.navigation.navigate('Image')}>
               <Text style={styles.buttonText}>Gallery</Text>
             </Button>
 
@@ -194,9 +184,36 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 15
   },
+  flipbutton:{
+      backgroundColor: 'black',
+      alignSelf: "flex-end",
+      alignItems: "center",
+      marginHorizontal: 2,
+      marginBottom: 10,
+
+    },
+capturebtn:{
+      backgroundColor: 'white',
+      alignSelf: "flex-end",
+      marginHorizontal: 2,
+      marginBottom: 10,
+      alignItems: "center",
+      justifyContent: "center"
+    },
+    capturebtnText:{
+      color:'black',
+    },
+    gallerybtn:{
+      backgroundColor: 'black',
+      alignSelf: "flex-end",
+      marginHorizontal: 2,
+      marginBottom: 10,
+      alignItems: "center",
+      justifyContent: "center"
+    },
   button: {
     marginHorizontal: 2,
-    marginBottom: 10,
+    // marginBottom: 10,
     marginTop: 20,
     borderColor: "white",
     borderWidth: 1,

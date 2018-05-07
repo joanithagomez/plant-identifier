@@ -90,35 +90,37 @@ const GameStack = StackNavigator({
 	  screen: ListItem
   },
 
-},{initialRouteName: 'Game'});
+},{
+initialRouteName: 'Game',
+},
 
-
-const InitialStackRoutes = StackNavigator(
-  {
-      SplashScreen: {
-          screen: Splash
-      },
-      Login: {
-          screen: Login
-      },
-      Game: {
-          screen: GameStack
-      },
-  },{initialRouteName: 'SplashScreen'},
-  {
-      headerMode: 'none',
-      gesturesEnabled: false
-  }
 );
 
+const InitialStackRoutes = StackNavigator({
+  SplashScreen: {
+    screen: Splash
+  },
+  Login: {
+    screen: Login
+  },
+  Game: {
+    screen: GameStack
+  }
+}, {
+  initialRouteName: 'SplashScreen',
+},{ headerMode: 'none' });
+
 const Tab = TabNavigator({
+
   Home: { screen: HomeStack ,
     navigationOptions: {
             tabBarLabel: 'Home',
         }
       },
   Game: { screen: InitialStackRoutes },
+
 },
+
 {
     tabBarComponent: TabBarBottom,
     tabBarPosition: 'bottom',

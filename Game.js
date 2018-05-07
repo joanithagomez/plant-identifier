@@ -38,19 +38,18 @@ export default class Game extends React.Component {
     console.log(this.state.userId + " in Game");
 
     return (
-		<ScrollView>
-			<Container>
-        <Content contentContainerStyle={styles.contentContainer}>
+		<ScrollView contentContainerStyle={styles.container}>
+			<Container >
+        <View contentContainerStyle={styles.contentContainer}>
 					<Text style={styles.headingStyle}>Create a Room to Play!</Text>
 					<Button
-						style={styles.button}
+						style={styles.createbutton}
 						onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}
 					>
 						<Text style={styles.btnText}>Create a Room</Text>
 					</Button>
-        </Content>
-				{/* </View> */}
-      <Content contentContainerStyle={styles.contentContainer}>
+        </View>
+      <View contentContainerStyle={styles.contentContainer}>
 				<Text style={styles.headingStyle}>Or Choose a Room to Join!</Text>
 				<JoinRoom  {...this.props}/>
         {this.state.userId && <Button transparent onPress={() => {
@@ -61,9 +60,9 @@ export default class Game extends React.Component {
                   console.log("An error happened.");
                 });
               }}>
-         <Text>Sign out</Text>
+         <Text style={{color: '#000'}}>Sign out</Text>
          </Button>}
-       </Content>
+       </View>
 			</Container>
 
 		</ScrollView>
@@ -76,34 +75,40 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-	  padding: Constants.statusBarHeight,
-    backgroundColor: '#fff',
+	  padding: 20,
+    paddingTop: 40,
+    backgroundColor: '#BFF165',
   },
   contentContainer: {
-  paddingVertical: 20
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'red'
+  // paddingVertical: 20
 },
    containerBottom: {
      justifyContent: 'center',
      alignItems: 'center',
   },
-  containerInner: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  button: {
+
+  createbutton:{
+    backgroundColor: '#45c6b5',
     alignItems: "center",
-	borderColor: '#c2f9cf',
-    backgroundColor: "#45c6b5",
-    padding: 10,
-    margin: 10
+    padding: 20,
+    justifyContent: 'center',
+    marginLeft: 30
+
   },
+
   btnText: {
     color: "white",
-    fontSize: 15,
+    fontSize: 18,
 	  padding: 15,
   },
   headingStyle: {
-    color: 'black',
-    fontSize: 14,
+    color: '#000',//'#c2f9cf',
+    fontSize: 16,
+    textAlign: 'center',
+    padding: 20
   },
 });

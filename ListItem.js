@@ -4,9 +4,9 @@ import React, {
 import {
   View,
   Text,
-  TouchableOpacity, 
+  TouchableOpacity,
   Alert,
-  StyleSheet, 
+  StyleSheet,
 } from 'react-native';
 import * as firebase from 'firebase';
 import Room from './Room'
@@ -33,27 +33,27 @@ class ListItem extends Component {
               [
                 {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
                 {text: 'OK', onPress: () => {
-					var currentId = 1; //TODO replace with user's id 
+					var currentId = 1; //TODO replace with user's id
 					var currentName = "Sneaky";
-					
+
 					var item = this.props.task.obj;
-		
+
 					var alreadyExists = false;
 					for(var i = 1; i < item.people.length && !alreadyExists; i++){
 						if(currentId === item.people[i].userid){
 							alreadyExists = true;
 						}
 					}
-					
+
 					if(!alreadyExists){
 						var tempPerson = new Person(currentId, currentName);
 						item.people.push(tempPerson);
                        // 4. todo: update the room in Firebase
 						var database = firebase.database();
 						database.ref("rooms").child(this.props.task._key).child("people").set(item.people);
-						
+
                     }
-                    
+
                     // 5. todo: navigate to game room and send the room as well
                     this.props.navigation.navigate('GameRoom', {title: 'Game Room', key:this.props.task._key});
                   }
@@ -85,11 +85,12 @@ const styles = StyleSheet.create({
     margin: 5,
     padding: 10,
     alignItems: 'center',
-	borderColor: '#c2f9cf',
-    backgroundColor: "#45c6b5",
+    borderColor: '#45c6b5',
+    borderWidth: 1,
+    backgroundColor:'transparent'
     },
     joinButtonTextStyle:{
-      color: 'white',
+      color: '#45c6b5',
       fontWeight: 'bold',
       fontSize: 16,
     },

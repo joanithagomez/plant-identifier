@@ -56,26 +56,12 @@ componentDidMount(){
 }
 
 const styles = StyleSheet.create({
-  h1: {
-    lineHeight: 70 * 0.75,
-    fontSize: 70,
-    fontWeight: 'bold',
-    paddingTop: 70 - (70 * 0.75),
-    color:'#009F18'
 
-  },
-  h3: {
-    fontSize: 30,
-    fontWeight: '100',
-    paddingTop: 30 - (30 * 0.75),
-    lineHeight: 30 * 0.75,
-    color:'#009F18'
-  },
   container: {
     flex:1,
     justifyContent: 'center',
     // alignItems: 'center',
-    backgroundColor: "#cbe86b",
+    backgroundColor: "#BFF165",
     padding: 10
   },
   buttonscontainer:{
@@ -87,7 +73,7 @@ const styles = StyleSheet.create({
     paddingTop: 40
   },
   icon: {
-    color:'#009F18',
+    color:'#45c6b5',
     fontSize: 35
   },
   button: {
@@ -105,6 +91,21 @@ const styles = StyleSheet.create({
   btnText: {
     color: "#fff",
     fontSize: 15
+  },
+  h1: {
+    lineHeight: 70 * 0.95,
+    fontSize: 70,
+    fontWeight: 'bold',
+    paddingTop: 70 - (70 * 0.75),
+    color:'#009F18'
+
+  },
+  h3: {
+    fontSize: 30,
+    fontWeight: '100',
+    paddingTop: 30 - (30 * 0.75),
+    lineHeight: 30 * 0.75,
+    color:'#009F18'
   },
 
 });

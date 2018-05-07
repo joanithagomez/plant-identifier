@@ -7,7 +7,7 @@ import {
   Content,
   Button,
   Icon,
-  Text,ListItem,List,Thumbnail,Right,Body
+  Text,ListItem,List,Thumbnail,Left, CardItem, Right,Body
 } from 'native-base';
 //import * as firebase from 'firebase';
 import firebase from './Firebase';
@@ -61,14 +61,12 @@ const shareLinkContent = {
 };
 
 export default class GameRoom extends Component {
-  // static navigationOptions = {
-  //   header: null
-  // }
+  static navigationOptions = {
+    header: null
+  }
 
 	constructor(props) {
 		super(props);
-
-		const {key} = this.props.navigation.state.params; //room passed from navigation
 
 		this.state = {
 			aroom: null,
@@ -84,26 +82,26 @@ export default class GameRoom extends Component {
 	}
 
 componentDidMount() {
-	const {key} = this.props.navigation.state.params; //room passed from navigation
-	var database = firebase.database();
-	database.ref("rooms").child(key).on('value', (snapshot) => {
-		this.setState({
-			aname: snapshot.val().roomname,
-			atime: snapshot.val().endingtime,
-			apoints: snapshot.val().allpoints,
-			apeople: snapshot.val().people
-		});
-		var tempPoints = 90;
-		for(var i = 1; i < snapshot.val().people.length; i++){
-			if(this.state.currentid == snapshot.val().people[i].userid){
-				tempPoints = snapshot.val().people[i].totalPoints;
-				break;
-			}
-		}
-		this.setState({
-			total: tempPoints,
-		});
-	});
+	// const {key} = this.props.navigation.state.params; //room passed from navigation
+	// var database = firebase.database();
+	// database.ref("rooms").child(key).on('value', (snapshot) => {
+	// 	this.setState({
+	// 		aname: snapshot.val().roomname,
+	// 		atime: snapshot.val().endingtime,
+	// 		apoints: snapshot.val().allpoints,
+	// 		apeople: snapshot.val().people
+	// 	});
+	// 	var tempPoints = 90;
+	// 	for(var i = 1; i < snapshot.val().people.length; i++){
+	// 		if(this.state.currentid == snapshot.val().people[i].userid){
+	// 			tempPoints = snapshot.val().people[i].totalPoints;
+	// 			break;
+	// 		}
+	// 	}
+	// 	this.setState({
+	// 		total: tempPoints,
+	// 	});
+	// });
 
 
 }
@@ -339,14 +337,11 @@ console.log(this.state.aname)
 
   render() {
 	var currentid = this.state.currentid;
-
     return (
       <ScrollView>
-        <View style={styles.container}>
+        <Container style={styles.container}>
         {this.state.aname && <Text style={styles.header}>{this.state.aname}</Text>}
-        <Text style={styles.totalpoints}>
-          <Image source={require('./leaf.png')}/>{this.state.total}
-        </Text>
+
 
 		{this.hasGameEnded(this.state.atime)}
 
@@ -355,16 +350,11 @@ console.log(this.state.aname)
             End Time: {this.state.atime}
          </Text>
        }
-        <View>
+        <View style={{flex:1, justifyContent:'center'}}>
         {this.state.aname && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aname, currentid)}>
           <Text style={styles.buttonSubmitText}>Take a Photo</Text>
         </Button>}
 
-        <View style={styles.container2}>
-        <TouchableHighlight onPress={ () => this._shareTextMessage()}>
-          <Text style={styles.button}>Share!</Text>
-        </TouchableHighlight>
-        </View>
 
         {/* {this.renderPoints(aroom.getPerson(currentid))} */}
 
@@ -377,10 +367,22 @@ console.log(this.state.aname)
           }
           </List>
         </Card>
+        <Card>
+          <CardItem>
+            <Left><Text style={styles.total}>Total</Text></Left>
+            <Right>
+                <Text style={styles.totalpoints}>{this.state.total}</Text>
+              </Right>
+            </CardItem>
+      </Card>
       </View>
         {this.state.apeople && <Card title="Leaderboard" style={styles.cardStyle}>{this.renderLeaderBoard(this.state.apeople)}</Card>}
 
-      </View>
+        <View style={styles.container2}><Button onPress={ () => this._shareTextMessage()}>
+          <Text style={styles.sharebutton}>Share!</Text>
+        </Button>
+        </View>
+      </Container>
     </ScrollView>
   );
   }
@@ -390,19 +392,20 @@ console.log(this.state.aname)
 const styles = StyleSheet.create({
 
   container: {
+    flex: 1,
     padding: Constants.statusBarHeight,
-    backgroundColor: '#7ac3e2'
+    backgroundColor: '#fff'
   },
   container2: {
-   flex: 1,
+    flexDirection:'row',
    justifyContent: 'center',
    alignItems: 'center',
-   backgroundColor: '#76c9f8',
+   // backgroundColor: '#76c9f8',
  },
-  button: {
-    backgroundColor: '#76c9f8',
+  sharebutton: {
+    backgroundColor: '#45c6b5',
     padding: 10,
-    margin: 10,
+    margin: 20,
     borderRadius: 5
   },
   header: {
@@ -426,10 +429,13 @@ const styles = StyleSheet.create({
     color: 'white'
   },
   buttonSubmit: {
+    marginLeft: 80,
+    marginBottom: 20,
     justifyContent: 'center',
+    alignItems: 'center',
     width: 200,
     height: 60,
-    backgroundColor: '#AACD6E',
+    backgroundColor: '#45c6b5',
     borderRadius: 2,
     // borderColor: 'black',
     // borderWidth: 2,
@@ -440,7 +446,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   buttonSubmitText: {
-    color: 'black',
+    color: 'white',
     fontSize: 16,
     textAlign: 'center'
   },
@@ -448,9 +454,16 @@ const styles = StyleSheet.create({
     padding: 5,
     borderRadius: 50,
   },
+  total: {
+    textAlign: 'left',
+    color: 'black',
+    fontSize: 20,
+    fontWeight:'bold'
+  },
   totalpoints:{
-    color: 'white',
-    fontSize: 24,
+    textAlign: 'right',
+    color: 'black',
+    fontSize: 20,
     fontWeight:'bold'
   },
   paragraph: {

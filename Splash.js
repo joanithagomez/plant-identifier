@@ -12,7 +12,7 @@ export default class Splash extends React.Component {
   static navigationOptions = {
     header: null
   }
-  
+
     componentWillMount() {
       var routeName ;
 

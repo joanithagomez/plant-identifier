@@ -173,7 +173,7 @@ export default class PlantInfo extends React.Component {
     }
 
     return (
-       <Container >
+       <Container style={{backgroundColor:'#BFF165'}}>
          <Content>
       <Card style={{
           flex: 0
