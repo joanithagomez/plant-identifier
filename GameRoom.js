@@ -139,10 +139,10 @@ componentDidMount() {
 
 
   handleCamera(room, currentid) {
-    // 3. todo: navigate to camera for id
     var classified = '';
     this.props.navigation.navigate('CameraScreen', {
       returnData: (res, img) => { //callback function getting the recognition result and image url back
+
       this.setState({
         result: res,
         submitted: [

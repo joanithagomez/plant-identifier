@@ -85,7 +85,6 @@ const GameStack = StackNavigator({
   CameraScreen: {
     screen: CameraScreen
   },
-
   ListItem: {
 	  screen: ListItem
   },

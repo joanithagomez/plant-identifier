@@ -68,13 +68,6 @@ export default class CameraScreen extends Component {
       database.ref("users").child(uid).child("photos").push(data.uri);
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
 
-
-         console.log("uri:" + data.uri);
-        // console.log("saveResult: " + saveResult);
-        // console.log("Property in saveResult: ");
-        // for (var property in saveResult)
-        //   console.log(property);
-
         let arr = (data.uri).split('/');
         let filename = arr[arr.length - 1];
 
@@ -106,9 +99,7 @@ export default class CameraScreen extends Component {
           outputName:"final_result"
         });
 
-        console.log("Tf recognition plant result:" + results);
-        // for (var property in results)
-        //   console.log(property);
+        // console.log("Tf recognition plant result:" + results);
 
         const resultText = `${results[0].name}`
         this.setState({
@@ -116,11 +107,12 @@ export default class CameraScreen extends Component {
         });
 
         await tfImageRecognition.close()
-        console.log("this.state.result in cameraScreen: " + this.state.result);
+        // console.log("this.state.result in cameraScreen: " + this.state.result);
         // this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
-        
+
           this.props.navigation.state.params.returnData(this.state.result, this.state.image);
           this.props.navigation.goBack();
+
       } catch(err) {
         alert(err)
       }
