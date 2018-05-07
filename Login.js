@@ -95,7 +95,22 @@ loginUser = (email,password)=>{
       </Container>
     );
   }
+
 }
+
+loginUser = (email,password)=>{
+
+  try{
+
+      firebase.auth().signInWithEmailAndPassword(email, password)
+      this.props.navigation.navigate("Game", {title: "Let's Play"})
+  }
+  catch(error){
+    console.log("User has not been created")
+  }
+
+}
+
 
 const styles = StyleSheet.create({
   container:{

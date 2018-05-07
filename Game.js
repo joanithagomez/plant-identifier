@@ -14,6 +14,9 @@ import JoinRoom from './JoinRoom';
 import Firebase from "./Firebase";
 import * as firebase from 'firebase';
 
+// retreive key from database
+const key = {key};
+
 export default class Game extends React.Component {
   static navigationOptions = {
     header: null

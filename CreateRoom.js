@@ -12,8 +12,6 @@ import { Card } from 'react-native-elements'; // Version can be specified in pac
 
 const list = [ 'agave', 'bamboo', 'bird of paradise', 'bleeding hearts', 'blue thistle', 'california poppy', 'calla lily', 'cherry blossoms', 'crocus', 'daffodil', 'dahlia', 'daisy', 'fern', 'fly agaric', 'forsythia', 'foxgloves', 'gerbera', 'hibiscus', 'iris', 'lace leaf', 'lavender', 'orchid', 'persimmon', 'plumeria', 'poinsettia', 'protea', 'rose', 'snowdrop', 'sunflower', 'tulip'];
 
-//var database = firebase.database();
-
 export default class CreateRoom extends Component {
   constructor(props) {
     super(props);
@@ -115,12 +113,6 @@ export default class CreateRoom extends Component {
   }
 
   submitButtonHandler(){
-    // var data = {
-    //   roomnameTemp: this.state.roomname,
-    //   endingtimeTemp: this.state.endingtime,
-    //   pointsTemp: this.state.points,
-    //   peopleTemp: []
-    // }
 
     var roomnameTemp = this.state.roomname;
     var endingtimeTemp = this.state.endingtime;
@@ -130,18 +122,10 @@ export default class CreateRoom extends Component {
       alert("Please enter roomname!");
     }
     else{
-      //database.ref("rooms").push(data);
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
-      // 1. todo: push room onto firebase
+    
 	  var database = firebase.database();
 	  database.ref("rooms").push(room);
-      // database.ref("rooms").ref("name").set(roomnameTemp)
-      // database.ref("rooms").ref("endTime").set(endingtimeTemp)
-      // database.ref("rooms").ref("treeMap").ref("name").set(roomnameTemp)
-      // database.ref("rooms").ref("treeMap").ref("point").set(pointsTemp)
-      // database.ref("rooms").ref("person").ref("name").set(peopleTemp)
-      // database.ref("rooms").ref("person").ref("userId").set(currentid)
-      // database.ref("rooms").ref("person").ref("IdPlants").push()
 
       this.setState({
         showToast: true

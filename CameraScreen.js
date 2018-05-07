@@ -60,10 +60,14 @@ export default class CameraScreen extends Component {
   takePicture = async function() {
     if (this.camera) {
       let data = await this.camera.takePictureAsync({skipProcessing: true,fixOrientation: false});
-
+      
+      // save pictures to firebase
+      var uid = firebase.auth().currentUser.uid;
+      database.ref("users").child(uid).child("photos").push(data.uri);
         let saveResult = CameraRoll.saveToCameraRoll(data.uri, 'photo');
-        
-        // console.log("uri:" + data.uri);
+
+
+         console.log("uri:" + data.uri);
         // console.log("saveResult: " + saveResult);
         // console.log("Property in saveResult: ");
         // for (var property in saveResult)

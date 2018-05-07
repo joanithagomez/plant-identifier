@@ -48,7 +48,8 @@ export default class Register extends React.Component {
                 email: this.state.email,
                   name:  this.state.name,
                   totalIdentified: this.state.totalIdentified,
-                  numCorrect: this.state.numCorrect
+                  numCorrect: this.state.numCorrect,
+                  photos: 0,
               });
 
 
