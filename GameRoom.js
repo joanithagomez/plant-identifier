@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, TouchableOpacity, ScrollView, Alert, Image} from 'react-native';
+import {View, StyleSheet, TouchableOpacity, ScrollView, Alert, Image, TouchableHighlight} from 'react-native';
 import {Constants} from 'expo';
 import {
   Container,
@@ -9,12 +9,16 @@ import {
   Icon,
   Text,ListItem,List,Thumbnail,Right,Body
 } from 'native-base';
-import * as firebase from 'firebase';
+//import * as firebase from 'firebase';
+import firebase from './Firebase';
 import Room from './Room'
 import Person from './Person'
+// import {ShareDialog} from 'react-native-fbsdk'
+import {Share} from 'react-native';
 
 // or any pure javascript modules available in npm
 import {Card} from 'react-native-elements'; //Version can be specified in package.json
+var database = firebase.database();
 const allplants = [
   'agave',
   'bamboo',
@@ -47,7 +51,15 @@ const allplants = [
   'sunflower',
   'tulip'
 ];
-	
+
+
+
+const shareLinkContent = {
+  contentType: 'link',
+  contentUrl: "https://facebook.com",
+  contentDescription: 'Facebook sharing is easy!',
+};
+
 export default class GameRoom extends Component {
   static navigationOptions = {
     header: null
@@ -55,7 +67,7 @@ export default class GameRoom extends Component {
 
 	constructor(props) {
 		super(props);
-		
+
 		const {key} = this.props.navigation.state.params; //room passed from navigation
 
 		this.state = {
@@ -92,7 +104,7 @@ componentDidMount() {
 			total: tempPoints,
 		});
 	});
-	
+
 
 }
   renderSubmissions() {
@@ -160,7 +172,7 @@ componentDidMount() {
         break;
       }
     }
-	
+
 	var database = firebase.database();
 	var tempPoints = 0;
 	for(var i = 1; i < this.state.apeople.length && tempPoints == 0; i++){
@@ -171,14 +183,14 @@ componentDidMount() {
 			this.state.apeople[i].totalPoints = tempPoints;
 		}
 	}
-	
+
 	this.setState({
 	  total: tempPoints
 	})
 	const {key} = this.props.navigation.state.params;
-	
+
 	database.ref("rooms").child(key).child("people").child(currentid).child("totalPoints").set(tempPoints);
-				
+
     //room.updatePersonPoints(currentid, plantname, i);
 	/*
     this.setState({
@@ -186,6 +198,29 @@ componentDidMount() {
     })
 	*/
   }
+
+  shareLinkWithShareDialog() {
+  var tmp = this;
+  ShareDialog.canShow(this.state.shareLinkContent).then(
+    function(canShow) {
+      if (canShow) {
+        return ShareDialog.show(tmp.state.shareLinkContent);
+      }
+    }
+  ).then(
+    function(result) {
+      if (result.isCancelled) {
+        alert('Share operation was cancelled');
+      } else {
+        alert('Share was successful with postId: '
+          + result.postId);
+      }
+    },
+    function(error) {
+      alert('Share failed with error: ' + error.message);
+    }
+  );
+}
 /*
   awardPoints(plantname, room, currentid) {
     var i;
@@ -245,10 +280,10 @@ componentDidMount() {
 		hour_diff--;
 		min_diff += 60;
 	}
-	
+
 	return (60*hour_diff) + min_diff;
   }
-  
+
   hasGameEnded(end){
 	var message = "blah";
 	var remainingTime = this.timeLeft(end);
@@ -272,8 +307,8 @@ componentDidMount() {
         </View>);
 	}
   }
-  
-  whoWon(){
+
+  whoWon() {
 	var max = 0;
 	var winner = 'nobody';
 	for(var i = 1; i < this.state.apeople.length; i++){
@@ -281,10 +316,27 @@ componentDidMount() {
 			max = this.state.apeople[i].totalPoints;
 			winner = this.state.apeople[i].name;
 		}
-	}  
+	}
 	return winner;
   }
-  
+
+  _showResult(result){
+    console.log(result)
+  }
+
+_shareTextMessage(){
+console.log(this.state.total)
+console.log(this.state.aname)
+  Share.share({
+      message: 'Winner is ' + this.whoWon() + ' with total points of: ' + this.state.total + ' pts!',
+      title: this.state.aname
+    })
+    .then(this._showResult)
+    .catch(err => console.log(err))
+}
+
+
+
   render() {
 	var currentid = this.state.currentid;
 
@@ -295,10 +347,10 @@ componentDidMount() {
         <Text style={styles.totalpoints}>
           <Image source={require('./leaf.png')}/>{this.state.total}
         </Text>
-		
+
 		{this.hasGameEnded(this.state.atime)}
-        
-		
+
+
         {this.state.aname && <Text style={styles.paragraph}>
             End Time: {this.state.atime}
          </Text>
@@ -307,6 +359,12 @@ componentDidMount() {
         {this.state.aname && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aname, currentid)}>
           <Text style={styles.buttonSubmitText}>Take a Photo</Text>
         </Button>}
+
+        <View style={styles.container2}>
+        <TouchableHighlight onPress={ () => this._shareTextMessage()}>
+          <Text style={styles.button}>Share!</Text>
+        </TouchableHighlight>
+        </View>
 
         {/* {this.renderPoints(aroom.getPerson(currentid))} */}
 
@@ -321,17 +379,31 @@ componentDidMount() {
         </Card>
       </View>
         {this.state.apeople && <Card title="Leaderboard" style={styles.cardStyle}>{this.renderLeaderBoard(this.state.apeople)}</Card>}
+
       </View>
     </ScrollView>
   );
   }
 }
 
+
 const styles = StyleSheet.create({
 
   container: {
     padding: Constants.statusBarHeight,
     backgroundColor: '#7ac3e2'
+  },
+  container2: {
+   flex: 1,
+   justifyContent: 'center',
+   alignItems: 'center',
+   backgroundColor: '#76c9f8',
+ },
+  button: {
+    backgroundColor: '#76c9f8',
+    padding: 10,
+    margin: 10,
+    borderRadius: 5
   },
   header: {
     fontSize: 30,
