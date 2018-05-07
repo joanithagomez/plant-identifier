@@ -82,26 +82,26 @@ export default class GameRoom extends Component {
 	}
 
 componentDidMount() {
-	// const {key} = this.props.navigation.state.params; //room passed from navigation
-	// var database = firebase.database();
-	// database.ref("rooms").child(key).on('value', (snapshot) => {
-	// 	this.setState({
-	// 		aname: snapshot.val().roomname,
-	// 		atime: snapshot.val().endingtime,
-	// 		apoints: snapshot.val().allpoints,
-	// 		apeople: snapshot.val().people
-	// 	});
-	// 	var tempPoints = 90;
-	// 	for(var i = 1; i < snapshot.val().people.length; i++){
-	// 		if(this.state.currentid == snapshot.val().people[i].userid){
-	// 			tempPoints = snapshot.val().people[i].totalPoints;
-	// 			break;
-	// 		}
-	// 	}
-	// 	this.setState({
-	// 		total: tempPoints,
-	// 	});
-	// });
+	const {key} = this.props.navigation.state.params; //room passed from navigation
+	var database = firebase.database();
+	database.ref("rooms").child(key).on('value', (snapshot) => {
+		this.setState({
+			aname: snapshot.val().roomname,
+			atime: snapshot.val().endingtime,
+			apoints: snapshot.val().allpoints,
+			apeople: snapshot.val().people
+		});
+		var tempPoints = 90;
+		for(var i = 1; i < snapshot.val().people.length; i++){
+			if(this.state.currentid == snapshot.val().people[i].userid){
+				tempPoints = snapshot.val().people[i].totalPoints;
+				break;
+			}
+		}
+		this.setState({
+			total: tempPoints,
+		});
+	});
 
 
 }
@@ -323,8 +323,8 @@ componentDidMount() {
   }
 
 _shareTextMessage(){
-console.log(this.state.total)
-console.log(this.state.aname)
+// console.log(this.state.total)
+// console.log(this.state.aname)
   Share.share({
       message: 'Winner is ' + this.whoWon() + ' with total points of: ' + this.state.total + ' pts!',
       title: this.state.aname
@@ -350,7 +350,7 @@ console.log(this.state.aname)
             End Time: {this.state.atime}
          </Text>
        }
-        <View style={{flex:1, justifyContent:'center'}}>
+        <View style={{ justifyContent:'center'}}>
         {this.state.aname && <Button style={styles.buttonSubmit} onPress={() => this.handleCamera(this.state.aname, currentid)}>
           <Text style={styles.buttonSubmitText}>Take a Photo</Text>
         </Button>}
@@ -392,7 +392,6 @@ console.log(this.state.aname)
 const styles = StyleSheet.create({
 
   container: {
-    flex: 1,
     padding: Constants.statusBarHeight,
     backgroundColor: '#fff'
   },

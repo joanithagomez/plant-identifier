@@ -29,7 +29,7 @@ export default class Guess extends React.Component {
 
       console.log("User in Guessing component: " + user.uid)
       database.ref("users/" + user.uid).once("value").then((snapshot) => {
-        console.log(snapshot.val());
+        // console.log(snapshot.val());
         this.setState({userId: user.uid, numCorrect: snapshot.val().numCorrect, total: snapshot.val().totalIdentified});
       });
 
@@ -95,6 +95,9 @@ export default class Guess extends React.Component {
   };
 
   handleSelection(selected) {
+    this.setState({
+      showAnswer: true
+    });
 
     // if the answer is right, set new state of numCorrect, and update the value in database after setting state
     if (this.isAnswer(selected)) {
@@ -123,6 +126,7 @@ export default class Guess extends React.Component {
   };
 
   getColor(optionName) {
+    // if(this.st)
     if (this.state.selection === optionName) {
       return styles.greenButton;
     } else
@@ -147,7 +151,7 @@ export default class Guess extends React.Component {
       }
       <Text style={styles.title}>What's your best guess?
       </Text>
-      <Button full rounded style={this.getColor(this.state.optionsArr[0])} onPress={() => this.handleSelection(this.state.optionsArr[0])} >
+      <Button full rounded style={(this.state.showAnswer && this.isAnswer(this.state.optionsArr[0])) ? styles.greenButton: styles.button} onPress={() => this.handleSelection(this.state.optionsArr[0])} >
         <Text style={styles.btnText}>{this.state.optionsArr[0]}</Text>
       </Button>
       <Button full rounded style={this.getColor(this.state.optionsArr[1])} onPress={() => this.handleSelection(this.state.optionsArr[1])} >
@@ -186,11 +190,13 @@ const styles = StyleSheet.create({
   },
   greenButton: {
     backgroundColor: '#007830',
-    marginTop: 10
+    margin: 10,
+    height: 60
   },
   redButton: {
     backgroundColor: 'red',
-    marginTop: 10
+    margin: 10,
+    height: 60
   },
   button: {
     backgroundColor: '#fff',

@@ -118,7 +118,7 @@ export default class CameraScreen extends Component {
         await tfImageRecognition.close()
         console.log("this.state.result in cameraScreen: " + this.state.result);
         // this.props.navigation.navigate('Recognition', {result: this.state.result, image: this.state.image});
-
+        
           this.props.navigation.state.params.returnData(this.state.result, this.state.image);
           this.props.navigation.goBack();
       } catch(err) {
