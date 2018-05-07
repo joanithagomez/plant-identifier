@@ -61,9 +61,9 @@ const shareLinkContent = {
 };
 
 export default class GameRoom extends Component {
-  static navigationOptions = {
-    header: null
-  }
+  // static navigationOptions = {
+  //   header: null
+  // }
 
 	constructor(props) {
 		super(props);

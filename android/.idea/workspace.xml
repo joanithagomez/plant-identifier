@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac47b91-ab9c-4ffc-b6c0-5d086ec4865b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../App.js" afterPath="$PROJECT_DIR$/../App.js" />
       <change beforePath="$PROJECT_DIR$/../Game.js" afterPath="$PROJECT_DIR$/../Game.js" />
-      <change beforePath="$PROJECT_DIR$/../GameRoom.js" afterPath="$PROJECT_DIR$/../GameRoom.js" />
       <change beforePath="$PROJECT_DIR$/../Home.js" afterPath="$PROJECT_DIR$/../Home.js" />
-      <change beforePath="$PROJECT_DIR$/../JoinRoom.js" afterPath="$PROJECT_DIR$/../JoinRoom.js" />
-      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -71,8 +69,8 @@
       <file leaf-file-name="ResourceManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="239">
+              <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -7743,8 +7741,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7756,8 +7754,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7765,7 +7763,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="device.picker.selection" value="02612e1c6794aef3" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525584173191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525667575017" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -8365,14 +8363,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/RNTensorflowInference.java">
@@ -8524,8 +8522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="239">
+          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

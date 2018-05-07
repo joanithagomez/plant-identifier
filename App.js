@@ -112,18 +112,23 @@ const InitialStackRoutes = StackNavigator(
 );
 
 const Tab = TabNavigator({
-  Home: { screen: HomeStack },
+  Home: { screen: HomeStack ,
+    navigationOptions: {
+            tabBarLabel: 'Home',
+        }
+      },
   Game: { screen: InitialStackRoutes },
 },
 {
     tabBarComponent: TabBarBottom,
     tabBarPosition: 'bottom',
     tabBarOptions: {
-      activeBackgroundColor: '#cbe86b',
-      activeTintColor: 'black',
-      inactiveTintColor: 'gray',
+      showIcon: true,
+      activeBackgroundColor: '#fff',
+      activeTintColor: '#009F18',
+      inactiveTintColor: '#7F7F7F',
       labelStyle: {
-       fontSize: 14,
+       fontSize: 16,
        padding: 12
      }
     },

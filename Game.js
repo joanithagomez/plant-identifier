@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
 	  padding: Constants.statusBarHeight,
-    backgroundColor: '#cbe86b',
+    backgroundColor: '#fff',
   },
   contentContainer: {
   paddingVertical: 20
