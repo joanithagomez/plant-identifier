@@ -69,7 +69,8 @@ export default class GameRoom extends Component {
 		super(props);
 
 		const {key} = this.props.navigation.state.params; //room passed from navigation
-
+		var user = firebase.auth().currentUser;
+		var uid = user.uid;
 		this.state = {
 			aroom: null,
 			aname: "Plant Room",
@@ -79,7 +80,7 @@ export default class GameRoom extends Component {
 			result: '',
 			submitted: [],
 			total: 0,
-			currentid: 1, // 2. todo: replace with current user id
+			currentid: uid, // 2. todo: replace with current user id
 		  }
 	}
 
