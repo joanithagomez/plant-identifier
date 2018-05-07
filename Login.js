@@ -60,8 +60,9 @@ loginUser = (email,password)=>{
         <Form>
 
           <Item floatingLabel>
-          <Label>Email</Label>
+          <Label style={{ color: '#009F18' }}>Email</Label>
           <Input
+			style={{ color: 'white' }}
             autoCorrect={false}
             autoCapitalize="none"
             onChangeText={(email) => this.setState({email})}
@@ -69,8 +70,9 @@ loginUser = (email,password)=>{
           </Item>
 
           <Item floatingLabel>
-          <Label>Password</Label>
+          <Label style={{ color: '#009F18' }}>Password</Label>
           <Input
+			style={{ color: 'white' }}
             secureTextEntry={true}
             autoCorrect={false}
             autoCapitalize="none"
@@ -78,17 +80,17 @@ loginUser = (email,password)=>{
             />
           </Item>
 
-          <Button style={{ marginTop: 10 }} full success={true} onPress={()=>this.loginUser(this.state.email, this.state.password)} >
+          <Button style={{ marginTop: 10, backgroundColor: '#45c6b5' }} full success={true} onPress={()=>this.loginUser(this.state.email, this.state.password)} >
             <Text style={{ color: 'white' }}>Login</Text>
           </Button>
 
 
 
             <Button style={{marginTop: 10 }} full dark transparent onPress={()=>this.props.navigation.navigate("Register")} >
-              <Text>
+              <Text style={styles.textStyle}>
                 Dont have an account?
               </Text>
-              <Text> Sign Up</Text>
+              <Text style={styles.textStyle2}> Sign Up</Text>
           </Button>
 
         </Form>
@@ -115,8 +117,14 @@ loginUser = (email,password)=>{
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#cbe86b',
     justifyContent: 'center',
     padding: 10
+  },
+  textStyle: {
+	  color: '#009F18',
+  },
+  textStyle2: {
+	  color: '#45c6b5',
   }
 });
