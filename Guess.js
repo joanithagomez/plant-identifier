@@ -129,7 +129,7 @@ export default class Guess extends React.Component {
 
     setTimeout(() => {
         this._goToInfoscreen(this.props.option, this.props.imageUri);
-  }, 3000);
+  }, 5000);
   }
 
 

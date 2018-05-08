@@ -337,8 +337,8 @@ _shareTextMessage(){
   render() {
 	var currentid = this.state.currentid;
     return (
-      <ScrollView>
-        <Container style={styles.container}>
+      <ScrollView contentContainerStyle={styles.container}>
+        <Container >
         {this.state.aname && <Text style={styles.header}>{this.state.aname}</Text>}
 
 
@@ -389,9 +389,9 @@ _shareTextMessage(){
 
 
 const styles = StyleSheet.create({
-
   container: {
-    padding: Constants.statusBarHeight,
+    padding: 20,
+    paddingTop: 40,
     backgroundColor: '#fff'
   },
   container2: {
@@ -402,8 +402,8 @@ const styles = StyleSheet.create({
  },
   sharebutton: {
     backgroundColor: '#45c6b5',
-    padding: 10,
-    margin: 20,
+    padding: 20,
+    marginTop: 20,
     borderRadius: 5
   },
   header: {

@@ -9,6 +9,7 @@ import firebase from './Firebase'
 
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // Version can be specified in package.json
+var database = firebase.database();
 
 const list = [ 'agave', 'bamboo', 'bird of paradise', 'bleeding hearts', 'blue thistle', 'california poppy', 'calla lily', 'cherry blossoms', 'crocus', 'daffodil', 'dahlia', 'daisy', 'fern', 'fly agaric', 'forsythia', 'foxgloves', 'gerbera', 'hibiscus', 'iris', 'lace leaf', 'lavender', 'orchid', 'persimmon', 'plumeria', 'poinsettia', 'protea', 'rose', 'snowdrop', 'sunflower', 'tulip'];
 
@@ -20,9 +21,8 @@ export default class CreateRoom extends Component {
     super(props);
     this.state = {
       roomname: "",
-      endingtime: "10:00", //this might be wrong <-------------------
+      endingtime: "10:00",
       points:  [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
-     showToast: false,
     };
 
   }
@@ -67,16 +67,7 @@ export default class CreateRoom extends Component {
     }
     else{
       var room = new Room(roomnameTemp, endingtimeTemp, pointsTemp, peopleTemp);
-
-	  var database = firebase.database();
 	  database.ref("rooms").push(room);
-
-      this.setState({
-        showToast: true
-      })
-      // alert("Your room: " + room.toString() + " was created!");
-
-	  // 2. todo: takes user back to profile page
 	  this.props.navigation.navigate('Game');
     }
   }
@@ -119,18 +110,20 @@ export default class CreateRoom extends Component {
             <Text style={styles.infoTextStyle}>Point Values for Each Plant (Default = 10)</Text>
             {this.renderrender()}
 
-              <Button
-              style={styles.buttonStyle}
-              onPress={() => {
-                this.submitButtonHandler();
-            }}>
-            <Text style={styles.buttonTextStyle}>
-              Confirm
-            </Text>
-
-          </Button>
         </Card>
 
+        <View style={{justifyContent:'center', alignItems:'center'}}>
+          <Button
+          style={styles.buttonStyle}
+          onPress={() => {
+            this.submitButtonHandler();
+        }}>
+        <Text style={styles.buttonTextStyle}>
+          Confirm
+        </Text>
+
+      </Button>
+      </View>
         </View>
       </ScrollView>
 
@@ -185,7 +178,8 @@ const styles = StyleSheet.create({
   buttonStyle: {
     margin: 15,
     padding: 20,
-    width: 175,
+    width: 200,
+    height: 60,
     justifyContent:'center',
     alignItems: 'center',
     backgroundColor: '#45c6b5'

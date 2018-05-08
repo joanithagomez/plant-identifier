@@ -117,7 +117,7 @@ loginUser = (email,password)=>{
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor: '#cbe86b',
+    backgroundColor: '#BFF165',
     justifyContent: 'center',
     padding: 10
   },

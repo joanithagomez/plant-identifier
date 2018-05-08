@@ -40,8 +40,8 @@ export default class Game extends React.Component {
     return (
 		<ScrollView contentContainerStyle={styles.container}>
 			<Container >
-        <View contentContainerStyle={styles.contentContainer}>
 					<Text style={styles.headingStyle}>Create a Room to Play!</Text>
+          <View style={styles.contentContainer}>
 					<Button
 						style={styles.createbutton}
 						onPress={() => this.props.navigation.navigate('CreateRoom', {title: 'Create Room'})}
@@ -81,8 +81,6 @@ const styles = StyleSheet.create({
   contentContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'red'
   // paddingVertical: 20
 },
    containerBottom: {
@@ -94,6 +92,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#45c6b5',
     alignItems: "center",
     padding: 20,
+    // marginLeft: 60,
+    height: 60,
+    width: 'auto',
     justifyContent: 'center',
     marginLeft: 30
 

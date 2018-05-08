@@ -19,9 +19,11 @@ export default class JoinRoom extends Component {
   static navigationOptions = {
     header: null
   }
+
 constructor(props) {
     super(props);
     this.tasksRef = firebase.database().ref("rooms");
+
     const dataSource = new ListView.DataSource({
       rowHasChanged: (row1, row2) => row1 !== row2,
     });
@@ -29,6 +31,13 @@ constructor(props) {
       dataSource: dataSource
     };
   }
+
+    componentDidMount() {
+    // start listening for firebase updates
+    this.listenForTasks(this.tasksRef);
+  }
+
+
 _renderItem(task) {
   return (
     <ListItem {...this.props} task={task} />
@@ -49,11 +58,6 @@ listenForTasks(tasksRef) {
       dataSource: this.state.dataSource.cloneWithRows(tasks)
     });
   });
-}
-
-  componentDidMount() {
-  // start listening for firebase updates
-  this.listenForTasks(this.tasksRef);
 }
 
   render() {

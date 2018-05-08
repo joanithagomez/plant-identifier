@@ -176,7 +176,7 @@ export default class PlantInfo extends React.Component {
     }
 
     return (
-       <Container style={{backgroundColor:'#BFF165'}}>
+       <Container style={{backgroundColor:'#fff'}}>
          <Content>
       <Card style={{
           flex: 0,
@@ -200,7 +200,7 @@ export default class PlantInfo extends React.Component {
         <CardItem>
           <Left>
             <Button transparent textStyle={{
-                color: '#87838B'
+                color: '#009F18'
               }} onPress={() => {
                 var wikiUrl = 'https://en.wikipedia.org/wiki/' + this.state.dataSource[0].title;
                 Linking.openURL(wikiUrl).catch(err => {
@@ -208,10 +208,12 @@ export default class PlantInfo extends React.Component {
                   alert('Sorry! Cannot open Wikipedia at this time!')
                 });
               }}>
-              <Text>Open Wikipedia to Read More!</Text>
+              <Text style={{
+                  color: '#009F18'
+                }}>Open Wikipedia to Read More!</Text>
             </Button>
             <Button transparent textStyle={{
-                color: '#87838B'
+                color: '#009F18'
               }} onPress={() => {
                 var shopUrl = 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords='+ this.state.dataSource[0].title;
                 Linking.openURL(shopUrl).catch(err => {
@@ -219,7 +221,9 @@ export default class PlantInfo extends React.Component {
                   alert('Sorry! Cannot open Amazon at this time!')
                 });
               }}>
-              <Text>Buy it</Text>
+              <Text style={{
+                  color: '#009F18'
+                }}>Buy it</Text>
             </Button>
           </Left>
         </CardItem>
@@ -233,7 +237,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#fff',
     position: 'relative'
   },
   container:{
