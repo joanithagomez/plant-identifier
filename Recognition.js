@@ -5,6 +5,7 @@ import {Container, Spinner} from 'native-base';
 import Guess from "./Guess";
 
 export default class Recognition extends Component {
+
   constructor(props) {
     super(props);
     this.state = { isLoading: true , result: "", image: null};

@@ -107,6 +107,9 @@ const initialArr = {
   }
 };
 export default class PlantInfo extends React.Component {
+  static navigationOptions = {
+    header: null
+  }
   constructor(props) {
     super(props);
     this.state = {
@@ -176,12 +179,13 @@ export default class PlantInfo extends React.Component {
        <Container style={{backgroundColor:'#BFF165'}}>
          <Content>
       <Card style={{
-          flex: 0
+          flex: 0,
+
         }}>
         <CardItem header>
           <Left>
             {/* <Thumbnail source={{uri: this.state.image}} /> */}
-            <H1>{this.state.dataSource[0].title}</H1>
+            <H1 style={{ paddingTop: 40,}}>{this.state.dataSource[0].title}</H1>
           </Left>
         </CardItem>
         <CardItem>
@@ -233,6 +237,7 @@ const styles = StyleSheet.create({
     position: 'relative'
   },
   container:{
-    padding: 20
+    padding: 20,
+    paddingTop: 40
   }
 });

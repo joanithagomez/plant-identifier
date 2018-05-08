@@ -124,7 +124,7 @@ export default class CameraScreen extends Component {
     const {hasCameraPermission} = this.state;
     if (hasCameraPermission == null) {
       return (<View>
-        <Text>Permission:null</Text>
+        <Text></Text>
       </View>);
     } else if (hasCameraPermission === false) {
       return <Text>No access</Text>;

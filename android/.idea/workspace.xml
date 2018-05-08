@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ac47b91-ab9c-4ffc-b6c0-5d086ec4865b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../App.js" afterPath="$PROJECT_DIR$/../App.js" />
-      <change beforePath="$PROJECT_DIR$/../CameraScreen.js" afterPath="$PROJECT_DIR$/../CameraScreen.js" />
-      <change beforePath="$PROJECT_DIR$/../GameRoom.js" afterPath="$PROJECT_DIR$/../GameRoom.js" />
-      <change beforePath="$PROJECT_DIR$/../Home.js" afterPath="$PROJECT_DIR$/../Home.js" />
-      <change beforePath="$PROJECT_DIR$/../ListItem.js" afterPath="$PROJECT_DIR$/../ListItem.js" />
-      <change beforePath="$PROJECT_DIR$/../Login.js" afterPath="$PROJECT_DIR$/../Login.js" />
-      <change beforePath="$PROJECT_DIR$/../Recognition.js" afterPath="$PROJECT_DIR$/../Recognition.js" />
-      <change beforePath="$PROJECT_DIR$/../Register.js" afterPath="$PROJECT_DIR$/../Register.js" />
+      <change beforePath="$PROJECT_DIR$/../Guess.js" afterPath="$PROJECT_DIR$/../Guess.js" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -77,8 +70,8 @@
       <file leaf-file-name="ResourceManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+            <state relative-caret-position="449">
+              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -7771,7 +7764,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.3" />
     <property name="device.picker.selection" value="02612e1c6794aef3" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525735588289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525742073762" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -8530,8 +8523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../node_modules/react-native-tensorflow/android/src/main/java/com/rntensorflow/ResourceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="449">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

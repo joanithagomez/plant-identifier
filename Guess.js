@@ -95,47 +95,67 @@ export default class Guess extends React.Component {
   };
 
   handleSelection(selected) {
-    this.setState({
-      showAnswer: true
-    });
 
+    this.setState({
+              selection: selected,
+              showAnswer: true
+            });
     // if the answer is right, set new state of numCorrect, and update the value in database after setting state
     if (this.isAnswer(selected)) {
 
+      if (this.state.userId) {
+        this.setState((prevState) => {
+          return {
+            numCorrect: prevState.numCorrect + 1
+          };
+        }, () => {
+          var userRef = usersRef.child(this.state.userId + '');
+          userRef.update({"numCorrect": this.state.numCorrect});
+        });
+      }
+
+    }
+    //in any case set new state of total, and update the value in database after setting state
+    if (this.state.userId) {
       this.setState((prevState) => {
-        return {numCorrect: prevState.numCorrect + 1};
+        return {
+          total: prevState.total + 1
+        };
       }, () => {
         var userRef = usersRef.child(this.state.userId + '');
-        userRef.update({"numCorrect": this.state.numCorrect});
+        userRef.update({"totalIdentified": this.state.total});
       });
     }
 
-    //in any case set new state of total, and update the value in database after setting state
-    this.setState((prevState) => {
-      return {total : prevState.total + 1};
-    }, () => {
-      var userRef = usersRef.child(this.state.userId + '');
-      userRef.update({"totalIdentified": this.state.total});
-    });
-
-    this._goToInfoscreen(this.props.option, this.props.imageUri);
+    setTimeout(() => {
+        this._goToInfoscreen(this.props.option, this.props.imageUri);
+  }, 3000);
   }
+
 
   isAnswer = (selection) => {
     return (selection === this.props.option);
   };
 
   getColor(optionName) {
-    // if(this.st)
-    if (this.state.selection === optionName) {
-      return styles.greenButton;
-    } else
+
+    if (this.state.showAnswer) {
+      if (this.isAnswer(optionName)) {
+        return styles.greenButton;
+      }
+      if (!this.isAnswer(this.state.selection) && this.state.selection == optionName) {
+        return styles.redButton;
+      }
+      return styles.button;
+    } else {
       return styles.button;
     }
+  }
 
   //if showAnswer, change answer to greenButton
   //if showAnswer = true and button not equal to answer, change button to red
   render() {
+
 
     if (this.state.isLoading) {
       return (<Container style={styles.container}>
@@ -151,7 +171,7 @@ export default class Guess extends React.Component {
       }
       <Text style={styles.title}>What's your best guess?
       </Text>
-      <Button full rounded style={(this.state.showAnswer && this.isAnswer(this.state.optionsArr[0])) ? styles.greenButton: styles.button} onPress={() => this.handleSelection(this.state.optionsArr[0])} >
+      <Button full rounded style={this.getColor(this.state.optionsArr[0])} onPress={() => this.handleSelection(this.state.optionsArr[0])} >
         <Text style={styles.btnText}>{this.state.optionsArr[0]}</Text>
       </Button>
       <Button full rounded style={this.getColor(this.state.optionsArr[1])} onPress={() => this.handleSelection(this.state.optionsArr[1])} >
@@ -170,7 +190,7 @@ export default class Guess extends React.Component {
         <Text style={styles.btnText}>Skip to answer</Text>
       </Button>
 
-      <Text>{this.state.numCorrect}/ {this.state.total}</Text>
+      {this.state.numCorrect && <Text>{this.state.numCorrect} right out of {this.state.total}</Text>}
     </Container>);
   }
 }
@@ -194,7 +214,7 @@ const styles = StyleSheet.create({
     height: 60
   },
   redButton: {
-    backgroundColor: 'red',
+    backgroundColor: '#CB0000',
     margin: 10,
     height: 60
   },
