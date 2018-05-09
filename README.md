@@ -3,13 +3,13 @@ Plant Identifier
 
 A mobile app to recognize plants from pictures of flowers. This app was built as part of our software project class using Tensorflow Image recognition.
 
-Home Tab           |  Mini-Guessing game              | Wrong guess                 | Plant Information Page
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![Image](home.png)  |  ![alt-text-2](guess.png) |   ![Image](answer.png)           | ![Image](plantinfo.png)
+Home Tab           | Open Gallery                   | Mini-Guessing game              | Wrong guess                 | Plant Information Page
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![Image](home.png)  |  ![Image](gallery.png) |        ![Image](guess.png) |          ![Image](answer.png)           | ![Image](plantinfo.png)
 
-Game Tab           |  Joined a room
-:-------------------------:|:-------------------------:
-![Image](game.png)  |   ![Image](gameroom.png)
+Game Tab           |  Take a photo                    |Joined a room               
+:-------------------------:|:-------------------------:|:-------------------------:
+![Image](game.png)  |  ![Image](camera.png) | ![Image](gameroom.png)
 
 
 
@@ -27,9 +27,9 @@ Used
 
 Authors
 ======
-Pearl Or
-Jonnel Alcantara
-Joanitha Christle Gomez
+Pearl Or  
+Jonnel Alcantara  
+Joanitha Christle Gomez  
 
 
 License
