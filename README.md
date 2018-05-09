@@ -3,9 +3,15 @@ Plant Identifier
 
 A mobile app to recognize plants from pictures of flowers. This app was built as part of our software project class using Tensorflow Image recognition.
 
-![Image](home.png "Home Tab") ![alt-text-2](guess.png "Mini-Guessing game") ![Image]("answer.png" "Wrong guess")
-![Image](plantinfo.png "Plant Information Page")
-![Image](game.png "Game Tab") ![Image](gameroom.png "Joined a room")
+Home Tab           |  Mini-Guessing game              | Wrong guess                 | Plant Information Page
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![Image](home.png)  |  ![alt-text-2](guess.png) |   ![Image](answer.png)           | ![Image](plantinfo.png)
+
+Game Tab           |  Joined a room
+:-------------------------:|:-------------------------:
+![Image](game.png)  |   ![Image](gameroom.png)
+
+
 
 Used
 ====
