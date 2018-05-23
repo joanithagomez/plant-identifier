@@ -7,7 +7,7 @@ Home Tab           | Open Gallery                   | Mini Guessing game        
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![Image](home.png)  |  ![Image](gallery.png) |        ![Image](guess.png) |          ![Image](answer.png)           | ![Image](plantinfo.png)
 
-Game Tab           |  Joined a room                 |   Take a photo             
+Game Tab           |  Join a room                 |   Take a photo             
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Image](game.png)  | ![Image](gameroom.png) |  ![Image](camera.png)
 
