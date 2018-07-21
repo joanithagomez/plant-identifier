@@ -3,11 +3,11 @@ Plant Identifier
 
 A mobile app to recognize plants from pictures of flowers. This app was built as part of our software project class focussed on Data Science.
 
-Home Tab           | Open Gallery                   | Mini-Guessing game              | Wrong guess                 | Plant Information Page
+Home Tab           | Open Gallery                   | Mini Guessing game              | Wrong guess                 | Plant Information Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![Image](home.png)  |  ![Image](gallery.png) |        ![Image](guess.png) |          ![Image](answer.png)           | ![Image](plantinfo.png)
 
-Game Tab           |  Joined a room                 |   Take a photo             
+Game Tab           |  Join a room                 |   Take a photo             
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Image](game.png)  | ![Image](gameroom.png) |  ![Image](camera.png)
 
