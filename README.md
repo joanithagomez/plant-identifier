@@ -1,7 +1,7 @@
 Plant Identifier
 =====
 
-A mobile app to recognize plants from pictures of flowers. This app was built as part of our software project class using Tensorflow Image recognition.
+A mobile app to recognize plants from pictures of flowers. This app was built as part of our software project class focussed on Data Science.
 
 Home Tab           | Open Gallery                   | Mini-Guessing game              | Wrong guess                 | Plant Information Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -17,7 +17,7 @@ Used
 ====
 
 * React Native
-* Tensorflow
+* Tensorflow Image Recognition
 * Firebase
 * Native Base
 * Expo
